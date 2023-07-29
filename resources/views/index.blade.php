@@ -1,12 +1,8 @@
 <x-layout>
     
     <!-- Banner -->
-    <x-banner></x-banner>
+    <x-hero></x-hero>
     <!-- End Banner -->
-
-    <!-- Banner1 -->
-    <x-banner1></x-banner1>
-    <!-- End Banner1 -->
 
     <x-clients></x-clients>
 

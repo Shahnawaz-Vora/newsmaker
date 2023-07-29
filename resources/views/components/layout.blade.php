@@ -179,6 +179,118 @@
       <link rel="alternate" type="text/xml+oembed" href="https://advanture.icu/socialseven/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fadvanture.icu%2Fsocialseven%2F&#038;format=xml" />
       <meta name="generator" content="Elementor 3.14.1; features: e_dom_optimization, e_optimized_assets_loading, e_optimized_css_loading, a11y_improvements, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto">
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <style>
+         /* Styling for the "Contact Us Anytime" heading */
+         .jkit-heading .heading-title {
+             font-size: 30px;
+             font-weight: bold;
+             color: #333;
+             margin-bottom: 10px;
+         }
+     
+         .jkit-heading .heading-section-description p {
+             font-size: 16px;
+             color: #777;
+         }
+     
+         /* Styling for the contact form inputs and labels */
+         .metform-form-content {
+             max-width: 600px;
+             margin: 0 auto;
+             padding: 20px;
+         }
+     
+         .mf-input-wrapper {
+             margin-bottom: 20px;
+         }
+     
+         .mf-input-label {
+             display: block;
+             font-size: 14px;
+             font-weight: bold;
+             color: #333;
+             margin-bottom: 5px;
+         }
+     
+         .mf-input {
+             width: 100%;
+             padding: 10px;
+             font-size: 16px;
+             border: 1px solid #ccc;
+             border-radius: 5px;
+         }
+     
+         .mf-textarea {
+             resize: vertical;
+         }
+     
+         .metform-btn {
+             background-color: #007bff;
+             color: #fff;
+             border: none;
+             padding: 10px 20px;
+             font-size: 16px;
+             border-radius: 5px;
+             cursor: pointer;
+         }
+     
+         .metform-btn:hover {
+             background-color: #0056b3;
+         }
+     
+         /* Responsive styles */
+         @media screen and (max-width: 768px) {
+             .elementor-container.elementor-column-gap-default {
+                 flex-direction: column;
+             }
+     
+             .elementor-column {
+                 width: 100%;
+             }
+     
+             .metform-form-content {
+                 max-width: 100%;
+             }
+         }
+     
+         /* Style for the custom dropdown */
+         .mf-input-dropdown {
+             position: relative;
+             width: 100%;
+             margin-bottom: 20px;
+         }
+     
+         .mf-input-dropdown select {
+             width: 100%;
+             padding: 12px 16px;
+             font-size: 16px;
+             border: 1px solid #ccc;
+             border-radius: 5px;
+             appearance: none;
+             background-image: linear-gradient(45deg, transparent 50%, #007bff 50%), linear-gradient(135deg, #007bff 50%, transparent 50%);
+             background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px);
+             background-size: 5px 5px, 5px 5px;
+             background-repeat: no-repeat;
+         }
+     
+         .mf-input-dropdown select::-ms-expand {
+             display: none;
+         }
+     
+         .mf-input-dropdown::after {
+             content: "\25BC";
+             position: absolute;
+             top: 50%;
+             right: 12px;
+             transform: translateY(-50%);
+         }
+     
+         /* Style for the selected option */
+         .mf-input-dropdown select option:checked {
+             background-color: #007bff;
+             color: #fff;
+         }
+     </style>
    </head>
    <body class="home page-template-default page page-id-61 ehf-header ehf-footer ehf-template-hello-elementor ehf-stylesheet-hello-elementor jkit-color-scheme elementor-default elementor-template-full-width elementor-kit-6 elementor-page elementor-page-61">
       <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" >
@@ -296,8 +408,9 @@
       <div id="page" class="hfeed site">
          <x-header></x-header>
          <div data-elementor-type="wp-page" data-elementor-id="61" class="elementor elementor-61">
-            {{$slot}}
-        </div>
+               {{$slot}}
+         </div>
+         
         <x-footer></x-footer>
      </div>
      <!-- #page -->

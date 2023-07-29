@@ -1,116 +1,3 @@
-<style>
-    /* Styling for the "Contact Us Anytime" heading */
-    .jkit-heading .heading-title {
-        font-size: 30px;
-        font-weight: bold;
-        color: #333;
-        margin-bottom: 10px;
-    }
-
-    .jkit-heading .heading-section-description p {
-        font-size: 16px;
-        color: #777;
-    }
-
-    /* Styling for the contact form inputs and labels */
-    .metform-form-content {
-        max-width: 600px;
-        margin: 0 auto;
-        padding: 20px;
-    }
-
-    .mf-input-wrapper {
-        margin-bottom: 20px;
-    }
-
-    .mf-input-label {
-        display: block;
-        font-size: 14px;
-        font-weight: bold;
-        color: #333;
-        margin-bottom: 5px;
-    }
-
-    .mf-input {
-        width: 100%;
-        padding: 10px;
-        font-size: 16px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-    }
-
-    .mf-textarea {
-        resize: vertical;
-    }
-
-    .metform-btn {
-        background-color: #007bff;
-        color: #fff;
-        border: none;
-        padding: 10px 20px;
-        font-size: 16px;
-        border-radius: 5px;
-        cursor: pointer;
-    }
-
-    .metform-btn:hover {
-        background-color: #0056b3;
-    }
-
-    /* Responsive styles */
-    @media screen and (max-width: 768px) {
-        .elementor-container.elementor-column-gap-default {
-            flex-direction: column;
-        }
-
-        .elementor-column {
-            width: 100%;
-        }
-
-        .metform-form-content {
-            max-width: 100%;
-        }
-    }
-
-    /* Style for the custom dropdown */
-    .mf-input-dropdown {
-        position: relative;
-        width: 100%;
-        margin-bottom: 20px;
-    }
-
-    .mf-input-dropdown select {
-        width: 100%;
-        padding: 12px 16px;
-        font-size: 16px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        appearance: none;
-        background-image: linear-gradient(45deg, transparent 50%, #007bff 50%), linear-gradient(135deg, #007bff 50%, transparent 50%);
-        background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px);
-        background-size: 5px 5px, 5px 5px;
-        background-repeat: no-repeat;
-    }
-
-    .mf-input-dropdown select::-ms-expand {
-        display: none;
-    }
-
-    .mf-input-dropdown::after {
-        content: "\25BC";
-        position: absolute;
-        top: 50%;
-        right: 12px;
-        transform: translateY(-50%);
-    }
-
-    /* Style for the selected option */
-    .mf-input-dropdown select option:checked {
-        background-color: #007bff;
-        color: #fff;
-    }
-</style>
-
 <section class="mt-5 elementor-section elementor-top-section elementor-element elementor-element-3a8d25b8 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3a8d25b8" data-element_type="section" data-settings='{"background_background":"classic"}'>
     <div class="elementor-container elementor-column-gap-default">
         <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-190cbdc3" data-id="190cbdc3" data-element_type="column" data-settings='{"background_background":"classic"}'>
@@ -153,9 +40,15 @@
                         <!-- Your contact form goes here -->
                         <form
                             class="metform-form-content"
-                            action="https://advanture.icu/socialseven/wp-json/metform/v1/entries/insert/838"
+                            action="/contact/submit"
                             method="post"
                         >
+                        @csrf
+                        @if(session('success'))
+                            <div class="alert alert-success">
+                                {{ session('success') }}
+                            </div>
+                        @endif
                             <div class="mf-form-wrapper">
                                 <!-- First Name -->
                                 <div class="mf-input-wrapper">
