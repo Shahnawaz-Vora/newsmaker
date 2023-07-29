@@ -308,7 +308,6 @@
      <link rel='stylesheet' id='elementor-post-482-css' href='/asset/socialseven/wp-content/uploads/sites/35/elementor/css/post-482.css' media='all' />
      <link rel='stylesheet' id='metform-ui-css' href='/asset/socialseven/wp-content/plugins/metform/public/assets/css/metform-ui.css' media='all' />
      <link rel='stylesheet' id='metform-style-css' href='/asset/socialseven/wp-content/plugins/metform/public/assets/css/style.css' media='all' />
-     <link rel='stylesheet' id='e-animations-css' href='/asset/socialseven/wp-content/plugins/elementor/assets/lib/animations/animations.min.css' media='all' />
      <script src='/asset/socialseven/wp-content/themes/hello-elementor/assets/js/hello-frontend.min.js' id='hello-theme-frontend-js'></script>
      <script src='/asset/socialseven/wp-content/plugins/elementskit-lite/libs/framework/assets/js/frontend-script.js' id='elementskit-framework-js-frontend-js'></script>
      <script id='elementskit-framework-js-frontend-js-after'>
@@ -324,9 +323,9 @@
      <script src='/asset/socialseven/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js' id='elementor-waypoints-js'></script>
      <script src='/asset/socialseven/wp-includes/js/jquery/ui/core.min.js' id='jquery-ui-core-js'></script>
      <script id='elementor-frontend-js-before'>
-        var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselWrapperAriaLabel":"Carousel | Horizontal scrolling: Arrow Left & Right","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.14.1","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"e_optimized_assets_loading":true,"e_optimized_css_loading":true,"a11y_improvements":true,"additional_custom_breakpoints":true,"e_swiper_latest":true,"hello-theme-header-footer":true,"landing-pages":true},"urls":{"assets":"https:\/\/advanture.icu\/socialseven\/wp-content\/plugins\/elementor\/assets\/"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"body_background_background":"classic","active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description","hello_header_logo_type":"title","hello_header_menu_layout":"horizontal","hello_footer_logo_type":"logo"},"post":{"id":61,"title":"Social%20Seven","excerpt":"","featuredImage":false}};
+      //   var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselWrapperAriaLabel":"Carousel | Horizontal scrolling: Arrow Left & Right","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.14.1","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"e_optimized_assets_loading":true,"e_optimized_css_loading":true,"a11y_improvements":true,"additional_custom_breakpoints":true,"e_swiper_latest":true,"hello-theme-header-footer":true,"landing-pages":true},"urls":{"assets":"https:\/\/advanture.icu\/socialseven\/wp-content\/plugins\/elementor\/assets\/"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"body_background_background":"classic","active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description","hello_header_logo_type":"title","hello_header_menu_layout":"horizontal","hello_footer_logo_type":"logo"},"post":{"id":61,"title":"Social%20Seven","excerpt":"","featuredImage":false}};
      </script>
-     <script src='/asset/socialseven/wp-content/plugins/elementor/assets/js/frontend.min.js' id='elementor-frontend-js'></script>
+     {{-- <script src='/asset/socialseven/wp-content/plugins/elementor/assets/js/frontend.min.js' id='elementor-frontend-js'></script> --}}
      <script id='elementor-frontend-js-after'>
         var jkit_ajax_url = "https://advanture.icu/socialseven/?jkit-ajax-request=jkit_elements", jkit_nonce = "a7235ceaca";
      </script>
@@ -349,7 +348,6 @@
         var mf = {"postType":"page","restURI":"https:\/\/advanture.icu\/socialseven\/wp-json\/metform\/v1\/forms\/views\/"};
      </script>
      <script src='/asset/socialseven/wp-content/plugins/metform/public/assets/js/app.js' id='metform-app-js'></script>
-     <script src='/asset/socialseven/wp-content/plugins/elementskit-lite/widgets/init/assets/js/animate-circle.min.js' id='animate-circle-js'></script>
      <script id='elementskit-elementor-js-extra'>
         var ekit_config = {"ajaxurl":"https:\/\/advanture.icu\/socialseven\/wp-admin\/admin-ajax.php","nonce":"c9341b02e8"};
      </script>
@@ -359,28 +357,31 @@
   "use strict";
 
   var carousels = function () {
-    $(".owl-carousel1").owlCarousel({
-      loop: true,
-      center: true,
-      margin: 0,
-      responsiveClass: true,
-      nav: false,
-      responsive: {
-        0: {
-          items: 1,
-          nav: false
-        },
-        680: {
-          items: 2,
-          nav: false,
-          loop: false
-        },
-        1000: {
-          items: 3,
-          nav: true
+   $(".owl-carousel1").owlCarousel({
+        loop: true,
+        center: true,
+        margin: 0,
+        autoplay: true, // Enable auto carousel
+        autoplayTimeout: 3000, // Set the autoplay interval (in milliseconds)
+        autoplayHoverPause: true, // Pause autoplay when hovering over the carousel
+        responsiveClass: true,
+        nav: false,
+        responsive: {
+          0: {
+            items: 1,
+            nav: false
+          },
+          680: {
+            items: 2,
+            nav: false,
+            loop: false
+          },
+          1000: {
+            items: 3,
+            nav: true
+          }
         }
-      }
-    });
+      });
   };
 
   (function ($) {
