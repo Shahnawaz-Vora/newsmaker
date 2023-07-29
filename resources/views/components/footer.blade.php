@@ -1,7 +1,7 @@
 <footer itemtype="https://schema.org/WPFooter" itemscope="itemscope" id="colophon" role="contentinfo">
     <div class='footer-width-fixer'>
        <div data-elementor-type="wp-post" data-elementor-id="598" class="elementor elementor-598">
-          <section class="elementor-section elementor-top-section elementor-element elementor-element-89a3452 elementor-section-full_width elementor-section-height-default elementor-section-height-default elementor-invisible" data-id="89a3452" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;}">
+          <section class="elementor-section elementor-top-section elementor-element elementor-element-89a3452 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="89a3452" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
              <div class="elementor-background-overlay"></div>
              <div class="elementor-container elementor-column-gap-default">
                 <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-069399e" data-id="069399e" data-element_type="column">

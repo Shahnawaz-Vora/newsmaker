@@ -2,7 +2,7 @@
    <div class="elementor-container elementor-column-gap-default">
       <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c4a57f2" data-id="c4a57f2" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
          <div style="background-color:#F3F6FF;" class="elementor-widget-wrap elementor-element-populated">
-            <section  class="elementor-section elementor-inner-section elementor-element elementor-element-e9bade0 animated-fast elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible" data-id="e9bade0" data-element_type="section" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;}">
+            <section  class="elementor-section elementor-inner-section elementor-element elementor-element-e9bade0 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="e9bade0" data-element_type="section" data-settings="{&quot;}">
                <div class="elementor-container elementor-column-gap-default">
                   <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-57afb6f" data-id="57afb6f" data-element_type="column">
                      <div class="elementor-widget-wrap elementor-element-populated">
@@ -25,7 +25,7 @@
             </section>
             <section class="elementor-section elementor-inner-section elementor-element elementor-element-5097af0 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5097af0" data-element_type="section">
                <div class="elementor-container elementor-column-gap-default">
-                  <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-3a4a86c animated-fast elementor-invisible" data-id="3a4a86c" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInRight&quot;}">
+                  <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-3a4a86c" data-id="3a4a86c" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                      <div class="elementor-widget-wrap elementor-element-populated">
                         <div class="elementor-background-overlay"></div>
                         <div class="elementor-element elementor-element-057a853 elementor-widget elementor-widget-jkit_heading" data-id="057a853" data-element_type="widget" data-widget_type="jkit_heading.default">
@@ -60,7 +60,7 @@
                         </div>
                      </div>
                   </div>
-                  <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-3a4a86c animated-fast elementor-invisible" data-id="3a4a86c" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInRight&quot;}">
+                  <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-3a4a86c" data-id="3a4a86c" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                      <div class="elementor-widget-wrap elementor-element-populated">
                         <div class="elementor-background-overlay"></div>
                         <div class="elementor-element elementor-element-057a853 elementor-widget elementor-widget-jkit_heading" data-id="057a853" data-element_type="widget" data-widget_type="jkit_heading.default">
@@ -95,7 +95,7 @@
                         </div>
                      </div>
                   </div>
-                  <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-3a4a86c animated-fast elementor-invisible" data-id="3a4a86c" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInRight&quot;}">
+                  <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-3a4a86c" data-id="3a4a86c" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                      <div class="elementor-widget-wrap elementor-element-populated">
                         <div class="elementor-background-overlay"></div>
                         <div class="elementor-element elementor-element-057a853 elementor-widget elementor-widget-jkit_heading" data-id="057a853" data-element_type="widget" data-widget_type="jkit_heading.default">

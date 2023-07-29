@@ -30,7 +30,7 @@
              </div>
           </div>
        </div>
-       <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-2f2ed563 elementor-invisible" data-id="2f2ed563" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInLeft&quot;}">
+       <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-2f2ed563" data-id="2f2ed563" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
           <div class="elementor-widget-wrap elementor-element-populated">
              <div class="elementor-element elementor-element-243ad118 elementor-widget elementor-widget-metform" data-id="243ad118" data-element_type="widget" data-widget_type="metform.default">
                 <div class="elementor-widget-container">

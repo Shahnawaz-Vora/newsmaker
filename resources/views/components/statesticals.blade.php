@@ -5,7 +5,7 @@
           <div class="elementor-widget-wrap elementor-element-populated">
              <section class="elementor-section elementor-inner-section elementor-element elementor-element-553590a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="553590a" data-element_type="section">
                 <div class="elementor-container elementor-column-gap-default">
-                   <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-9162263 animated-fast elementor-invisible" data-id="9162263" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInDown&quot;}">
+                   <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-9162263" data-id="9162263" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                       <div class="elementor-widget-wrap elementor-element-populated">
                          <div class="elementor-element elementor-element-37eb07e elementor-view-stacked elementor-position-top elementor-vertical-align-middle elementor-shape-circle elementor-mobile-position-top elementor-widget elementor-widget-icon-box" data-id="37eb07e" data-element_type="widget" data-widget_type="icon-box.default">
                             <div class="elementor-widget-container">
@@ -29,7 +29,7 @@
                          </div>
                       </div>
                    </div>
-                   <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-6536822 animated-fast elementor-invisible" data-id="6536822" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInDown&quot;}">
+                   <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-6536822" data-id="6536822" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                       <div class="elementor-widget-wrap elementor-element-populated">
                          <div class="elementor-element elementor-element-ad51fc1 elementor-view-stacked elementor-position-top elementor-vertical-align-middle elementor-shape-circle elementor-mobile-position-top elementor-widget elementor-widget-icon-box" data-id="ad51fc1" data-element_type="widget" data-widget_type="icon-box.default">
                             <div class="elementor-widget-container">
@@ -56,7 +56,7 @@
              </section>
              <section class="elementor-section elementor-inner-section elementor-element elementor-element-2e3b231 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2e3b231" data-element_type="section">
                 <div class="elementor-container elementor-column-gap-default">
-                   <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-d7f6dc2 animated-fast elementor-invisible" data-id="d7f6dc2" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInDown&quot;}">
+                   <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-d7f6dc2" data-id="d7f6dc2" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                       <div class="elementor-widget-wrap elementor-element-populated">
                          <div class="elementor-element elementor-element-33f8db9 elementor-view-stacked elementor-position-top elementor-vertical-align-middle elementor-shape-circle elementor-mobile-position-top elementor-widget elementor-widget-icon-box" data-id="33f8db9" data-element_type="widget" data-widget_type="icon-box.default">
                             <div class="elementor-widget-container">
@@ -79,7 +79,7 @@
                          </div>
                       </div>
                    </div>
-                   <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-33cf5fa animated-fast elementor-invisible" data-id="33cf5fa" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInDown&quot;}">
+                   <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-33cf5fa" data-id="33cf5fa" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                       <div class="elementor-widget-wrap elementor-element-populated">
                          <div class="elementor-element elementor-element-4549168 elementor-view-stacked elementor-position-top elementor-vertical-align-middle elementor-shape-circle elementor-mobile-position-top elementor-widget elementor-widget-icon-box" data-id="4549168" data-element_type="widget" data-widget_type="icon-box.default">
                             <div class="elementor-widget-container">

@@ -33,8 +33,8 @@
                                         <div class="jkit-menu-wrapper">
                                            <div class="jkit-menu-container">
                                               <ul id="menu-mainmenu" class="jkit-menu jkit-menu-direction-flex jkit-submenu-position-top">
-                                                 <li id="menu-item-1264" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-61 current_page_item menu-item-1264"><a href="https://advanture.icu/socialseven/" aria-current="page">Home</a></li>
-                                                 <li id="menu-item-1263" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1263"><a href="https://advanture.icu/socialseven/about/">About</a></li>
+                                                 <li id="menu-item-1264" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-61 current_page_item menu-item-1264"><a href="/" aria-current="page">Home</a></li>
+                                                 <li id="menu-item-1263" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1263"><a href="/about">About</a></li>
                                                  <li id="menu-item-1265" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1265">
                                                     <a href="https://advanture.icu/#">Pages</a>
                                                     <ul class="sub-menu">
@@ -53,7 +53,7 @@
                                                     </ul>
                                                  </li>
                                                  <li id="menu-item-1280" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1280"><a href="https://advanture.icu/socialseven/blog/">Blog</a></li>
-                                                 <li id="menu-item-1275" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1275"><a href="https://advanture.icu/socialseven/contact/">Contact</a></li>
+                                                 <li id="menu-item-1275" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1275"><a href="/contact">Contact</a></li>
                                               </ul>
                                            </div>
                                            <div class="jkit-nav-identity-panel">

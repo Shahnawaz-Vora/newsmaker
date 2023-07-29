@@ -1,6 +1,6 @@
 <section class="elementor-section elementor-top-section elementor-element elementor-element-6d507f0 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6d507f0" data-element_type="section">
     <div class="elementor-container elementor-column-gap-default">
-       <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-aa17f10 elementor-invisible" data-id="aa17f10" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInRight&quot;}">
+       <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-aa17f10" data-id="aa17f10" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
           <div class="elementor-widget-wrap elementor-element-populated">
              <div class="elementor-element elementor-element-86d58c3 elementor--star-style-star_fontawesome elementor-widget elementor-widget-star-rating" data-id="86d58c3" data-element_type="widget" data-widget_type="star-rating.default">
                 <div class="elementor-widget-container">
@@ -61,12 +61,12 @@
        </div>
        <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-ba835fb elementor-hidden-tablet elementor-hidden-mobile" data-id="ba835fb" data-element_type="column">
           <div class="elementor-widget-wrap elementor-element-populated">
-             <div class="elementor-element elementor-element-d1d6fd5 elementor-widget__width-initial elementor-invisible elementor-widget elementor-widget-image" data-id="d1d6fd5" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="image.default">
+             <div class="elementor-element elementor-element-d1d6fd5 elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="d1d6fd5" data-element_type="widget" data-settings="{&quot;}" data-widget_type="image.default">
                 <div class="elementor-widget-container">
                    <img width="800" height="1016" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/BG02-806x1024.png" class="attachment-large size-large wp-image-1308" alt="" decoding="async" loading="lazy" srcset="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/BG02-806x1024.png 806w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/BG02-236x300.png 236w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/BG02-768x976.png 768w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/BG02-800x1017.png 800w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/BG02.png 1000w" sizes="(max-width: 800px) 100vw, 800px" />															
                 </div>
              </div>
-             <div class="elementor-element elementor-element-b87773c elementor-widget__width-initial elementor-absolute elementor-hidden-tablet elementor-hidden-mobile elementor-invisible elementor-widget elementor-widget-image" data-id="b87773c" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;,&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="image.default">
+             <div class="elementor-element elementor-element-b87773c elementor-widget__width-initial elementor-absolute elementor-hidden-tablet elementor-hidden-mobile elementor-widget elementor-widget-image" data-id="b87773c" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;,&quot;}" data-widget_type="image.default">
                 <div class="elementor-widget-container">
                    <img width="697" height="263" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/stats-4.png" class="attachment-large size-large wp-image-1302" alt="" decoding="async" loading="lazy" srcset="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/stats-4.png 697w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/stats-4-300x113.png 300w" sizes="(max-width: 697px) 100vw, 697px" />															
                 </div>
@@ -80,7 +80,7 @@
        </div>
        <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-25f0c38" data-id="25f0c38" data-element_type="column">
           <div class="elementor-widget-wrap elementor-element-populated">
-             <section class="elementor-section elementor-inner-section elementor-element elementor-element-a3c3a2f elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible" data-id="a3c3a2f" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;}">
+             <section class="elementor-section elementor-inner-section elementor-element elementor-element-a3c3a2f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a3c3a2f" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                 <div class="elementor-container elementor-column-gap-default">
                    <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-d125925" data-id="d125925" data-element_type="column">
                       <div class="elementor-widget-wrap elementor-element-populated">
@@ -122,7 +122,7 @@
                    </div>
                 </div>
              </section>
-             <section class="elementor-section elementor-inner-section elementor-element elementor-element-1455643 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible" data-id="1455643" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInDown&quot;}">
+             <section class="elementor-section elementor-inner-section elementor-element elementor-element-1455643 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1455643" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                 <div class="elementor-container elementor-column-gap-default">
                    <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-be3dfaf" data-id="be3dfaf" data-element_type="column">
                       <div class="elementor-widget-wrap elementor-element-populated">
