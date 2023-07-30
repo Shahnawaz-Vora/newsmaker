@@ -1,11 +1,12 @@
-<section class="elementor-section elementor-top-section elementor-element elementor-element-5f47435 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="5f47435" data-element_type="section">
+
+<section id="testimonial-section" class="elementor-section elementor-top-section elementor-element elementor-element-5f47435 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="5f47435" data-element_type="section">
     <div class="elementor-container elementor-column-gap-default">
        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-00d6567" data-id="00d6567" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
           <div class="elementor-widget-wrap elementor-element-populated">
             <div class="elementor-background-overlay"></div>
             <div class="col-xl-4"></div>
-            <div class="col-xl-4" style="text-align: center; margin-top: -5%; z-index: 99999999999; margin-bottom: 5%; font-family: inherit;">
-                <h2 style="opacity: 100%; color: white; z-index: 99999999999;">Testimonials</h2>
+            <div class="col-xl-4" style="text-align: center; margin-top: -5%; z-index: 1; margin-bottom: 5%; font-family: inherit;">
+                <h2 style="opacity: 100%; color: white;">Testimonials</h2>
             </div>
             <div class="col-xl-4"></div>
              <div class="owl-carousel owl-carousel1 owl-theme">

@@ -54,7 +54,7 @@
          /* margin-bottom: -1px; */
          }
 
-         .card {
+         #testimonial-section .card {
             background: #fff;
             box-shadow: 0 8px 30px -7px #c9dff0;
             margin: 0 20px;
@@ -89,10 +89,14 @@
             }
          }
 
-         .active {
+         //apply on all active class need to find the actual active in carousel
+         /* .active {
             opacity: 0.5;
             transition: all 0.3s;
-         }
+         } */
+
+
+         
 
          .center {
             opacity: 1;
@@ -179,118 +183,6 @@
       <link rel="alternate" type="text/xml+oembed" href="https://advanture.icu/socialseven/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fadvanture.icu%2Fsocialseven%2F&#038;format=xml" />
       <meta name="generator" content="Elementor 3.14.1; features: e_dom_optimization, e_optimized_assets_loading, e_optimized_css_loading, a11y_improvements, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto">
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-      <style>
-         /* Styling for the "Contact Us Anytime" heading */
-         .jkit-heading .heading-title {
-             font-size: 30px;
-             font-weight: bold;
-             color: #333;
-             margin-bottom: 10px;
-         }
-     
-         .jkit-heading .heading-section-description p {
-             font-size: 16px;
-             color: #777;
-         }
-     
-         /* Styling for the contact form inputs and labels */
-         .metform-form-content {
-             max-width: 600px;
-             margin: 0 auto;
-             padding: 20px;
-         }
-     
-         .mf-input-wrapper {
-             margin-bottom: 20px;
-         }
-     
-         .mf-input-label {
-             display: block;
-             font-size: 14px;
-             font-weight: bold;
-             color: #333;
-             margin-bottom: 5px;
-         }
-     
-         .mf-input {
-             width: 100%;
-             padding: 10px;
-             font-size: 16px;
-             border: 1px solid #ccc;
-             border-radius: 5px;
-         }
-     
-         .mf-textarea {
-             resize: vertical;
-         }
-     
-         .metform-btn {
-             background-color: #007bff;
-             color: #fff;
-             border: none;
-             padding: 10px 20px;
-             font-size: 16px;
-             border-radius: 5px;
-             cursor: pointer;
-         }
-     
-         .metform-btn:hover {
-             background-color: #0056b3;
-         }
-     
-         /* Responsive styles */
-         @media screen and (max-width: 768px) {
-             .elementor-container.elementor-column-gap-default {
-                 flex-direction: column;
-             }
-     
-             .elementor-column {
-                 width: 100%;
-             }
-     
-             .metform-form-content {
-                 max-width: 100%;
-             }
-         }
-     
-         /* Style for the custom dropdown */
-         .mf-input-dropdown {
-             position: relative;
-             width: 100%;
-             margin-bottom: 20px;
-         }
-     
-         .mf-input-dropdown select {
-             width: 100%;
-             padding: 12px 16px;
-             font-size: 16px;
-             border: 1px solid #ccc;
-             border-radius: 5px;
-             appearance: none;
-             background-image: linear-gradient(45deg, transparent 50%, #007bff 50%), linear-gradient(135deg, #007bff 50%, transparent 50%);
-             background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px);
-             background-size: 5px 5px, 5px 5px;
-             background-repeat: no-repeat;
-         }
-     
-         .mf-input-dropdown select::-ms-expand {
-             display: none;
-         }
-     
-         .mf-input-dropdown::after {
-             content: "\25BC";
-             position: absolute;
-             top: 50%;
-             right: 12px;
-             transform: translateY(-50%);
-         }
-     
-         /* Style for the selected option */
-         .mf-input-dropdown select option:checked {
-             background-color: #007bff;
-             color: #fff;
-         }
-     </style>
    </head>
    <body class="home page-template-default page page-id-61 ehf-header ehf-footer ehf-template-hello-elementor ehf-stylesheet-hello-elementor jkit-color-scheme elementor-default elementor-template-full-width elementor-kit-6 elementor-page elementor-page-61">
       <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" >
@@ -408,9 +300,8 @@
       <div id="page" class="hfeed site">
          <x-header></x-header>
          <div data-elementor-type="wp-page" data-elementor-id="61" class="elementor elementor-61">
-               {{$slot}}
-         </div>
-         
+            {{$slot}}
+        </div>
         <x-footer></x-footer>
      </div>
      <!-- #page -->
@@ -421,6 +312,7 @@
      <link rel='stylesheet' id='elementor-post-482-css' href='/asset/socialseven/wp-content/uploads/sites/35/elementor/css/post-482.css' media='all' />
      <link rel='stylesheet' id='metform-ui-css' href='/asset/socialseven/wp-content/plugins/metform/public/assets/css/metform-ui.css' media='all' />
      <link rel='stylesheet' id='metform-style-css' href='/asset/socialseven/wp-content/plugins/metform/public/assets/css/style.css' media='all' />
+     <link rel='stylesheet' id='e-animations-css' href='/asset/socialseven/wp-content/plugins/elementor/assets/lib/animations/animations.min.css' media='all' />
      <script src='/asset/socialseven/wp-content/themes/hello-elementor/assets/js/hello-frontend.min.js' id='hello-theme-frontend-js'></script>
      <script src='/asset/socialseven/wp-content/plugins/elementskit-lite/libs/framework/assets/js/frontend-script.js' id='elementskit-framework-js-frontend-js'></script>
      <script id='elementskit-framework-js-frontend-js-after'>
@@ -436,9 +328,9 @@
      <script src='/asset/socialseven/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js' id='elementor-waypoints-js'></script>
      <script src='/asset/socialseven/wp-includes/js/jquery/ui/core.min.js' id='jquery-ui-core-js'></script>
      <script id='elementor-frontend-js-before'>
-      //   var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselWrapperAriaLabel":"Carousel | Horizontal scrolling: Arrow Left & Right","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.14.1","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"e_optimized_assets_loading":true,"e_optimized_css_loading":true,"a11y_improvements":true,"additional_custom_breakpoints":true,"e_swiper_latest":true,"hello-theme-header-footer":true,"landing-pages":true},"urls":{"assets":"https:\/\/advanture.icu\/socialseven\/wp-content\/plugins\/elementor\/assets\/"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"body_background_background":"classic","active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description","hello_header_logo_type":"title","hello_header_menu_layout":"horizontal","hello_footer_logo_type":"logo"},"post":{"id":61,"title":"Social%20Seven","excerpt":"","featuredImage":false}};
+        var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselWrapperAriaLabel":"Carousel | Horizontal scrolling: Arrow Left & Right","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.14.1","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"e_optimized_assets_loading":true,"e_optimized_css_loading":true,"a11y_improvements":true,"additional_custom_breakpoints":true,"e_swiper_latest":true,"hello-theme-header-footer":true,"landing-pages":true},"urls":{"assets":"https:\/\/advanture.icu\/socialseven\/wp-content\/plugins\/elementor\/assets\/"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"body_background_background":"classic","active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description","hello_header_logo_type":"title","hello_header_menu_layout":"horizontal","hello_footer_logo_type":"logo"},"post":{"id":61,"title":"Social%20Seven","excerpt":"","featuredImage":false}};
      </script>
-     {{-- <script src='/asset/socialseven/wp-content/plugins/elementor/assets/js/frontend.min.js' id='elementor-frontend-js'></script> --}}
+     <script src='/asset/socialseven/wp-content/plugins/elementor/assets/js/frontend.min.js' id='elementor-frontend-js'></script>
      <script id='elementor-frontend-js-after'>
         var jkit_ajax_url = "https://advanture.icu/socialseven/?jkit-ajax-request=jkit_elements", jkit_nonce = "a7235ceaca";
      </script>
@@ -461,6 +353,7 @@
         var mf = {"postType":"page","restURI":"https:\/\/advanture.icu\/socialseven\/wp-json\/metform\/v1\/forms\/views\/"};
      </script>
      <script src='/asset/socialseven/wp-content/plugins/metform/public/assets/js/app.js' id='metform-app-js'></script>
+     <script src='/asset/socialseven/wp-content/plugins/elementskit-lite/widgets/init/assets/js/animate-circle.min.js' id='animate-circle-js'></script>
      <script id='elementskit-elementor-js-extra'>
         var ekit_config = {"ajaxurl":"https:\/\/advanture.icu\/socialseven\/wp-admin\/admin-ajax.php","nonce":"c9341b02e8"};
      </script>
@@ -470,37 +363,38 @@
   "use strict";
 
   var carousels = function () {
-   $(".owl-carousel1").owlCarousel({
-        loop: true,
-        center: true,
-        margin: 0,
-        autoplay: true, // Enable auto carousel
-        autoplayTimeout: 3000, // Set the autoplay interval (in milliseconds)
-        autoplayHoverPause: true, // Pause autoplay when hovering over the carousel
-        responsiveClass: true,
-        nav: false,
-        responsive: {
-          0: {
-            items: 1,
-            nav: false
-          },
-          680: {
-            items: 2,
-            nav: false,
-            loop: false
-          },
-          1000: {
-            items: 3,
-            nav: true
-          }
+    $(".owl-carousel1").owlCarousel({
+      loop: true,
+      center: true,
+      margin: 0,
+      responsiveClass: true,
+      nav: false,
+      responsive: {
+        0: {
+          items: 1,
+          nav: false
+        },
+        680: {
+          items: 2,
+          nav: false,
+          loop: false
+        },
+        1000: {
+          items: 3,
+          nav: true
         }
-      });
+      }
+    });
+
+    
   };
 
   (function ($) {
     carousels();
   })(jQuery);
 })();
+
+
 </script>
   </body>
 </html>
