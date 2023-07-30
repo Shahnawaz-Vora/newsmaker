@@ -21,6 +21,8 @@ Route::get('/contact',[UserController::class,'getContactView'])->middleware('gue
 
 Route::get('/about',[UserController::class,'getAboutView'])->middleware('guest');
 
+Route::get('/marketing',[UserController::class,'getDigitalMarketingView'])->middleware('guest');
+
 Route::post('/contact/submit', [UserController::class, 'submitForm'])->name('contact.submit')->middleware('guest');
 
 Route::get('/admin/login', [AdminController::class, 'index'])->middleware('guest');

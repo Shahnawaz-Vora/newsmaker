@@ -18,6 +18,10 @@ class UserController extends Controller
     public function getAboutView(){
         return view('about');
     }
+
+    public function getDigitalMarketingView(){
+        return view('marketing');
+    }
     
     public function submitForm(Request $request)
     {
