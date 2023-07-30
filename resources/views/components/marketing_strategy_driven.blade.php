@@ -1,9 +1,9 @@
 <section class="elementor-section elementor-top-section elementor-element elementor-element-d602313 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d602313" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
     <div class="elementor-container elementor-column-gap-default">
-       <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-9a78615 elementor-invisible" data-id="9a78615" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;}">
+       <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-9a78615 " data-id="9a78615" data-element_type="column" data-settings="{}">
           <div class="elementor-widget-wrap elementor-element-populated">
              <div class="elementor-element elementor-element-f0bbd77 elementor-widget__width-auto elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="f0bbd77" data-element_type="widget" data-widget_type="icon-list.default">
-                <div class="elementor-widget-container">
+                <div class="elementor-widget-container mb-2">
                    <link rel="stylesheet" href="asset/socialseven/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css">
                    <ul class="elementor-icon-list-items">
                       <li class="elementor-icon-list-item">
@@ -149,18 +149,18 @@
           </div>
        </div>
        <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-32cad65" data-id="32cad65" data-element_type="column">
-          <div class="elementor-widget-wrap elementor-element-populated">
-             <div class="elementor-element elementor-element-87f45a7 elementor-invisible elementor-widget elementor-widget-image" data-id="87f45a7" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}" data-widget_type="image.default">
-                <div class="elementor-widget-container">
+          <div class="elementor-widget-wrap elementor-element-populated ">
+             <div class="elementor-element elementor-element-87f45a7  elementor-widget elementor-widget-image" data-id="87f45a7" data-element_type="widget" data-settings="{}" data-widget_type="image.default">
+                <div class="elementor-widget-container ">
                    <img width="1920" height="1920" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/image-45.jpg" class="attachment-full size-full wp-image-1298" alt="" decoding="async" loading="lazy" srcset="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/image-45.jpg 1920w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/image-45-300x300.jpg 300w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/image-45-1024x1024.jpg 1024w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/image-45-150x150.jpg 150w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/image-45-768x768.jpg 768w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/image-45-1536x1536.jpg 1536w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/image-45-800x800.jpg 800w" sizes="(max-width: 1920px) 100vw, 1920px" />															
                 </div>
              </div>
-             <div class="elementor-element elementor-element-2f4f724 elementor-hidden-mobile elementor-invisible elementor-widget elementor-widget-image" data-id="2f4f724" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;bounce&quot;}" data-widget_type="image.default">
+             <div class="elementor-element elementor-element-2f4f724 elementor-hidden-mobile  elementor-widget elementor-widget-image" data-id="2f4f724" data-element_type="widget" data-settings="{}" data-widget_type="image.default">
                 <div class="elementor-widget-container">
                    <img width="553" height="438" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/stats-7.png" class="attachment-large size-large wp-image-1305" alt="" decoding="async" loading="lazy" srcset="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/stats-7.png 553w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/stats-7-300x238.png 300w" sizes="(max-width: 553px) 100vw, 553px" />															
                 </div>
              </div>
-             <div class="elementor-element elementor-element-23b120b elementor-hidden-mobile elementor-invisible elementor-widget elementor-widget-image" data-id="23b120b" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomInUp&quot;,&quot;_animation_mobile&quot;:&quot;fadeIn&quot;}" data-widget_type="image.default">
+             <div class="elementor-element elementor-element-23b120b elementor-hidden-mobile  elementor-widget elementor-widget-image" data-id="23b120b" data-element_type="widget" data-settings="{}" data-widget_type="image.default">
                 <div class="elementor-widget-container">
                    <img width="800" height="534" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/unsplash_2JDDn7iSGH8-1024x684.jpg" class="attachment-large size-large wp-image-1315" alt="" decoding="async" loading="lazy" srcset="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/unsplash_2JDDn7iSGH8-1024x684.jpg 1024w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/unsplash_2JDDn7iSGH8-300x200.jpg 300w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/unsplash_2JDDn7iSGH8-768x513.jpg 768w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/unsplash_2JDDn7iSGH8-1536x1026.jpg 1536w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/unsplash_2JDDn7iSGH8-800x534.jpg 800w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/unsplash_2JDDn7iSGH8.jpg 1920w" sizes="(max-width: 800px) 100vw, 800px" />															
                 </div>

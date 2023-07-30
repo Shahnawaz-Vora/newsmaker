@@ -36,23 +36,13 @@
                                                  <li id="menu-item-1264" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-61 current_page_item menu-item-1264"><a href="/" aria-current="page">Home</a></li>
                                                  <li id="menu-item-1263" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1263"><a href="/about">About</a></li>
                                                  <li id="menu-item-1265" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1265">
-                                                    <a href="https://advanture.icu/#">Pages</a>
+                                                    <a href="#">Services</a>
                                                     <ul class="sub-menu">
-                                                       <li id="menu-item-1273" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1273"><a href="https://advanture.icu/socialseven/pricing/">Pricing</a></li>
-                                                       <li id="menu-item-1272" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1272"><a href="https://advanture.icu/socialseven/service/">service</a></li>
-                                                       <li id="menu-item-1274" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1274"><a href="https://advanture.icu/socialseven/service-details/">Service-details</a></li>
-                                                       <li id="menu-item-1276" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1276"><a href="https://advanture.icu/socialseven/project/">Project</a></li>
-                                                       <li id="menu-item-1279" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1279"><a href="https://advanture.icu/socialseven/404-2/">404</a></li>
-                                                       <li id="menu-item-1277" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1277"><a href="https://advanture.icu/socialseven/career/">Career</a></li>
-                                                       <li id="menu-item-1282" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1282"><a href="https://advanture.icu/socialseven/2023/04/08/how-to-conduct-a-comprehensive-seo-audit-for-your-website/">Single Post</a></li>
-                                                       <li id="menu-item-1281" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1281"><a href="https://advanture.icu/socialseven/team/">Team</a></li>
-                                                       <li id="menu-item-1278" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1278"><a href="https://advanture.icu/socialseven/faq/">FAQ</a></li>
-                                                       <li id="menu-item-1722" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1722"><a href="https://advanture.icu/socialseven/coming-soon/">Coming Soon</a></li>
-                                                       <li id="menu-item-1721" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1721"><a href="https://advanture.icu/socialseven/our-benefits/">Our Benefits</a></li>
-                                                       <li id="menu-item-1723" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1723"><a href="https://advanture.icu/socialseven/testimonial/">Testimonial</a></li>
+                                                       <li id="menu-item-1273" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1273"><a href="/pr-services">Public Relation</a></li>
+                                                       <li id="menu-item-1272" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1272"><a href="/digital-marketing-services">Digital Marketing</a></li>
+                                                       <li id="menu-item-1274" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1274"><a href="/tv-interview-services">TV Interviews</a></li>
                                                     </ul>
                                                  </li>
-                                                 <li id="menu-item-1280" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1280"><a href="https://advanture.icu/socialseven/blog/">Blog</a></li>
                                                  <li id="menu-item-1275" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1275"><a href="/contact">Contact</a></li>
                                               </ul>
                                            </div>
@@ -68,7 +58,7 @@
                                <div class="elementor-element elementor-element-85e7eb2 elementor-widget__width-auto elementor-hidden-tablet elementor-hidden-mobile elementor-widget elementor-widget-button" data-id="85e7eb2" data-element_type="widget" data-widget_type="button.default">
                                   <div class="elementor-widget-container">
                                      <div class="elementor-button-wrapper">
-                                        <a class="elementor-button elementor-button-link elementor-size-sm" href="https://advanture.icu/#">
+                                        <a class="elementor-button elementor-button-link elementor-size-sm" href="/contact">
                                         <span class="elementor-button-content-wrapper">
                                         <span class="elementor-button-text">Get Started</span>
                                         </span>

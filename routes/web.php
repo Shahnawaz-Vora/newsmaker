@@ -21,7 +21,11 @@ Route::get('/contact',[UserController::class,'getContactView'])->middleware('gue
 
 Route::get('/about',[UserController::class,'getAboutView'])->middleware('guest');
 
-Route::get('/marketing',[UserController::class,'getDigitalMarketingView'])->middleware('guest');
+Route::get('/pr-services',[UserController::class,'getPRView'])->middleware('guest');
+
+Route::get('/digital-marketing-services',[UserController::class,'getDigitalMarketingView'])->middleware('guest');
+
+Route::get('/tv-interview-services',[UserController::class,'getTvInterviewView'])->middleware('guest');
 
 Route::post('/contact/submit', [UserController::class, 'submitForm'])->name('contact.submit')->middleware('guest');
 

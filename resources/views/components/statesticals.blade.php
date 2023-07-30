@@ -108,16 +108,6 @@
        </div>
        <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-d866dfe" data-id="d866dfe" data-element_type="column">
           <div class="elementor-widget-wrap elementor-element-populated">
-             <div class="elementor-element elementor-element-95c8ccb elementor-widget__width-initial elementor-absolute elementor-hidden-tablet elementor-hidden-mobile elementor-widget elementor-widget-image" data-id="95c8ccb" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="image.default">
-                <div class="elementor-widget-container">
-                   <img width="698" height="263" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/stats-5.png" class="attachment-large size-large wp-image-1303" alt="" decoding="async" loading="lazy" srcset="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/stats-5.png 698w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/stats-5-300x113.png 300w" sizes="(max-width: 698px) 100vw, 698px" />															
-                </div>
-             </div>
-             <div class="elementor-element elementor-element-bb40605 elementor-widget__width-initial elementor-absolute elementor-widget-tablet__width-initial elementor-hidden-tablet elementor-hidden-mobile elementor-widget elementor-widget-image" data-id="bb40605" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="image.default">
-                <div class="elementor-widget-container">
-                   <img width="279" height="221" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/stats-3.png" class="attachment-large size-large wp-image-1301" alt="" decoding="async" loading="lazy" />															
-                </div>
-             </div>
              <div class="elementor-element elementor-element-9e889d0 elementor-widget__width-auto elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="9e889d0" data-element_type="widget" data-widget_type="icon-list.default">
                 <div class="elementor-widget-container">
                    <ul class="elementor-icon-list-items">
