@@ -1,73 +1,73 @@
 <section style="background-color:#FFFFFF;margin-top:100px;" class="elementor-section elementor-top-section elementor-element elementor-element-ad56d2b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ad56d2b" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-    <div class="elementor-container elementor-column-gap-default">
-       <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-58c910f" data-id="58c910f" data-element_type="column">
-          <div class="elementor-widget-wrap elementor-element-populated">
-             <div class="elementor-element elementor-element-9da5c2d elementor-widget__width-auto elementor-widget elementor-widget-text-editor" data-id="9da5c2d" data-element_type="widget" data-widget_type="text-editor.default">
-                <div class="elementor-widget-container">
-                   <p>4.9 Rating(Google Reviews)</p>
-                </div>
-             </div>
-             <div class="elementor-element elementor-element-29b4e1d elementor--star-style-star_unicode elementor-widget__width-auto elementor-widget elementor-widget-star-rating" data-id="29b4e1d" data-element_type="widget" data-widget_type="star-rating.default">
-                <div class="elementor-widget-container">
-                   <div class="elementor-star-rating__wrapper">
-                      <div class="elementor-star-rating" title="4.5/5" itemtype="http://schema.org/Rating" itemscope="" itemprop="reviewRating"><i class="elementor-star-full">&#9733;</i><i class="elementor-star-full">&#9733;</i><i class="elementor-star-full">&#9733;</i><i class="elementor-star-full">&#9733;</i><i class="elementor-star-5">&#9733;</i> <span itemprop="ratingValue" class="elementor-screen-only">4.5/5</span></div>
-                   </div>
-                </div>
-             </div>
-             <div class="elementor-element elementor-element-dc2c0cd elementor-widget elementor-widget-jkit_heading" data-id="dc2c0cd" data-element_type="widget" data-widget_type="jkit_heading.default">
-                <div class="elementor-widget-container">
-                   <div  class="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_61_15_64c2a2e8bb2de" >
-                      <div class="heading-section-title  display-inline-block">
-                         <h2 class="heading-title">Over 200+ companies worldwide on Social Seven</h2>
-                      </div>
-                   </div>
-                </div>
-             </div>
-          </div>
-       </div>
-       <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-cb9d0e7" data-id="cb9d0e7" data-element_type="column">
-          <div class="elementor-widget-wrap elementor-element-populated">
-             <div class="elementor-element elementor-element-bbc8d55 elementor-widget elementor-widget-jkit_client_logo" data-id="bbc8d55" data-element_type="widget" data-widget_type="jkit_client_logo.default">
-                <div class="elementor-widget-container">
-                   <div  class="jeg-elementor-kit jkit-client-logo arrow-bottom-middle jeg_module_61_16_64c2a2e8c0b1a"  data-id="jeg_module_61_16_64c2a2e8c0b1a" data-settings="{&quot;autoplay&quot;:true,&quot;autoplay_speed&quot;:2500,&quot;autoplay_hover_pause&quot;:false,&quot;show_navigation&quot;:false,&quot;navigation_left&quot;:&quot;&lt;i aria-hidden=\&quot;true\&quot; class=\&quot;fas fa-angle-left\&quot;&gt;&lt;\/i&gt;&quot;,&quot;navigation_right&quot;:&quot;&lt;i aria-hidden=\&quot;true\&quot; class=\&quot;fas fa-angle-right\&quot;&gt;&lt;\/i&gt;&quot;,&quot;show_dots&quot;:false,&quot;arrow_position&quot;:&quot;bottom&quot;,&quot;responsive&quot;:{&quot;desktop&quot;:{&quot;items&quot;:4,&quot;margin&quot;:50,&quot;breakpoint&quot;:1025},&quot;tablet&quot;:{&quot;items&quot;:4,&quot;margin&quot;:50,&quot;breakpoint&quot;:768},&quot;mobile&quot;:{&quot;items&quot;:2,&quot;margin&quot;:50,&quot;breakpoint&quot;:0}}}">
-                      <div class="client-list">
-                         <div class="client-track">
-                            <div class="client-slider item">
-                               <div class="image-list">
-                                  <div class="content-image"><img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png"  class="main-image" alt="Title"></div>
-                               </div>
-                            </div>
-                            <div class="client-slider item">
-                               <div class="image-list">
-                                  <div class="content-image"><img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-1-300x73.png"  class="main-image" alt="Title"></div>
-                               </div>
-                            </div>
-                            <div class="client-slider item">
-                               <div class="image-list">
-                                  <div class="content-image"><img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-2-300x79.png"  class="main-image" alt="Title"></div>
-                               </div>
-                            </div>
-                            <div class="client-slider item">
-                               <div class="image-list">
-                                  <div class="content-image"><img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-3-300x77.png"  class="main-image" alt="Title"></div>
-                               </div>
-                            </div>
-                            <div class="client-slider item">
-                               <div class="image-list">
-                                  <div class="content-image"><img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-4-300x72.png"  class="main-image" alt="Title"></div>
-                               </div>
-                            </div>
-                            <div class="client-slider item">
-                               <div class="image-list">
-                                  <div class="content-image"><img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-5-300x66.png"  class="main-image" alt="Title"></div>
-                               </div>
-                            </div>
-                         </div>
-                      </div>
-                   </div>
-                </div>
-             </div>
-          </div>
-       </div>
-    </div>
+   <div class="elementor-container elementor-column-gap-default">
+      <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-58c910f" data-id="58c910f" data-element_type="column">
+         <div class="elementor-widget-wrap elementor-element-populated">
+            <div class="elementor-element elementor-element-9da5c2d elementor-widget__width-auto elementor-widget elementor-widget-text-editor" data-id="9da5c2d" data-element_type="widget" data-widget_type="text-editor.default">
+               <div class="elementor-widget-container">
+                  <p>4.9 Rating(Google Reviews)</p>
+               </div>
+            </div>
+            <div class="elementor-element elementor-element-29b4e1d elementor--star-style-star_unicode elementor-widget__width-auto elementor-widget elementor-widget-star-rating" data-id="29b4e1d" data-element_type="widget" data-widget_type="star-rating.default">
+               <div class="elementor-widget-container">
+                  <div class="elementor-star-rating__wrapper">
+                     <div class="elementor-star-rating" title="4.5/5" itemtype="http://schema.org/Rating" itemscope="" itemprop="reviewRating"><i class="elementor-star-full">&#9733;</i><i class="elementor-star-full">&#9733;</i><i class="elementor-star-full">&#9733;</i><i class="elementor-star-full">&#9733;</i><i class="elementor-star-5">&#9733;</i> <span itemprop="ratingValue" class="elementor-screen-only">4.5/5</span></div>
+                  </div>
+               </div>
+            </div>
+            <div class="elementor-element elementor-element-dc2c0cd elementor-widget elementor-widget-jkit_heading" data-id="dc2c0cd" data-element_type="widget" data-widget_type="jkit_heading.default">
+               <div class="elementor-widget-container">
+                  <div  class="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_61_15_64c2a2e8bb2de" >
+                     <div class="heading-section-title display-inline-block">
+                        <h2 id="client-heading-title" class="heading-title">Over 200+ companies worldwide on Social Seven</h2>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-cb9d0e7" data-id="cb9d0e7" data-element_type="column">
+         <div class="elementor-widget-wrap elementor-element-populated">
+            <div class="elementor-element elementor-element-bbc8d55 elementor-widget elementor-widget-jkit_client_logo" data-id="bbc8d55" data-element_type="widget" data-widget_type="jkit_client_logo.default">
+               <div class="elementor-widget-container">
+                  <div  class="jeg-elementor-kit jkit-client-logo arrow-bottom-middle jeg_module_61_16_64c2a2e8c0b1a"  data-id="jeg_module_61_16_64c2a2e8c0b1a" data-settings="{&quot;autoplay&quot;:true,&quot;autoplay_speed&quot;:2500,&quot;autoplay_hover_pause&quot;:false,&quot;show_navigation&quot;:false,&quot;navigation_left&quot;:&quot;&lt;i aria-hidden=\&quot;true\&quot; class=\&quot;fas fa-angle-left\&quot;&gt;&lt;\/i&gt;&quot;,&quot;navigation_right&quot;:&quot;&lt;i aria-hidden=\&quot;true\&quot; class=\&quot;fas fa-angle-right\&quot;&gt;&lt;\/i&gt;&quot;,&quot;show_dots&quot;:false,&quot;arrow_position&quot;:&quot;bottom&quot;,&quot;responsive&quot;:{&quot;desktop&quot;:{&quot;items&quot;:4,&quot;margin&quot;:50,&quot;breakpoint&quot;:1025},&quot;tablet&quot;:{&quot;items&quot;:4,&quot;margin&quot;:50,&quot;breakpoint&quot;:768},&quot;mobile&quot;:{&quot;items&quot;:2,&quot;margin&quot;:50,&quot;breakpoint&quot;:0}}}">
+                     <div class="client-list">
+                        <div class="client-track">
+                           <div class="client-slider item">
+                              <div class="image-list">
+                                 <div class="content-image"><img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png"  class="main-image" alt="Title"></div>
+                              </div>
+                           </div>
+                           <div class="client-slider item">
+                              <div class="image-list">
+                                 <div class="content-image"><img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-1-300x73.png"  class="main-image" alt="Title"></div>
+                              </div>
+                           </div>
+                           <div class="client-slider item">
+                              <div class="image-list">
+                                 <div class="content-image"><img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-2-300x79.png"  class="main-image" alt="Title"></div>
+                              </div>
+                           </div>
+                           <div class="client-slider item">
+                              <div class="image-list">
+                                 <div class="content-image"><img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-3-300x77.png"  class="main-image" alt="Title"></div>
+                              </div>
+                           </div>
+                           <div class="client-slider item">
+                              <div class="image-list">
+                                 <div class="content-image"><img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-4-300x72.png"  class="main-image" alt="Title"></div>
+                              </div>
+                           </div>
+                           <div class="client-slider item">
+                              <div class="image-list">
+                                 <div class="content-image"><img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-5-300x66.png"  class="main-image" alt="Title"></div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
 </section>
