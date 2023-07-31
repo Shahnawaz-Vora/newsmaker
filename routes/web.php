@@ -36,3 +36,7 @@ Route::post('admin/login', [AdminController::class, 'login'])->middleware('guest
 Route::get('/admin/contact', [AdminController::class, 'getAdminContactView'])->middleware('auth');
 
 Route::get('/admin/logout', [AdminController::class, 'logout'])->middleware('auth');
+
+Route::get('/admin/contact', [AdminController::class, "getContactData"])->middleware('auth');
+
+Route::post('/update-contact', [AdminController::class,"updateContact"]);

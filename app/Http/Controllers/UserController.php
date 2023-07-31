@@ -37,20 +37,31 @@ class UserController extends Controller
     
     public function submitForm(Request $request)
     {
-        // Validate the form data (you can add validation rules here)
+        // Validate the form data
+        $request->validate([
+            'mf-first-name' => 'required|string|max:255',
+            'mf-last-name' => 'required|string|max:255',
+            'mf-email' => 'required|email|max:255',
+            'mf-mobile' => 'required|string|max:255',
+            'mf-Company' => 'required|string|max:255',
+            'mf-subject' => 'required|string|max:255',
+            'mf-comment' => 'required|string',
+        ]);
 
         // Create a new Contact model instance and fill it with form data
         $contact = new Contact();
         $contact->first_name = $request->input('mf-first-name');
         $contact->last_name = $request->input('mf-last-name');
         $contact->email = $request->input('mf-email');
+        $contact->mobile = $request->input('mf-mobile'); // Added mobile number
+        $contact->Company = $request->input('mf-Company'); // Added Company name
         $contact->subject = $request->input('mf-subject');
         $contact->comments = $request->input('mf-comment');
 
         // Save the data to the database
         $contact->save();
 
-        // Redirect back to the contact form or display a success message
+        // Redirect back to the contact form with a success message
         return redirect()->back()->with('success', 'Your message has been submitted successfully!');
     }
 }

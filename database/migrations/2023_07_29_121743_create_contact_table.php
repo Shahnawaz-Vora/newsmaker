@@ -16,8 +16,11 @@ return new class extends Migration
             $table->string('first_name');
             $table->string('last_name');
             $table->string('email');
+            $table->string('mobile'); // New column for mobile number
+            $table->string('Company');
             $table->string('subject');
             $table->text('comments');
+            $table->integer('isContacted')->default(0);
             $table->timestamps();
         });
     }
@@ -27,6 +30,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('contact');
+        Schema::dropIfExists('contacts');
     }
 };
