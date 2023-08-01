@@ -10,10 +10,17 @@
         padding: 10px;
         margin-bottom: 10px;
     }
+
+    @media (max-width: 768px) {
+        /* Hide the section in mobile view */
+        #contactUs {
+            display: none;
+        }
+    }
     
     
 </style>
-<section style="background-color: #FFFFFF; padding-top: 20px;" class="pt-5 pb-5 elementor-section elementor-top-section elementor-element elementor-element-3a8d25b8 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3a8d25b8" data-element_type="section" data-settings='{"background_background":"classic"}'>
+<section id="contactUs" style="background-color: #FFFFFF; padding-top: 20px;" class="pt-5 pb-5 elementor-section elementor-top-section elementor-element elementor-element-3a8d25b8 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3a8d25b8" data-element_type="section" data-settings='{"background_background":"classic"}'>
     <div class="container">
         <div class="row">
             <div class="col-md-5">

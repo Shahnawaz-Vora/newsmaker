@@ -8,7 +8,12 @@ use App\Models\Contact;
 class UserController extends Controller
 {
     public function index(){
-        return view('index');
+        $hero = [
+            "title" => "Welcome to Newsmakers Media",
+            "heading" => "Top Public Relation Agency in India.",
+            "description" => "Empowering brand to reach their potential customers with our top rated services and out of the box idea."
+        ];
+        return view('index',['hero'=>$hero]);
     }
 
     public function getContactView(){

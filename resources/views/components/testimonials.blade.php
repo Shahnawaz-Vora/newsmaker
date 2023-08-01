@@ -10,7 +10,7 @@
                     <div class="elementor-widget-container ">
                        <div  class="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_61_26_64c62cc7d7c7c" >
                           <div class="heading-section-title  display-inline-block" style="text-align: center">
-                             <h2 class="heading-title" style="color:white;">Testimonials</h2>
+                             <h2 class="heading-title mt-3" style="color:white;">Testimonials</h2>
                           </div>
                        </div>
                     </div>

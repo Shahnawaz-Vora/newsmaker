@@ -1,6 +1,6 @@
 <x-layout>
     <!-- Banner -->
-    <x-hero ></x-hero>
+    <x-hero :hero="$hero"></x-hero>
     <!-- End Banner -->
 
     <x-clients></x-clients>

@@ -10,7 +10,7 @@
                       <li class="elementor-icon-list-item">
                          <span class="elementor-icon-list-icon">
                          <i aria-hidden="true" class="fas fa-dot-circle"></i>						</span>
-                         <span class="elementor-icon-list-text">Welcome to Newsmakers Media</span>
+                         <span class="elementor-icon-list-text">{{$hero['title']}}</span>
                       </li>
                    </ul>
                 </div>
@@ -19,10 +19,10 @@
                 <div class="elementor-widget-container">
                    <div  class="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_61_1_64c2a2e84da2a" >
                       <div class="heading-section-title  display-inline-block">
-                         <h2 class="heading-title">Top Public Relation Agency in India.</h2>
+                         <h2 class="heading-title">{{$hero['heading']}}</h2>
                       </div>
                       <div class="heading-section-description">
-                         <p>Empowering brand to reach their potential customers with our top rated services and out of the box idea.</p>
+                         <p>{{$hero['description']}}</p>
                       </div>
                    </div>
                 </div>

@@ -10,6 +10,13 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
       <meta name='robots' content='max-image-preview:large' />
       <style>
+         /* after content writing disabled selection */
+         /* *{
+         -webkit-user-select: none; 
+         -ms-user-select: none; 
+         user-select: none;
+         } */
+
          img.wp-smiley,
          img.emoji {
          display: inline !important;
@@ -134,6 +141,8 @@
             outline: 0;
          }
          }
+
+         
       </style>
       <link rel='stylesheet' id='jkit-elements-main-css' href='/asset/socialseven/wp-content/plugins/jeg-elementor-kit/assets/css/elements/main.css' media='all' />
       <link rel='stylesheet' id='wp-block-library-css' href='/asset/socialseven/wp-includes/css/dist/block-library/style.min.css' media='all' />

@@ -1,3 +1,17 @@
+<style>
+    @media (min-width: 769px) {
+        .mobile-slider {
+            display: none !important;
+        }
+    }
+
+    /* Hide the slider in mobile view */
+    @media (max-width: 768px) {
+        .desktop-slider {
+            display: none !important;
+        }
+    }
+</style>
 <section style="background-color: #FFFFFF" class="pb-3 elementor-section elementor-top-section elementor-element elementor-element-5097af0 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="5097af0" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
     <div class="elementor-container elementor-column-gap-default">
         <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5097af0" data-id="c4a57f2" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -27,98 +41,156 @@
     </div>
     <section class="elementor-section elementor-inner-section elementor-element elementor-element-5097af0 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5097af0" data-element_type="section">
         <div class="elementor-container elementor-column-gap-default">
-            <div class="row mb-3">
-                <div class="col-lg-2 col-md-4 col-sm-6">
-                    <div class="image-list">
-                        <div class="content-image">
-                            <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
-                        </div>
-                    </div>
+            <!-- Add the slider section for mobile view here -->
+            <div class="owl-carousel owl-theme mobile-slider" style="margin-top:-40px;">
+                <!-- Add images here, for example -->
+                <div class="item p-3">
+                    <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
                 </div>
-                <div class="col-lg-2 col-md-4 col-sm-6">
-                    <div class="image-list">
-                        <div class="content-image">
-                            <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
-                        </div>
-                    </div>
+                <div class="item p-3">
+                    <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
                 </div>
-                <div class="col-lg-2 col-md-4 col-sm-6">
-                    <div class="image-list">
-                        <div class="content-image">
-                            <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
-                        </div>
-                    </div>
+                <div class="item p-3">
+                    <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
                 </div>
-                <div class="col-lg-2 col-md-4 col-sm-6">
-                    <div class="image-list">
-                        <div class="content-image">
-                            <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
-                        </div>
-                    </div>
+                <div class="item p-3">
+                    <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
                 </div>
-                <div class="col-lg-2 col-md-4 col-sm-6">
-                    <div class="image-list">
-                        <div class="content-image">
-                            <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
-                        </div>
-                    </div>
+                <div class="item p-3">
+                    <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
                 </div>
-                <div class="col-lg-2 col-md-4 col-sm-6">
-                    <div class="image-list">
-                        <div class="content-image">
-                            <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
-                        </div>
-                    </div>
+                <div class="item p-3">
+                    <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
                 </div>
-                <!-- Add more columns for other images -->
+                <div class="item p-3">
+                    <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
+                </div>
+                <div class="item p-3">
+                    <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
+                </div>
+                <div class="item p-3">
+                    <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
+                </div>
+                <div class="item p-3">
+                    <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
+                </div>
+                <div class="item p-3">
+                    <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
+                </div>
+                <div class="item p-3">
+                    <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
+                </div>
             </div>
-        </div>
-        <div class="elementor-container elementor-column-gap-default">
-            <div class="row mb-3">
-                <div class="col-lg-2 col-md-4 col-sm-6">
-                    <div class="image-list">
-                        <div class="content-image">
-                            <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-1-300x73.png" class="main-image img-fluid" alt="Title">
+            <div class="desktop-slider w-100">
+                <div class="row">
+                    <!-- Add images for desktop view here, for example -->
+                    <div class="col-2">
+                        <div class="image-list">
+                            <div class="content-image">
+                                <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-sm-6">
-                    <div class="image-list">
-                        <div class="content-image">
-                            <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
+                    <div class="col-2">
+                        <div class="image-list">
+                            <div class="content-image">
+                                <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-sm-6">
-                    <div class="image-list">
-                        <div class="content-image">
-                            <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
+                    <div class="col-2">
+                        <div class="image-list">
+                            <div class="content-image">
+                                <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-sm-6">
-                    <div class="image-list">
-                        <div class="content-image">
-                            <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
+                    <div class="col-2">
+                        <div class="image-list">
+                            <div class="content-image">
+                                <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-sm-6">
-                    <div class="image-list">
-                        <div class="content-image">
-                            <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
+                    <div class="col-2">
+                        <div class="image-list">
+                            <div class="content-image">
+                                <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-sm-6">
-                    <div class="image-list">
-                        <div class="content-image">
-                            <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
+                    <div class="col-2">
+                        <div class="image-list">
+                            <div class="content-image">
+                                <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
+                            </div>
                         </div>
                     </div>
+                    <!-- Add more images for desktop view, total 6 in this example -->
                 </div>
-                <!-- Add more columns for other images -->
+                <div class="row mt-3">
+                    <!-- Add images for desktop view here, for example -->
+                    <div class="col-2">
+                        <div class="image-list">
+                            <div class="content-image">
+                                <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="image-list">
+                            <div class="content-image">
+                                <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="image-list">
+                            <div class="content-image">
+                                <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="image-list">
+                            <div class="content-image">
+                                <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="image-list">
+                            <div class="content-image">
+                                <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="image-list">
+                            <div class="content-image">
+                                <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add more images for desktop view, total 6 in this example -->
+                </div>
             </div>
         </div>
     </section>
 </section>
+<script>
+    $(document).ready(function(){
+    $(".mobile-slider").owlCarousel({
+        items: 2, // Display 2 items in mobile view
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        responsive: {
+            0: {
+                items: 2 // Display 1 item in mobile view from 0px width
+            }
+        }
+    });
+});
+
+</script>
