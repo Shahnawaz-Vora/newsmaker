@@ -52,7 +52,7 @@
     }
 
     .our-webcoderskull .cnt-block .follow-us {
-        margin: 20px 0 0;
+        margin: 20px 45px 0px 0px;
     }
 
     .our-webcoderskull .cnt-block .follow-us li {
@@ -113,7 +113,7 @@
              <section class="our-webcoderskull" style="width: 100%">
                 <div class="container-fluid " style="padding-left:0px;padding-right:9%;">
                    <ul class="row">
-                      <li class="col-12 col-md-6 col-lg-3 mb-5">
+                      <li class="col-12 col-md-6 col-lg-4 mb-5">
                          <div class="cnt-block equal-hight" style="height: 349px;">
                             <figure><img src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/hash-dynamic-color.png" class="attachment-large size-large wp-image-1297" alt="" decoding="async" loading="lazy" srcset="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/hash-dynamic-color.png 895w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/hash-dynamic-color-300x300.png 300w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/hash-dynamic-color-150x150.png 150w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/hash-dynamic-color-768x768.png 768w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/hash-dynamic-color-800x800.png 800w" class="img-responsive" alt=""></figure>
                             <h3><a href="#">Mohamed Yousef
@@ -127,7 +127,7 @@
                             </ul>
                          </div>
                       </li>
-                      <li class="col-12 col-md-6 col-lg-3 mb-5">
+                      <li class="col-12 col-md-6 col-lg-4 mb-5">
                          <div class="cnt-block equal-hight" style="height: 349px;">
                             <figure><img src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/hash-dynamic-color.png" class="attachment-large size-large wp-image-1297" alt="" decoding="async" loading="lazy" srcset="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/hash-dynamic-color.png 895w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/hash-dynamic-color-300x300.png 300w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/hash-dynamic-color-150x150.png 150w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/hash-dynamic-color-768x768.png 768w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/hash-dynamic-color-800x800.png 800w" class="img-responsive" alt=""></figure>
                             <h3><a href="#">Mohamed Yousef
@@ -141,21 +141,7 @@
                             </ul>
                          </div>
                       </li>
-                      <li class="col-12 col-md-6 col-lg-3 mb-5">
-                         <div class="cnt-block equal-hight" style="height: 349px;">
-                            <figure><img src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/hash-dynamic-color.png" class="attachment-large size-large wp-image-1297" alt="" decoding="async" loading="lazy" srcset="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/hash-dynamic-color.png 895w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/hash-dynamic-color-300x300.png 300w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/hash-dynamic-color-150x150.png 150w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/hash-dynamic-color-768x768.png 768w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/hash-dynamic-color-800x800.png 800w" class="img-responsive" alt=""></figure>
-                            <h3><a href="#">Mohamed Yousef
-                               </a>
-                            </h3>
-                            <p>Freelance Web Developer</p>
-                            <ul class="follow-us clearfix">
-                               <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                               <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                               <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            </ul>
-                         </div>
-                      </li>
-                      <li class="col-12 col-md-6 col-lg-3 mb-5">
+                      <li class="col-12 col-md-6 col-lg-4 mb-5">
                          <div class="cnt-block equal-hight" style="height: 349px;">
                             <figure><img src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/hash-dynamic-color.png" class="attachment-large size-large wp-image-1297" alt="" decoding="async" loading="lazy" srcset="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/hash-dynamic-color.png 895w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/hash-dynamic-color-300x300.png 300w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/hash-dynamic-color-150x150.png 150w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/hash-dynamic-color-768x768.png 768w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/hash-dynamic-color-800x800.png 800w" class="img-responsive" alt=""></figure>
                             <h3><a href="#">Mohamed Yousef
