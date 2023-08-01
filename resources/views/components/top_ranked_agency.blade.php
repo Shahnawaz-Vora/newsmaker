@@ -20,10 +20,10 @@
                             <div class="elementor-widget-container">
                                <div  class="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_1262_4_64c2a4508c264" >
                                   <div class="heading-section-title  display-inline-block">
-                                     <h2 class="heading-title">Result that <span class="style-color"><span> Matters</span></span></h2>
+                                     <h2 class="heading-title">{{$topRankedAgency['cardHeading']}} <span class="style-color"><span> {{$topRankedAgency['cardHeading1']}}</span></span></h2>
                                   </div>
                                   <div class="heading-section-description">
-                                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                                     <p>{{$topRankedAgency['cardDescription']}}</p>
                                   </div>
                                </div>
                             </div>
@@ -40,10 +40,10 @@
                             <div class="elementor-widget-container">
                                <div  class="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_1262_5_64c2a4508feb0" >
                                   <div class="heading-section-title  display-inline-block">
-                                     <h2 class="heading-title">150%</h2>
+                                     <h2 class="heading-title">{{$topRankedAgency['growthCount']}}</h2>
                                   </div>
                                   <div class="heading-section-description">
-                                     <p>Organic Growth</p>
+                                     <p>{{$topRankedAgency['growthHeading']}}</p>
                                   </div>
                                </div>
                             </div>
@@ -56,10 +56,10 @@
                             <div class="elementor-widget-container">
                                <div  class="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_1262_6_64c2a45093226" >
                                   <div class="heading-section-title  display-inline-block">
-                                     <h2 class="heading-title">65%</h2>
+                                     <h2 class="heading-title">{{$topRankedAgency['engagementCount']}}</h2>
                                   </div>
                                   <div class="heading-section-description">
-                                     <p>Engagement Rate</p>
+                                     <p>{{$topRankedAgency['engagementHeading']}}</p>
                                   </div>
                                </div>
                             </div>
@@ -74,7 +74,7 @@
                 <div class="elementor-widget-container">
                    <div  class="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_1262_7_64c2a4509af30" >
                       <div class="heading-section-title  display-inline-block">
-                         <h2 class="heading-title">Top-Ranked Agency for Effective Online Marketing</h2>
+                         <h2 class="heading-title">{{$topRankedAgency['heading']}}</h2>
                       </div>
                    </div>
                 </div>
@@ -86,8 +86,7 @@
                       <div class="elementor-widget-wrap elementor-element-populated">
                          <div class="elementor-element elementor-element-0977bf1 elementor-widget elementor-widget-text-editor" data-id="0977bf1" data-element_type="widget" data-widget_type="text-editor.default">
                             <div class="elementor-widget-container">
-                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mat Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mat</p>
-                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mat Lorem ipsum dolor sit amet</p>
+                              {!! $topRankedAgency['description'] !!}
                             </div>
                          </div>
                       </div>

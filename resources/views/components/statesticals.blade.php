@@ -17,11 +17,10 @@
                                   </div>
                                   <div class="elementor-icon-box-content">
                                      <h3 class="elementor-icon-box-title">
-                                        <span  >
-                                        Expert Marketers					</span>
+                                        <span>{{$statestics["totalClients"]}}</span>
                                      </h3>
                                      <p class="elementor-icon-box-description">
-                                        Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, 					
+                                       {{$statestics["clientsDescription"]}}
                                      </p>
                                   </div>
                                </div>
@@ -40,11 +39,10 @@
                                   </div>
                                   <div class="elementor-icon-box-content">
                                      <h3 class="elementor-icon-box-title">
-                                        <span  >
-                                        24/7 Support					</span>
+                                        <span>{{$statestics["totalPartners"]}}</span>
                                      </h3>
                                      <p class="elementor-icon-box-description">
-                                        Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, 					
+                                       {{$statestics["partnersDescription"]}} 					
                                      </p>
                                   </div>
                                </div>
@@ -67,11 +65,10 @@
                                   </div>
                                   <div class="elementor-icon-box-content">
                                      <h3 class="elementor-icon-box-title">
-                                        <span  >
-                                        Free Consultation					</span>
+                                        <span>{{$statestics["totalArticles"]}}</span>
                                      </h3>
                                      <p class="elementor-icon-box-description">
-                                        Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, 					
+                                       {{$statestics["articlesDescription"]}}					
                                      </p>
                                   </div>
                                </div>
@@ -90,11 +87,10 @@
                                   </div>
                                   <div class="elementor-icon-box-content">
                                      <h3 class="elementor-icon-box-title">
-                                        <span  >
-                                        ROI guaranteed 					</span>
+                                        <span>{{$statestics["totalTvCoverages"]}}</span>
                                      </h3>
                                      <p class="elementor-icon-box-description">
-                                        Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, 					
+                                       {{$statestics["tvCoveragesDescription"]}}					
                                      </p>
                                   </div>
                                </div>
@@ -114,7 +110,7 @@
                       <li class="elementor-icon-list-item">
                          <span class="elementor-icon-list-icon">
                          <i aria-hidden="true" class="fas fa-dot-circle"></i>						</span>
-                         <span class="elementor-icon-list-text">A strategy driven Marketing Agency</span>
+                         <span class="elementor-icon-list-text">{{$statestics["title"]}}</span>
                       </li>
                    </ul>
                 </div>
@@ -123,10 +119,10 @@
                 <div class="elementor-widget-container">
                    <div  class="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_61_31_64c2a2e946dd0" >
                       <div class="heading-section-title  display-inline-block">
-                         <h2 class="heading-title">Higher Sales &amp; Traffic with Our Powerful Marketing</h2>
+                         <h2 class="heading-title">{{$statestics["heading"]}}</h2>
                       </div>
                       <div class="heading-section-description">
-                         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium </p>
+                         <p>{{$statestics["description"]}}</p>
                       </div>
                    </div>
                 </div>

@@ -12,7 +12,7 @@
                                     <li class="elementor-icon-list-item">
                                     <span class="elementor-icon-list-icon">
                                     <i aria-hidden="true" class="fas fa-dot-circle"></i>						</span>
-                                    <span class="elementor-icon-list-text">A strategy driven Agency</span>
+                                    <span class="elementor-icon-list-text">{{$overview["title"]}}</span>
                                     </li>
                                 </ul>
                             </div>
@@ -21,11 +21,10 @@
                             <div class="elementor-widget-container">
                                 <div  class="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_61_8_64c62cc74c6a4" >
                                     <div class="heading-section-title  display-inline-block">
-                                    <h2 class="heading-title">Riding the Waves of Social Media Marketing Trends</h2>
+                                    <h2 class="heading-title">{{$overview["heading"]}}</h2>
                                     </div> <br>
                                     <div class="heading-section-description">
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque assumenda ducimus nemo voluptatibus. Explicabo sunt praesentium laborum amet quae animi numquam natus accusamus. Quia, minima. Eligendi nemo eaque error delectus? </p>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque assumenda ducimus nemo voluptatibus. Explicabo sunt praesentium laborum amet quae animi numquam natus accusamus. Quia, minima. Eligendi nemo eaque error delectus? </p>
+                                    <p>{!! $overview["description"] !!}</p>
                                     </div>
                                 </div>
                             </div>
@@ -38,11 +37,11 @@
                             <div class="elementor-widget-container">
                                 <div  class="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_61_6_64c62cc743d83" >
                                     <div class="heading-section-title  display-inline-block">
-                                    <h2 class="heading-title">50% </h2>
+                                    <h2 class="heading-title">{{$overview['cardCount']}}</h2>
                                     </div>
-                                    <h3 class="heading-section-subtitle  style-color">Selling rate increasement</h3>
+                                    <h3 class="heading-section-subtitle  style-color">{{$overview['cardHeading']}}</h3>
                                     <div class="heading-section-description">
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium </p>
+                                    <p>{{$overview['cardDescription']}}</p>
                                     </div>
                                 </div>
                             </div>
@@ -51,7 +50,7 @@
                             <div class="elementor-widget-container">
                                 <div  class="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_61_7_64c62cc747133" >
                                     <div class="heading-section-title  display-inline-block">
-                                    <h2 class="heading-title">Copywriting Service</h2>
+                                    {{-- <h2 class="heading-title">Copywriting Service</h2> --}}
                                     </div>
                                 </div>
                             </div>

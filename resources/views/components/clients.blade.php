@@ -4,7 +4,7 @@
          <div class="elementor-widget-wrap elementor-element-populated">
             <div class="elementor-element elementor-element-9da5c2d elementor-widget__width-auto elementor-widget elementor-widget-text-editor" data-id="9da5c2d" data-element_type="widget" data-widget_type="text-editor.default">
                <div class="elementor-widget-container">
-                  <p>4.9 Rating(Google Reviews)</p>
+                  <p>{{$clients["heading"]}}</p>
                </div>
             </div>
             <div class="elementor-element elementor-element-29b4e1d elementor--star-style-star_unicode elementor-widget__width-auto elementor-widget elementor-widget-star-rating" data-id="29b4e1d" data-element_type="widget" data-widget_type="star-rating.default">
@@ -18,7 +18,7 @@
                <div class="elementor-widget-container">
                   <div  class="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_61_15_64c2a2e8bb2de" >
                      <div class="heading-section-title display-inline-block">
-                        <h2 id="client-heading-title" class="heading-title mt-3">Over 200+ companies worldwide on Social Seven</h2>
+                        <h2 id="client-heading-title" class="heading-title mt-3">{{$clients["description"]}}</h2>
                      </div>
                   </div>
                </div>

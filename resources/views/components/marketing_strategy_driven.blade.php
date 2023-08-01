@@ -9,7 +9,7 @@
                       <li class="elementor-icon-list-item">
                          <span class="elementor-icon-list-icon">
                          <i aria-hidden="true" class="fas fa-dot-circle"></i>						</span>
-                         <span class="elementor-icon-list-text">A strategy driven Marketing Agency</span>
+                         <span class="elementor-icon-list-text">{{$marketingStrategy["title"]}}</span>
                       </li>
                    </ul>
                 </div>
@@ -18,10 +18,10 @@
                 <div class="elementor-widget-container">
                    <div  class="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_1262_2_64c2a45073d37" >
                       <div class="heading-section-title  display-inline-block">
-                         <h2 class="heading-title">Top-Ranked Marketing Agency for Effective Online Marketing</h2>
+                         <h2 class="heading-title">{{$marketingStrategy["heading"]}}</h2>
                       </div>
                       <div class="heading-section-description">
-                         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium </p>
+                         <p>{{$marketingStrategy["description"]}}</p>
                       </div>
                    </div>
                 </div>
@@ -39,13 +39,9 @@
                                         </div>
                                         <div class="funfact-content">
                                            <div class="number-percentage-wraper">
-                                              <span class="number-percentage"
-                                                 data-value="85"
-                                                 data-animation-duration="3500"
-                                                 data-style="static">0</span>
-                                              M											
+                                              <span>{{$marketingStrategy["reachCount"]}}</span>										
                                            </div>
-                                           <h3 class="funfact-title">Revenue generated </h3>
+                                           <h3 class="funfact-title">{{$marketingStrategy["reachHeading"]}}</h3>
                                         </div>
                                      </div>
                                   </div>
@@ -61,7 +57,7 @@
                                <style>/*! elementor - v3.14.0 - 26-06-2023 */
                                   .elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#69727d;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#69727d;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}
                                </style>
-                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mat</p>
+                               <p>{{$marketingStrategy["reachDescription"]}}</p>
                             </div>
                          </div>
                       </div>
@@ -81,13 +77,9 @@
                                         </div>
                                         <div class="funfact-content">
                                            <div class="number-percentage-wraper">
-                                              <span class="number-percentage"
-                                                 data-value="6"
-                                                 data-animation-duration="3500"
-                                                 data-style="static">0</span>
-                                              +											
+                                              <span>{{$marketingStrategy["customerCount"]}}</span>
                                            </div>
-                                           <h3 class="funfact-title">Yrs of Experience</h3>
+                                           <h3 class="funfact-title">{{$marketingStrategy["customerHeading"]}}</h3>
                                         </div>
                                      </div>
                                   </div>
@@ -100,7 +92,7 @@
                       <div class="elementor-widget-wrap elementor-element-populated">
                          <div class="elementor-element elementor-element-db2cbe6 elementor-widget elementor-widget-text-editor" data-id="db2cbe6" data-element_type="widget" data-widget_type="text-editor.default">
                             <div class="elementor-widget-container">
-                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mat</p>
+                               <p>{{$marketingStrategy["customerDescription"]}}</p>
                             </div>
                          </div>
                       </div>
@@ -120,13 +112,10 @@
                                         </div>
                                         <div class="funfact-content">
                                            <div class="number-percentage-wraper">
-                                              <span class="number-percentage"
-                                                 data-value="55"
-                                                 data-animation-duration="3500"
-                                                 data-style="static">0</span>
+                                              <span>{{$marketingStrategy['connectionCount']}}</span>
                                               +											
                                            </div>
-                                           <h3 class="funfact-title">Global Company</h3>
+                                           <h3 class="funfact-title">{{$marketingStrategy['connectionHeading']}}</h3>
                                         </div>
                                      </div>
                                   </div>
@@ -139,7 +128,7 @@
                       <div class="elementor-widget-wrap elementor-element-populated">
                          <div class="elementor-element elementor-element-61af00e elementor-widget elementor-widget-text-editor" data-id="61af00e" data-element_type="widget" data-widget_type="text-editor.default">
                             <div class="elementor-widget-container">
-                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mat</p>
+                               <p>{{$marketingStrategy['connectionDescription']}}</p>
                             </div>
                          </div>
                       </div>

@@ -12,7 +12,7 @@
                                  <li class="elementor-icon-list-item">
                                     <span class="elementor-icon-list-icon">
                                     <i aria-hidden="true" class="fas fa-dot-circle"></i>						</span>
-                                    <span class="elementor-icon-list-text">Newsmakers media and communication</span>
+                                    <span class="elementor-icon-list-text">{{$services["title"]}}</span>
                                  </li>
                               </ul>
                            </div>
@@ -21,10 +21,10 @@
                            <div class="elementor-widget-container ">
                               <div  class="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_61_26_64c62cc7d7c7c" >
                                  <div class="heading-section-title  display-inline-block">
-                                    <h2 class="heading-title">Our Services</h2>
+                                    <h2 class="heading-title">{{$services["heading"]}}</h2>
                                  </div>
                                  <div class="heading-section-description">
-                                    <p>Newsmakers Media and Communications is dedicated to providing best service quality</p>
+                                    <p>{{$services["description"]}}</p>
                                  </div>
                               </div>
                            </div>
@@ -44,10 +44,10 @@
                               <div class="elementor-widget-container">
                                  <div  class="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_61_28_64c62cc7e8a9d" >
                                     <div class="heading-section-title  display-inline-block">
-                                       <h2 class="heading-title" style="color:white">Public Relation</h2>
+                                       <h2 class="heading-title" style="color:white">{{$services["service1Heading"]}}</h2>
                                     </div>
                                     <div class="heading-section-description">
-                                       <p style="color:#e7e7e7">Get featured in India's top media houses. Get featured in India's top media houses. Get featured in India's top media houses. </p>
+                                       <p style="color:#e7e7e7">{{$services["service1Description"]}}</p>
                                     </div>
                                  </div>
                               </div>
@@ -69,10 +69,10 @@
                               <div class="elementor-widget-container">
                                  <div  class="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_61_28_64c62cc7e8a9d" >
                                     <div class="heading-section-title  display-inline-block">
-                                       <h2 class="heading-title" style="color:white">Public Relation</h2>
+                                       <h2 class="heading-title" style="color:white">{{$services["service2Heading"]}}</h2>
                                     </div>
                                     <div class="heading-section-description">
-                                       <p style="color:#e7e7e7">Get featured in India's top media houses. Get featured in India's top media houses. Get featured in India's top media houses. </p>
+                                       <p style="color:#e7e7e7">{{$services["service2Description"]}}</p>
                                     </div>
                                  </div>
                               </div>
@@ -94,10 +94,10 @@
                               <div class="elementor-widget-container">
                                  <div  class="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_61_28_64c62cc7e8a9d" >
                                     <div class="heading-section-title  display-inline-block">
-                                       <h2 class="heading-title" style="color:white">Public Relation</h2>
+                                       <h2 class="heading-title" style="color:white">{{$services["service3Heading"]}}</h2>
                                     </div>
                                     <div class="heading-section-description">
-                                       <p style="color:#e7e7e7">Get featured in India's top media houses. Get featured in India's top media houses. Get featured in India's top media houses. </p>
+                                       <p style="color:#e7e7e7">{{$services["service3Description"]}}</p>
                                     </div>
                                  </div>
                               </div>

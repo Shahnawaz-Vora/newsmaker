@@ -1,22 +1,22 @@
 <x-layout>
     
-    <x-half-hero></x-half-hero>
+    <x-hero :hero="$hero"></x-hero>
 
-    <x-strategy-driven-agency></x-strategy-driven-agency>
+    <x-strategy-driven-agency :overview="$overview"></x-strategy-driven-agency>
 
     <div style="margin-top:-150px">
-    <x-clients></x-clients>
+    <x-clients :clients="$clients"></x-clients>
     </div>
 
-    <x-why_choose_us></x-why_choose_us>  
+    <x-why_choose_us :whyChooseUs="$whyChooseUs"></x-why_choose_us>  
+ 
 
-
-    <x-partners></x-partners>
+    <x-partners :partners="$partners"></x-partners>
     
     <x-testimonials></x-testimonials>
     
-    <x-statesticals></x-statesticals>
+    <x-statesticals :statestics="$statestics"></x-statesticals>
     
-    <x-contact_form></x-contact_form>
+    <x-contact_form :contactUs="$contactUs"></x-contact_form>
 
 </x-layout>

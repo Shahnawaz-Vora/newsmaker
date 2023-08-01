@@ -24,10 +24,10 @@
                                     <div class="elementor-widget-container ">
                                         <div  class="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_61_26_64c62cc7d7c7c" >
                                             <div class="heading-section-title  display-inline-block">
-                                                <h2 class="heading-title">Our Partners</h2>
+                                                <h2 class="heading-title">{{$partners["heading"]}}</h2>
                                             </div>
                                             <div class="heading-section-description">
-                                                <p>Newsmakers Media and Communications is dedicated to providing best service quality</p>
+                                                <p>{{$partners["description"]}}</p>
                                             </div>
                                         </div>
                                     </div>

@@ -20,7 +20,7 @@
     
     
 </style>
-<section id="contactUs" style="background-color: #FFFFFF; padding-top: 20px;" class="pt-5 pb-5 elementor-section elementor-top-section elementor-element elementor-element-3a8d25b8 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3a8d25b8" data-element_type="section" data-settings='{"background_background":"classic"}'>
+<section style="background-color: #FFFFFF; padding-top: 20px;" class="pt-5 pb-5 elementor-section elementor-top-section elementor-element elementor-element-3a8d25b8 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3a8d25b8" data-element_type="section" data-settings='{"background_background":"classic"}'>
     <div class="container">
         <div class="row">
             <div class="col-md-5">
@@ -28,16 +28,16 @@
                     <div class="elementor-element elementor-element-22bc5744 elementor-widget elementor-widget-heading" data-id="22bc5744" data-element_type="widget" data-widget_type="heading.default">
                         <div class="elementor-widget-container">
                             <div class="jeg-elementor-kit jkit-heading align-left align-tablet- align-mobile- jeg_module_26_2_64c34f882580d">
-                                <div class="heading-section-title display-inline-block">
+                                <div class="mx-2 heading-section-title display-inline-block">
                                     <h2 class="heading-title">Contact us Anytime</h2>
                                 </div>
-                                <div class="heading-section-description">
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae </p>
+                                <div class="mx-2 heading-section-description">
+                                    <p>{{$contactUs["description"]}}</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="elementor-element elementor-element-111869f elementor-widget elementor-widget-google_maps" data-id="111869f" data-element_type="widget" data-widget_type="google_maps.default">
+                    <div id="contactUs" class="elementor-element elementor-element-111869f elementor-widget elementor-widget-google_maps" data-id="111869f" data-element_type="widget" data-widget_type="google_maps.default">
                         <div class="elementor-widget-container">
                             <style>
                                 /*! elementor - v3.14.0 - 26-06-2023 */

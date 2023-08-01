@@ -18,7 +18,7 @@
                                     <li class="elementor-icon-list-item">
                                     <span class="elementor-icon-list-icon">
                                     <i aria-hidden="true" class="fas fa-dot-circle"></i>						</span>
-                                    <span class="elementor-icon-list-text">Why choose Us</span>
+                                    <span class="elementor-icon-list-text">{{$whyChooseUs['title']}}</span>
                                     </li>
                                 </ul>
                             </div>
@@ -27,9 +27,9 @@
                             <div class="elementor-widget-container">
                                 <div  class="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_61_22_64c62cc7b70ba" >
                                     <div class="heading-section-title  display-inline-block">
-                                    <h2 class="heading-title">Amplifying Your Presence through Social Media Marketing</h2>
+                                    <h2 class="heading-title">{{$whyChooseUs['heading']}}</h2>
                                     </div>
-                                    <div class="heading-section-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#039;s standard dummy text ever since the 1500s.</div>
+                                    <div class="heading-section-description">{{$whyChooseUs['description']}}</div>
                                 </div>
                             </div>
                         </div>
@@ -39,17 +39,17 @@
                                     <li class="elementor-icon-list-item">
                                     <span class="elementor-icon-list-icon">
                                     <i aria-hidden="true" class="fas fa-chevron-circle-right"></i>						</span>
-                                    <span class="elementor-icon-list-text">At vero eos et accusamu areg ghae </span>
+                                    <span class="elementor-icon-list-text">{{$whyChooseUs['point1']}} </span>
                                     </li>
                                     <li class="elementor-icon-list-item">
                                     <span class="elementor-icon-list-icon">
                                     <i aria-hidden="true" class="fas fa-chevron-circle-right"></i>						</span>
-                                    <span class="elementor-icon-list-text">qui blanditiis praesentium volupta</span>
+                                    <span class="elementor-icon-list-text">{{$whyChooseUs['point2']}}</span>
                                     </li>
                                     <li class="elementor-icon-list-item">
                                     <span class="elementor-icon-list-icon">
                                     <i aria-hidden="true" class="fas fa-chevron-circle-right"></i>						</span>
-                                    <span class="elementor-icon-list-text">At vero eos et accusamu praese ntium vol</span>
+                                    <span class="elementor-icon-list-text">{{$whyChooseUs['point3']}}</span>
                                     </li>
                                 </ul>
                             </div>
@@ -60,7 +60,7 @@
                                 <div class="elementor-button-wrapper">
                                     <a class="elementor-button elementor-button-link elementor-size-sm" href="#">
                                     <span class="elementor-button-content-wrapper">
-                                    <span class="elementor-button-text">Discover More</span>
+                                    <span class="elementor-button-text">Contact Us</span>
                                     </span>
                                     </a>
                                 </div>

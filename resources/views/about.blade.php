@@ -48,9 +48,9 @@
          <x-header></x-header>
          
          <div data-elementor-type="wp-page" data-elementor-id="1262" class="elementor elementor-1262 mt-3">
-            <x-marketing_strategy_driven></x-marketing_strategy_driven>
+            <x-marketing_strategy_driven :marketingStrategy="$marketingStrategy"></x-marketing_strategy_driven>
             
-            <x-top_ranked_agency></x-top_ranked_agency>
+            <x-top_ranked_agency :topRankedAgency="$topRankedAgency"></x-top_ranked_agency>
             <section class="elementor-section elementor-top-section elementor-element elementor-element-0f903f7 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="0f903f7" data-element_type="section">
                <div class="elementor-background-overlay"></div>
                <div class="elementor-container elementor-column-gap-default">
@@ -183,7 +183,7 @@
                   </div>
                </div>
             </section>
-            <x-team></x-team>
+            <x-team :team="$team"></x-team>
          </div>
          <x-footer></x-footer>
       </div>
