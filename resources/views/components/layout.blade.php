@@ -185,7 +185,6 @@
       <script src='/asset/socialseven/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js' id='font-awesome-4-shim-js'></script>
       <link rel="https://api.w.org/" href="https://advanture.icu/socialseven/wp-json/" />
       <link rel="alternate" type="application/json" href="https://advanture.icu/socialseven/wp-json/wp/v2/pages/61" />
-      <link rel="alternate" type="application/json" href="https://advanture.icu/socialseven/wp-json/wp/v2/pages/32" />
       <link rel="edituri" type="application/rsd+xml" title="RSD" href="https://advanture.icu/socialseven/xmlrpc.php?rsd" />
       <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://advanture.icu/socialseven/wp-includes/wlwmanifest.xml" />
       <meta name="generator" content="WordPress 6.2.2" />
@@ -195,7 +194,6 @@
       <link rel="alternate" type="text/xml+oembed" href="https://advanture.icu/socialseven/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fadvanture.icu%2Fsocialseven%2F&#038;format=xml" />
       <meta name="generator" content="Elementor 3.14.1; features: e_dom_optimization, e_optimized_assets_loading, e_optimized_css_loading, a11y_improvements, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto">
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
    </head>
    <body class="home page-template-default page page-id-61 ehf-header ehf-footer ehf-template-hello-elementor ehf-stylesheet-hello-elementor jkit-color-scheme elementor-default elementor-template-full-width elementor-kit-6 elementor-page elementor-page-61">
       <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" >
@@ -338,23 +336,10 @@
      <script src='/asset/socialseven/wp-content/plugins/elementor/assets/js/frontend.min.js' id='elementor-frontend-js'></script>
      <script id='elementor-frontend-js-after'>
         var jkit_ajax_url = "https://advanture.icu/socialseven/?jkit-ajax-request=jkit_elements", jkit_nonce = "a7235ceaca";
-        </script>
+     </script>
      <script src='/asset/socialseven/wp-content/plugins/jeg-elementor-kit/assets/js/elements/sticky-element.js' id='jkit-sticky-element-js'></script>
      <script src='/asset/socialseven/wp-content/plugins/jeg-elementor-kit/assets/js/elements/nav-menu.js' id='jkit-element-navmenu-js'></script>
      <script src='/asset/socialseven/wp-content/plugins/jeg-elementor-kit/assets/js/elements/video-button.js' id='jkit-element-videobutton-js'></script>
-     <script src='/asset/socialseven/wp-content/plugins/elementskit-lite/widgets/init/assets/js/animate-circle.min.js' id='animate-circle-js'></script>
-     <script id='elementskit-elementor-js-extra'>
-        var ekit_config = {"ajaxurl":"https:\/\/advanture.icu\/socialseven\/wp-admin\/admin-ajax.php","nonce":"c9341b02e8"};
-     </script>
-     <script src='/asset/socialseven/wp-content/plugins/elementskit-lite/widgets/init/assets/js/elementor.js' id='elementskit-elementor-js'></script>
-     
-     {{-- <link rel='stylesheet' id='sweetalert2-css' href='/asset/socialseven/wp-content/plugins/jeg-elementor-kit/assets/js/sweetalert2/sweetalert2.min.css' media='all' />
-     <link rel='stylesheet' id='tiny-slider-css' href='/asset/socialseven/wp-content/plugins/jeg-elementor-kit/assets/js/tiny-slider/tiny-slider.css' media='all' />
-     <link rel='stylesheet' id='odometer-css' href='/asset/socialseven/wp-content/plugins/elementskit-lite/widgets/init/assets/css/odometer-theme-default.css' media='all' />
-     <link rel='stylesheet' id='elementor-post-482-css' href='/asset/socialseven/wp-content/uploads/sites/35/elementor/css/post-482.css' media='all' />
-     <link rel='stylesheet' id='metform-ui-css' href='/asset/socialseven/wp-content/plugins/metform/public/assets/css/metform-ui.css' media='all' />
-     <link rel='stylesheet' id='metform-style-css' href='/asset/socialseven/wp-content/plugins/metform/public/assets/css/style.css' media='all' />
-        
      <script src='/asset/socialseven/wp-content/plugins/jeg-elementor-kit/assets/js/sweetalert2/sweetalert2.min.js' id='sweetalert2-js'></script>
      <script src='/asset/socialseven/wp-content/plugins/jeg-elementor-kit/assets/js/elements/client-logo.js' id='jkit-element-clientlogo-js'></script>
      <script src='/asset/socialseven/wp-content/plugins/jeg-elementor-kit/assets/js/tiny-slider/tiny-slider.js' id='tiny-slider-js'></script>
@@ -371,6 +356,11 @@
         var mf = {"postType":"page","restURI":"https:\/\/advanture.icu\/socialseven\/wp-json\/metform\/v1\/forms\/views\/"};
      </script>
      <script src='/asset/socialseven/wp-content/plugins/metform/public/assets/js/app.js' id='metform-app-js'></script>
+     <script src='/asset/socialseven/wp-content/plugins/elementskit-lite/widgets/init/assets/js/animate-circle.min.js' id='animate-circle-js'></script>
+     <script id='elementskit-elementor-js-extra'>
+        var ekit_config = {"ajaxurl":"https:\/\/advanture.icu\/socialseven\/wp-admin\/admin-ajax.php","nonce":"c9341b02e8"};
+     </script>
+     <script src='/asset/socialseven/wp-content/plugins/elementskit-lite/widgets/init/assets/js/elementor.js' id='elementskit-elementor-js'></script>
      <script>
     (function () {
   "use strict";
