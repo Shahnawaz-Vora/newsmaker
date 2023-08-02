@@ -40,7 +40,31 @@ class UserController extends Controller
         ];
         $this->clients = [
             "heading" => "Overall Rating",
-            "description" => "Worked with 1000+ companies worldwide"
+            "description" => "Worked with 1000+ companies worldwide",
+            "logo1" => asset('asset/images/clients/logo1.jpg'),
+            "logo2" => asset('asset/images/clients/logo2.jpg'),
+            "logo3" => asset('asset/images/clients/logo3.jpg'),
+            "logo4" => asset('asset/images/clients/logo4.jpg'),
+            "logo5" => asset('asset/images/clients/logo5.jpg'),
+            "logo6" => asset('asset/images/clients/logo6.jpg'),
+            "logo7" => asset('asset/images/clients/logo7.jpg'),
+            "logo8" => asset('asset/images/clients/logo8.jpg'),
+            "logo9" => asset('asset/images/clients/logo9.jpg'),
+            "logo10" => asset('asset/images/clients/logo10.jpg'),
+            "logo11" => asset('asset/images/clients/logo11.jpg'),
+            "logo12" => asset('asset/images/clients/logo12.jpg'),
+            "logo13" => asset('asset/images/clients/logo13.jpg'),
+            "logo14" => asset('asset/images/clients/logo14.jpg'),
+            "logo15" => asset('asset/images/clients/logo15.jpg'),
+            "logo16" => asset('asset/images/clients/logo16.jpg'),
+            "logo17" => asset('asset/images/clients/logo17.jpg'),
+            "logo18" => asset('asset/images/clients/logo18.jpg'),
+            "logo19" => asset('asset/images/clients/logo19.jpg'),
+            "logo20" => asset('asset/images/clients/logo20.jpg'),
+            "logo21" => asset('asset/images/clients/logo21.jpg'),
+            "logo22" => asset('asset/images/clients/logo22.jpg'),
+            "logo23" => asset('asset/images/clients/logo23.jpg')
+
         ];
         $this->services = [
             "title" => "Newsmaker Media and Communications",

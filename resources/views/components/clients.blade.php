@@ -34,32 +34,107 @@
                         <div class="client-track">
                            <div class="client-slider item">
                               <div class="image-list">
-                                 <div class="content-image"><img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png"  class="main-image" alt="Title"></div>
+                                 <div class="content-image"><img decoding="async" src="{{$clients['logo1']}}" class="main-image" alt="Title"></div>
                               </div>
                            </div>
                            <div class="client-slider item">
                               <div class="image-list">
-                                 <div class="content-image"><img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-1-300x73.png"  class="main-image" alt="Title"></div>
+                                 <div class="content-image"><img decoding="async" src="{{$clients['logo2']}}"  class="main-image" alt="Title"></div>
                               </div>
                            </div>
                            <div class="client-slider item">
                               <div class="image-list">
-                                 <div class="content-image"><img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-2-300x79.png"  class="main-image" alt="Title"></div>
+                                 <div class="content-image"><img decoding="async" src="{{$clients['logo3']}}"  class="main-image" alt="Title"></div>
                               </div>
                            </div>
                            <div class="client-slider item">
                               <div class="image-list">
-                                 <div class="content-image"><img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-3-300x77.png"  class="main-image" alt="Title"></div>
+                                 <div class="content-image"><img decoding="async" src="{{$clients['logo4']}}"  class="main-image" alt="Title"></div>
                               </div>
                            </div>
                            <div class="client-slider item">
                               <div class="image-list">
-                                 <div class="content-image"><img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-4-300x72.png"  class="main-image" alt="Title"></div>
+                                 <div class="content-image"><img decoding="async" src="{{$clients['logo5']}}"  class="main-image" alt="Title"></div>
                               </div>
                            </div>
                            <div class="client-slider item">
                               <div class="image-list">
-                                 <div class="content-image"><img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-5-300x66.png"  class="main-image" alt="Title"></div>
+                                 <div class="content-image"><img decoding="async" src="{{$clients['logo6']}}"  class="main-image" alt="Title"></div>
+                              </div>
+                           </div>
+                           <div class="client-slider item">
+                              <div class="image-list">
+                                 <div class="content-image"><img decoding="async" src="{{$clients['logo7']}}" class="main-image" alt="Title"></div>
+                              </div>
+                           </div>
+                           <div class="client-slider item">
+                              <div class="image-list">
+                                 <div class="content-image"><img decoding="async" src="{{$clients['logo8']}}"  class="main-image" alt="Title"></div>
+                              </div>
+                           </div>
+                           <div class="client-slider item">
+                              <div class="image-list">
+                                 <div class="content-image"><img decoding="async" src="{{$clients['logo9']}}"  class="main-image" alt="Title"></div>
+                              </div>
+                           </div>
+                           <div class="client-slider item">
+                              <div class="image-list">
+                                 <div class="content-image"><img decoding="async" src="{{$clients['logo10']}}"  class="main-image" alt="Title"></div>
+                              </div>
+                           </div>
+                           <div class="client-slider item">
+                              <div class="image-list">
+                                 <div class="content-image"><img decoding="async" src="{{$clients['logo11']}}"  class="main-image" alt="Title"></div>
+                              </div>
+                           </div>
+                           <div class="client-slider item">
+                              <div class="image-list">
+                                 <div class="content-image"><img decoding="async" src="{{$clients['logo12']}}"  class="main-image" alt="Title"></div>
+                              </div>
+                           </div>
+                           <div class="client-slider item">
+                              <div class="image-list">
+                                 <div class="content-image"><img decoding="async" src="{{$clients['logo13']}}"  class="main-image" alt="Title"></div>
+                              </div>
+                           </div><div class="client-slider item">
+                              <div class="image-list">
+                                 <div class="content-image"><img decoding="async" src="{{$clients['logo14']}}"  class="main-image" alt="Title"></div>
+                              </div>
+                           </div><div class="client-slider item">
+                              <div class="image-list">
+                                 <div class="content-image"><img decoding="async" src="{{$clients['logo15']}}"  class="main-image" alt="Title"></div>
+                              </div>
+                           </div><div class="client-slider item">
+                              <div class="image-list">
+                                 <div class="content-image"><img decoding="async" src="{{$clients['logo16']}}"  class="main-image" alt="Title"></div>
+                              </div>
+                           </div><div class="client-slider item">
+                              <div class="image-list">
+                                 <div class="content-image"><img decoding="async" src="{{$clients['logo17']}}"  class="main-image" alt="Title"></div>
+                              </div>
+                           </div><div class="client-slider item">
+                              <div class="image-list">
+                                 <div class="content-image"><img decoding="async" src="{{$clients['logo18']}}"  class="main-image" alt="Title"></div>
+                              </div>
+                           </div><div class="client-slider item">
+                              <div class="image-list">
+                                 <div class="content-image"><img decoding="async" src="{{$clients['logo19']}}"  class="main-image" alt="Title"></div>
+                              </div>
+                           </div><div class="client-slider item">
+                              <div class="image-list">
+                                 <div class="content-image"><img decoding="async" src="{{$clients['logo20']}}"  class="main-image" alt="Title"></div>
+                              </div>
+                           </div><div class="client-slider item">
+                              <div class="image-list">
+                                 <div class="content-image"><img decoding="async" src="{{$clients['logo21']}}"  class="main-image" alt="Title"></div>
+                              </div>
+                           </div><div class="client-slider item">
+                              <div class="image-list">
+                                 <div class="content-image"><img decoding="async" src="{{$clients['logo22']}}"  class="main-image" alt="Title"></div>
+                              </div>
+                           </div><div class="client-slider item">
+                              <div class="image-list">
+                                 <div class="content-image"><img decoding="async" src="{{$clients['logo23']}}"  class="main-image" alt="Title"></div>
                               </div>
                            </div>
                         </div>

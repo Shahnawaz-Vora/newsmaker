@@ -25,14 +25,16 @@
 
     .our-webcoderskull .cnt-block figure {
         width: 148px;
-        height: 148px;
+        height: 148px; /* Set the height to match the width to create a square container */
         border-radius: 100%;
-        margin-bottom: 15px;
+        margin: 0 auto; /* Center the image within the square container */
+        overflow: hidden; /* Hide any part of the image that goes beyond the square container */
     }
 
     .our-webcoderskull .cnt-block img {
         width: 100%;
         height: 100%;
+        object-fit: cover; /* Maintain the aspect ratio of the image while covering the entire square container */
         border-radius: 100%;
     }
 
@@ -116,43 +118,28 @@
                       <li class="col-12 col-md-6 col-lg-4 mb-5">
                          <div class="cnt-block equal-hight" style="height: 349px;">
                             <figure><img src="{{$team['team1Image']}}" class="img-responsive" alt=""></figure>
-                            <h3><a href="#">Mohamed Yousef
+                            <h3><a href="#">{{$team['team1Name']}}
                                </a>
                             </h3>
-                            <p>Freelance Web Developer</p>
-                            <ul class="follow-us clearfix">
-                               <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                               <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                               <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            </ul>
+                            <p>{{$team['team1Designation']}}</p>
                          </div>
                       </li>
                       <li class="col-12 col-md-6 col-lg-4 mb-5">
                          <div class="cnt-block equal-hight" style="height: 349px;">
                             <figure><img src="{{$team['team2Image']}}" class="img-responsive" alt=""></figure>
-                            <h3><a href="#">Mohamed Yousef
+                            <h3><a href="#">{{$team['team2Name']}}
                                </a>
                             </h3>
-                            <p>Freelance Web Developer</p>
-                            <ul class="follow-us clearfix">
-                               <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                               <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                               <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            </ul>
+                            <p>{{$team['team2Designation']}}</p>
                          </div>
                       </li>
                       <li class="col-12 col-md-6 col-lg-4 mb-5">
                          <div class="cnt-block equal-hight" style="height: 349px;">
                             <figure><img src="{{$team['team3Image']}}" class="img-responsive" alt=""></figure>
-                            <h3><a href="#">Mohamed Yousef
+                            <h3><a href="#">{{$team['team3Name']}}
                                </a>
                             </h3>
-                            <p>Freelance Web Developer</p>
-                            <ul class="follow-us clearfix">
-                               <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                               <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                               <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            </ul>
+                            <p>{{$team['team3Designation']}}</p>
                          </div>
                       </li>
                    </ul>
