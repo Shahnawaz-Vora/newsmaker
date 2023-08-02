@@ -1,4 +1,117 @@
+<style>
+             .owl-stage-outer {
+            padding: 30px 0;
+         }
 
+         .owl-nav {
+            display: none;
+         }
+
+         .owl-dots {
+         text-align: center;
+         }
+
+         .owl-dots span {
+         position: relative;
+         height: 10px;
+         width: 10px;
+         border-radius: 50%;
+         display: inline-block;
+         background: #fff;
+         border: 2px solid #01b0f8;
+         margin: 0 5px;
+         }
+
+         .owl-dots .active span {
+         background: #01b0f8;
+         box-shadow: none;
+         height: 12px;
+         width: 12px;
+         /* margin-bottom: -1px; */
+         }
+
+         #testimonial-section .card {
+            background: #fff;
+            box-shadow: 0 8px 30px -7px #c9dff0;
+            margin: 0 20px;
+            padding: 0 10px;
+            border-radius: 20px;
+            border: 0;
+
+            .card-img-top {
+            max-width: 100px;
+            border-radius: 50%;
+            margin: 15px auto 0;
+            box-shadow: 0 8px 20px -4px #95abbb;
+            width: 100px;
+            height: 100px;
+            }
+
+            h5 {
+            color: #01b0f8;
+            font-size: 21px;
+            line-height: 1.3;
+
+            span {
+                  font-size: 18px;
+                  color: #666666;
+            }
+            }
+
+            p {
+            font-size: 18px;
+            color: #555;
+            padding-bottom: 15px;
+            }
+         }
+
+         //apply on all active class need to find the actual active in carousel
+         /* .active {
+            opacity: 0.5;
+            transition: all 0.3s;
+         } */
+
+
+         
+
+         .center {
+            opacity: 1;
+
+            h5 {
+            font-size: 24px;
+
+            span {
+                  font-size: 20px;
+            }
+            }
+
+            .card-img-top {
+            max-width: 100%;
+            height: 120px;
+            width: 120px;
+            }
+         }
+         }
+
+         @media (max-width: 767px) {
+         .gtco-testimonials {
+            margin-top: 20px;
+         }
+         }
+
+         .owl-carousel {
+         .owl-nav button {
+            &.owl-next, &.owl-prev {
+            outline: 0;
+            }
+         }
+
+         button.owl-dot {
+            outline: 0;
+         }
+         }
+
+</style>
 <section id="testimonial-section" class="elementor-section elementor-top-section elementor-element elementor-element-5f47435 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="5f47435" data-element_type="section">
     <div class="elementor-container elementor-column-gap-default">
        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-00d6567" data-id="00d6567" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">

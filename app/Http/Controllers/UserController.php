@@ -161,7 +161,7 @@ class UserController extends Controller
     }
 
     public function getContactView(){
-        return view('contact');
+        return view('contact',['contactUs'=>$this->contactUs,'partners'=>$this->partners]);
     }
 
     public function notfound(){
