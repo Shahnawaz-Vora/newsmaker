@@ -315,8 +315,14 @@
         </div>
         <x-footer></x-footer>
      </div>
-     <!-- #page -->
+     {{-- <!-- #page -->
      <link rel='stylesheet' id='jeg-dynamic-style-css' href='/asset/socialseven/wp-content/plugins/jeg-elementor-kit/lib/jeg-framework/assets/css/jeg-dynamic-styles.css' media='all' />
+     <link rel='stylesheet' id='sweetalert2-css' href='/asset/socialseven/wp-content/plugins/jeg-elementor-kit/assets/js/sweetalert2/sweetalert2.min.css' media='all' />
+     <link rel='stylesheet' id='tiny-slider-css' href='/asset/socialseven/wp-content/plugins/jeg-elementor-kit/assets/js/tiny-slider/tiny-slider.css' media='all' />
+     <link rel='stylesheet' id='odometer-css' href='/asset/socialseven/wp-content/plugins/elementskit-lite/widgets/init/assets/css/odometer-theme-default.css' media='all' />
+     <link rel='stylesheet' id='elementor-post-482-css' href='/asset/socialseven/wp-content/uploads/sites/35/elementor/css/post-482.css' media='all' />
+     <link rel='stylesheet' id='metform-ui-css' href='/asset/socialseven/wp-content/plugins/metform/public/assets/css/metform-ui.css' media='all' />
+     <link rel='stylesheet' id='metform-style-css' href='/asset/socialseven/wp-content/plugins/metform/public/assets/css/style.css' media='all' />
      <link rel='stylesheet' id='e-animations-css' href='/asset/socialseven/wp-content/plugins/elementor/assets/lib/animations/animations.min.css' media='all' />
      <script src='/asset/socialseven/wp-content/themes/hello-elementor/assets/js/hello-frontend.min.js' id='hello-theme-frontend-js'></script>
      <script src='/asset/socialseven/wp-content/plugins/elementskit-lite/libs/framework/assets/js/frontend-script.js' id='elementskit-framework-js-frontend-js'></script>
@@ -324,7 +330,9 @@
         var elementskit = {
             resturl: 'https://advanture.icu/socialseven/wp-json/elementskit/v1/',
         }
-      </script>
+        
+        
+     </script>
      <script src='/asset/socialseven/wp-content/plugins/elementskit-lite/widgets/init/assets/js/widget-scripts.js' id='ekit-widget-scripts-js'></script>
      <script src='/asset/socialseven/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js' id='elementor-webpack-runtime-js'></script>
      <script src='/asset/socialseven/wp-content/plugins/elementor/assets/js/frontend-modules.min.js' id='elementor-frontend-modules-js'></script>
@@ -408,7 +416,7 @@
      <!-- <link rel='stylesheet' id='metform-ui-css' href='/asset/socialseven/wp-content/plugins/metform/public/assets/css/metform-ui.css' media='all' /> -->
      <!-- <link rel='stylesheet' id='metform-style-css' href='/asset/socialseven/wp-content/plugins/metform/public/assets/css/style.css' media='all' /> -->
      <!-- <link rel='stylesheet' id='e-animations-css' href='/asset/socialseven/wp-content/plugins/elementor/assets/lib/animations/animations.min.css' media='all' /> -->
-     <!-- <script src='/asset/socialseven/wp-content/themes/hello-elementor/assets/js/hello-frontend.min.js' id='hello-theme-frontend-js'></script> -->
+     {{-- <script src='/asset/socialseven/wp-content/themes/hello-elementor/assets/js/hello-frontend.min.js' id='hello-theme-frontend-js'></script> --}}
      <!-- <script src='/asset/socialseven/wp-content/plugins/elementskit-lite/libs/framework/assets/js/frontend-script.js' id='elementskit-framework-js-frontend-js'></script> -->
      <!-- <script id='elementskit-framework-js-frontend-js-after'>
         var elementskit = {
@@ -417,7 +425,7 @@
         
         
      </script> -->
-     <!-- <script src='/asset/socialseven/wp-content/plugins/elementskit-lite/widgets/init/assets/js/widget-scripts.js' id='ekit-widget-scripts-js'></script> -->
+     <script src='/asset/socialseven/wp-content/plugins/elementskit-lite/widgets/init/assets/js/widget-scripts.js' id='ekit-widget-scripts-js'></script>
      <script src='/asset/socialseven/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js' id='elementor-webpack-runtime-js'></script>
      <script src='/asset/socialseven/wp-content/plugins/elementor/assets/js/frontend-modules.min.js' id='elementor-frontend-modules-js'></script>
      <!-- <script src='/asset/socialseven/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js' id='elementor-waypoints-js'></script> -->
