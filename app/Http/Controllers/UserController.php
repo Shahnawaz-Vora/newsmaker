@@ -163,6 +163,10 @@ class UserController extends Controller
     public function getContactView(){
         return view('contact');
     }
+
+    public function notfound(){
+        return view('404');
+    }
     
     public function getAboutView(){
         // return $this->team;

@@ -159,8 +159,9 @@
       <link rel='stylesheet' id='elementor-frontend-css' href='/asset/socialseven/wp-content/plugins/elementor/assets/css/frontend-lite.min.css' media='all' />
       <link rel='stylesheet' id='swiper-css' href='/asset/socialseven/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css' media='all' />
       <link rel='stylesheet' id='elementor-post-6-css' href='/asset/socialseven/wp-content/uploads/sites/35/elementor/css/post-6.css' media='all' />
-      <link rel='stylesheet' id='elementor-post-61-css' href='/asset/socialseven/wp-content/uploads/sites/35/elementor/css/post-61.css' media='all' />
+      <link rel='stylesheet' id='elementor-post-30-css' href='asset/socialseven/wp-content/uploads/sites/35/elementor/css/post-30.css' media='all' />
       <link rel='stylesheet' id='elementor-post-32-css' href='asset/socialseven/wp-content/uploads/sites/35/elementor/css/post-32.css' media='all' />
+      <link rel='stylesheet' id='elementor-post-61-css' href='/asset/socialseven/wp-content/uploads/sites/35/elementor/css/post-61.css' media='all' />
       <link rel='stylesheet' id='elementor-post-1262-css' href='asset/socialseven/wp-content/uploads/sites/35/elementor/css/post-1262.css' media='all' />
       <link rel='stylesheet' id='hfe-widgets-style-css' href='/asset/socialseven/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css' media='all' />
       <link rel='stylesheet' id='font-awesome-5-all-css' href='/asset/socialseven/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css' media='all' />
@@ -309,11 +310,15 @@
          </defs>
       </svg>
       <div id="page" class="hfeed site">
+         @if (!request()->is('404'))
          <x-header></x-header>
+         @endif
          <div data-elementor-type="wp-page" data-elementor-id="61" class="elementor elementor-61">
             {{$slot}}
         </div>
+        @if (!request()->is('404'))
         <x-footer></x-footer>
+        @endif
      </div>
      {{-- <!-- #page -->
      <link rel='stylesheet' id='jeg-dynamic-style-css' href='/asset/socialseven/wp-content/plugins/jeg-elementor-kit/lib/jeg-framework/assets/css/jeg-dynamic-styles.css' media='all' />

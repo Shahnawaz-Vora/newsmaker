@@ -40,3 +40,5 @@ Route::get('/admin/logout', [AdminController::class, 'logout'])->middleware('aut
 Route::get('/admin/contact', [AdminController::class, "getContactData"])->middleware('auth');
 
 Route::post('/update-contact', [AdminController::class,"updateContact"]);
+
+Route::get('/404', [UserController::class,"notfound"]);
