@@ -1,4 +1,4 @@
-<footer itemtype="https://schema.org/WPFooter" itemscope="itemscope" id="colophon" role="contentinfo">
+<footer itemscope="itemscope" id="colophon" role="contentinfo">
     <div class='footer-width-fixer'>
        <div data-elementor-type="wp-post" data-elementor-id="598" class="elementor elementor-598">
           <section class="elementor-section elementor-top-section elementor-element elementor-element-89a3452 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="89a3452" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
