@@ -25,6 +25,8 @@ class UserController extends Controller
     private $topRankedAgency;
     private $team;
 
+    private $testimonials;
+
     public function __construct()
     {
         $this->hero = [
@@ -70,12 +72,23 @@ class UserController extends Controller
             "title" => "Newsmaker Media and Communications",
             "heading" => "Our Services",
             "description" => "Newsmaker Media and Communications is dedicated to providing best service quality",
-            "service1Heading" => "Public Relation",
-            "service1Description" => "Get featured in India's top media houses",
-            "service2Heading" => "Digital Marketing",
-            "service2Description" => "Accelerate your business across multpliple digital channels",
-            "service3Heading" => "TV Interviews",
-            "service3Description" => "Get 1 to 1 interview on Ondia's top TV channels",
+            "services" => [
+                [
+                    "serviceHeading" => "Public Relation",
+                    "serviceDescription" => "Get featured in India's top media houses",
+                    "serviceImage" => asset('asset/images/stats-1.png')
+                ],
+                [
+                    "serviceHeading" => "Digital Marketing",
+                    "serviceDescription" => "Accelerate your business across multiple digital channels",
+                    "serviceImage" => asset('asset/images/stats-1.png')
+                ],
+                [
+                    "serviceHeading" => "TV Interviews",
+                    "serviceDescription" => "Get 1 to 1 interview on India's top TV channels",
+                    "serviceImage" => asset('asset/images/stats-1.png')
+                ],
+            ],
         ];
         $this->partners = [
             "heading" => "Our Partners",
@@ -141,27 +154,86 @@ class UserController extends Controller
             By fostering relationships with key journalists and influencers, we position your brand as an industry leader. At Newsmaker, success is measured by your success, and we're committed to making headlines that truly matter. Let's collaborate and create a PR journey that drives remarkable results together!"
         ];
         $this->team = [
-            "title" => "Our Team",
-            "heading" => "The team behind the success of every client's stories, in execution, operation, content curation, till results.",
-            "team1Name"=>"Ms. Ekta Paliwal",
-            "team1Designation"=> "Founder",
-            "team1Image"=> asset('asset/images/team/team1.jpg'),
-            "team2Name"=>"Ms. Romita Khurana",
-            "team2Designation"=> "Head-Marketing",
-            "team2Image"=>asset('asset/images/team/team2.jpg'),
-            "team3Name"=>"Ms. Simran Nagpal",
-            "team3Designation"=> "Head-Business Development",
-            "team3Image"=>asset('asset/images/team/team3.jpg'),
+            "title" => "Newsmaker media and Communication",
+            "heading" => "Team",
+            "description" => "The team behind the success of every client's stories, in execution, operation, content curation, till results.",
+            "team1" => [
+                "name" => "Ms. Ekta Paliwal",
+                "designation" => "Founder",
+                "image" => asset('asset/images/team/team1.jpg'),
+            ],
+            "team2" => [
+                "name" => "Ms. Romita Khurana",
+                "designation" => "Head-Marketing",
+                "image" => asset('asset/images/team/team2.jpg'),
+            ],
+            "team3" => [
+                "name" => "Ms. Simran Nagpal",
+                "designation" => "Head-Business Development",
+                "image" => asset('asset/images/team/team4.jpg'),
+            ],
+        ];        
+
+        $this->testimonials = [
+            "testimonials1" => [
+                "clientCompanyName" => "STAR IMAGING PATH LABS",
+                "clientName" => "DR. SAMEER BHAT!",
+                "clientDesignation" => "DIRECTOR",
+                "message" => "Newsmaker Media and Communications gets the big picture and I trust them to provide an independent and comprehensive overview and response in any given situation. I rely on NMC to provide the strategic communications counsel that makes a difference to us and our business."
+            ],
+            "testimonials2" => [
+                "clientCompanyName" => "KUNWAR PUBLIC SCHOOL",
+                "clientName" => "MR.RAJESH SINGH",
+                "clientDesignation" => "MD",
+                "message" => "I don't have to worry about PR at all. NMC is our strategic counsel - not a supplier. I think we get more than our share of voice and NMC is responsible for that"
+            ],
+            "testimonials3" => [
+                "clientCompanyName" => "CYBLE",
+                "clientName" => "MR. BEENU ARORA",
+                "clientDesignation" => "CO-FOUNDER",
+                "message" => "Newsmaker Media and Communications PR is a trusted advisor. They have been fundamental in managing profile lifting campaigns as well as internal communications. They have a fantastic understanding of the environment in which we operate."
+            ],
+            "testimonials4" => [
+                "clientCompanyName" => "HENSON GROUP",
+                "clientName" => "MR. ABHEEK DUTTA",
+                "clientDesignation" => "CO-FOUNDER",
+                "message" => "The development of key messages, a communications and events calendar and implementation of a monthly review has been instrumental in our strategic planning and tactical management of new and existing programs. With Newsmaker Media and Communications' guidance I have been able to develop quality internal and external programs and have been able to break down barriers between teams."
+            ],
+            "testimonials5" => [
+                "clientCompanyName" => "BU ABDULLAH GROUP OF COMPANIES",
+                "clientName" => "DR.BU ABDULLAH",
+                "clientDesignation" => "CHAIRMAN",
+                "message" => "After dealing with two other PR firms in as many years we appointed NMC. Newsmaker Media and Communications is a trusted advisor in the inner sanctum of our business. The guidance and direction I receive from NMC is world class. They understand our business and their ability to manage difficult situations effectively and efficiently is second to none."
+            ],
+            "testimonials6" => [
+                "clientCompanyName" => "STAR TV NETWORK",
+                "clientName" => "MR.NAVNEET PRABHU",
+                "clientDesignation" => "EXECUTIVE PRODUCER",
+                "message" => "Newsmaker Media and Communications provides us with an external view that is always backed by professionalism and sound judgement. We see no reason to look elsewhere for external PR assistance."
+            ],
+            "testimonials7" => [
+                "clientCompanyName" => "ADELAIDE AIRPORT LTD.",
+                "clientName" => "MARK YOUNG",
+                "clientDesignation" => "MANAGING DIRECTOR",
+                "message" => "Newsmaker Media and Communications is a trusted advisor in the inner sanctum of our business . The guidance and direction I receive from NMC is world class. They understood our business and their ability to manage difficult situations effectively and effeciently is second to none."
+            ],
+            "testimonials8" => [
+                "clientCompanyName" => "BEERENBERG",
+                "clientName" => "ANTHONY PAECH",
+                "clientDesignation" => "MANAGING DIRECTOR",
+                "message" => "Newsmaker Media and Communications has made a difference to our business by positioning me strongly within the food industry in India. Essentially I am now one of only a few national figureheads for the industry. NMC has also helped Beerenberg gain local and national exposure  particularly with our rebrand and with major food and supermarket issues."
+            ],
         ];
+        
     }
 
     public function index(){
         // $this->hero['heading'] = "shanu";
-        return view('index',['hero'=>$this->hero,'clients'=>$this->clients,'services'=>$this->services,'partners'=>$this->partners,'statestics'=>$this->statestics,'contactUs'=>$this->contactUs]);
+        return view('index',['hero'=>$this->hero,'clients'=>$this->clients,'services'=>$this->services,'partners'=>$this->partners,'statestics'=>$this->statestics,'contactUs'=>$this->contactUs,'testimonials'=>$this->testimonials]);
     }
 
     public function getContactView(){
-        return view('contact',['contactUs'=>$this->contactUs,'partners'=>$this->partners]);
+        return view('contact',['contactUs'=>$this->contactUs,'partners'=>$this->partners,'testimonials'=>$this->testimonials]);
     }
 
     public function notfound(){
@@ -187,12 +259,12 @@ class UserController extends Controller
         $this->whyChooseUs["point1"] = "300+ Media Partners";
         $this->whyChooseUs["point2"] = "20M+ Generated Reach";
         $this->whyChooseUs["point3"] = "Leveraging Multi-channel Approach";
-        return view('dm',["hero"=>$this->hero,"clients"=>$this->clients,"partners"=>$this->partners,"statestics"=>$this->statestics,"contactUs"=>$this->contactUs,"overview"=>$this->overview,"whyChooseUs"=>$this->whyChooseUs]);
+        return view('dm',["hero"=>$this->hero,"clients"=>$this->clients,"partners"=>$this->partners,"statestics"=>$this->statestics,"contactUs"=>$this->contactUs,"overview"=>$this->overview,"whyChooseUs"=>$this->whyChooseUs,'testimonials'=>$this->testimonials]);
     }
 
     public function getPRView(){
         $this->hero["heading"] = "Top Public Relations Agency in India.";
-        return view('pr',["hero"=>$this->hero,"clients"=>$this->clients,"partners"=>$this->partners,"statestics"=>$this->statestics,"contactUs"=>$this->contactUs,"overview"=>$this->overview,"whyChooseUs"=>$this->whyChooseUs]);
+        return view('pr',["hero"=>$this->hero,"clients"=>$this->clients,"partners"=>$this->partners,"statestics"=>$this->statestics,"contactUs"=>$this->contactUs,"overview"=>$this->overview,"whyChooseUs"=>$this->whyChooseUs,'testimonials'=>$this->testimonials]);
     }
 
     public function getTvInterviewView(){
@@ -210,7 +282,7 @@ class UserController extends Controller
         $this->whyChooseUs["point1"] = "300+ Media Partners";
         $this->whyChooseUs["point2"] = "20M+ Generated Reach";
         $this->whyChooseUs["point3"] = "Leveraging Multi-channel Approach";
-        return view('dm',["hero"=>$this->hero,"clients"=>$this->clients,"partners"=>$this->partners,"statestics"=>$this->statestics,"contactUs"=>$this->contactUs,"overview"=>$this->overview,"whyChooseUs"=>$this->whyChooseUs]);
+        return view('dm',["hero"=>$this->hero,"clients"=>$this->clients,"partners"=>$this->partners,"statestics"=>$this->statestics,"contactUs"=>$this->contactUs,"overview"=>$this->overview,"whyChooseUs"=>$this->whyChooseUs,'testimonials'=>$this->testimonials]);
     }
     
     public function submitForm(Request $request)

@@ -45,7 +45,7 @@
              
              <div class="elementor-element elementor-element-a2f01ca elementor-widget__width-initial  elementor-widget-tablet__width-initial  elementor-widget elementor-widget-image" data-id="a2f01ca" data-element_type="widget" data-settings="{&quot;}" data-widget_type="image.default">
                 <div class="elementor-widget-container">
-                   <img width="695" height="1024" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/BG01-695x1024.png" class="attachment-large size-large wp-image-1307" alt="" decoding="async" loading="lazy" srcset="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/BG01-695x1024.png 695w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/BG01-204x300.png 204w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/BG01-768x1132.png 768w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/BG01-1043x1536.png 1043w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/BG01-800x1179.png 800w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/BG01.png 1202w" sizes="(max-width: 695px) 100vw, 695px" />															
+                   <img width="695" height="1024" src="asset/images/dm_hero.svg" class="attachment-large size-large wp-image-1307" alt="" decoding="async" loading="lazy" sizes="(max-width: 695px) 100vw, 695px" />															
                 </div>
              </div>
           </div>
