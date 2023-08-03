@@ -32,7 +32,7 @@
                         </div>
                     </div>
                     <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-db5da9f elementor-hidden-tablet elementor-hidden-mobile" data-id="db5da9f" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                        <div class="elementor-widget-wrap elementor-element-populated">
+                        <div style="background:#2a0a0a" class="elementor-widget-wrap elementor-element-populated">
                         <div class="elementor-element elementor-element-7c90df1 elementor-widget elementor-widget-jkit_heading" data-id="7c90df1" data-element_type="widget" data-widget_type="jkit_heading.default">
                             <div class="elementor-widget-container">
                                 <div  class="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_61_6_64c62cc743d83" >
