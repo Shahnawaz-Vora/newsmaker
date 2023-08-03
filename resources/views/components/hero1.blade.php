@@ -1,7 +1,7 @@
 <section class="elementor-section elementor-top-section elementor-element elementor-element-6d507f0 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6d507f0" data-element_type="section">
    <div class="elementor-container elementor-column-gap-default">
       <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-aa17f10" data-id="aa17f10" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-         <div class="elementor-widget-wrap elementor-element-populated">
+         <div style="background:white;box-shadow: 0 0 20px #cccccc8c;" class="elementor-widget-wrap elementor-element-populated">
             <div class="elementor-element elementor-element-86d58c3 elementor--star-style-star_fontawesome elementor-widget elementor-widget-star-rating" data-id="86d58c3" data-element_type="widget" data-widget_type="star-rating.default">
                <div class="elementor-widget-container">
                   <style>/*! elementor - v3.14.0 - 26-06-2023 */
@@ -66,32 +66,22 @@
                   <img width="800" height="1016" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/BG02-806x1024.png" class="attachment-large size-large wp-image-1308" alt="" decoding="async" loading="lazy" srcset="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/BG02-806x1024.png 806w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/BG02-236x300.png 236w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/BG02-768x976.png 768w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/BG02-800x1017.png 800w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/BG02.png 1000w" sizes="(max-width: 800px) 100vw, 800px" />															
                </div>
             </div>
-            <div class="elementor-element elementor-element-b87773c elementor-widget__width-initial elementor-absolute elementor-hidden-tablet elementor-hidden-mobile elementor-widget elementor-widget-image" data-id="b87773c" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;,&quot;}" data-widget_type="image.default">
-               <div class="elementor-widget-container">
-                  <img width="697" height="263" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/stats-4.png" class="attachment-large size-large wp-image-1302" alt="" decoding="async" loading="lazy" srcset="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/stats-4.png 697w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/stats-4-300x113.png 300w" sizes="(max-width: 697px) 100vw, 697px" />															
-               </div>
-            </div>
-            <div class="elementor-element elementor-element-6a5c4f2 elementor-widget__width-initial elementor-absolute elementor-widget elementor-widget-image" data-id="6a5c4f2" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="image.default">
-               <div class="elementor-widget-container">
-                  <img width="800" height="800" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/at-dynamic-color.png" class="attachment-large size-large wp-image-1287" alt="" decoding="async" loading="lazy" srcset="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/at-dynamic-color.png 800w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/at-dynamic-color-300x300.png 300w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/at-dynamic-color-150x150.png 150w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/at-dynamic-color-768x768.png 768w" sizes="(max-width: 800px) 100vw, 800px" />															
-               </div>
-            </div>
          </div>
       </div>
       <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-25f0c38" data-id="25f0c38" data-element_type="column">
          <div class="elementor-widget-wrap elementor-element-populated">
             <a href="/pr-services">
-               <section class="elementor-section elementor-inner-section elementor-element elementor-element-a3c3a2f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a3c3a2f" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+               <section style="background:white;box-shadow: 0 0 20px #cccccc8c;" class="elementor-section elementor-inner-section elementor-element elementor-element-a3c3a2f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a3c3a2f" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                   <div class="elementor-container elementor-column-gap-default">
-                     <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-d125925" data-id="d125925" data-element_type="column">
+                     <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-d125925" data-id="d125925" data-element_type="column" >
                         <div class="elementor-widget-wrap elementor-element-populated">
                            <div class="elementor-element elementor-element-b5932e3 elementor-widget elementor-widget-jkit_heading" data-id="b5932e3" data-element_type="widget" data-widget_type="jkit_heading.default">
                               <div class="elementor-widget-container">
                                  <div  class="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_61_4_64c2a2e8738d8" >
                                     <div class="heading-section-title  display-inline-block">
-                                       <h2 class="heading-title">{{$hero['card3Heading']}}</h2>
+                                       <h2 class="heading-title" style="color:black">{{$hero['card3Heading']}}</h2>
                                     </div>
-                                    <div class="heading-section-description">
+                                    <div class="heading-section-description" style="color:#181818">
                                        <p>{{$hero['card3Description']}}</p>
                                     </div>
                                  </div>
@@ -112,7 +102,7 @@
                </section>
             </a>
             <a href="/digital-marketing-services">
-               <section class="elementor-section elementor-inner-section elementor-element elementor-element-1455643 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1455643" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+               <section style="background:white;box-shadow: 0 0 20px #cccccc8c;" class="elementor-section elementor-inner-section elementor-element elementor-element-1455643 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1455643" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                   <div class="elementor-container elementor-column-gap-default">
                      <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-be3dfaf" data-id="be3dfaf" data-element_type="column">
                         <div class="elementor-widget-wrap elementor-element-populated">
@@ -120,9 +110,9 @@
                               <div class="elementor-widget-container">
                                  <div  class="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_61_5_64c2a2e87d330" >
                                     <div class="heading-section-title  display-inline-block">
-                                       <h2 class="heading-title">{{$hero['card4Heading']}}</h2>
+                                       <h2 class="heading-title" style="color:black">{{$hero['card4Heading']}}</h2>
                                     </div>
-                                    <div class="heading-section-description">
+                                    <div class="heading-section-description" style="color:#181818">
                                        <p>{{$hero['card4Description']}}</p>
                                     </div>
                                  </div>
