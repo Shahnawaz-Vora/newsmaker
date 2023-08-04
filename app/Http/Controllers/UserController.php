@@ -76,17 +76,17 @@ class UserController extends Controller
                 [
                     "serviceHeading" => "Public Relation",
                     "serviceDescription" => "Get featured in India's top media houses",
-                    "serviceImage" => asset('asset/images/stats-1.png')
+                    "serviceImage" => asset('asset/images/pr_services.webp')
                 ],
                 [
                     "serviceHeading" => "Digital Marketing",
                     "serviceDescription" => "Accelerate your business across multiple digital channels",
-                    "serviceImage" => asset('asset/images/stats-1.png')
+                    "serviceImage" => asset('asset/images/digital_marketing_services.webp')
                 ],
                 [
                     "serviceHeading" => "TV Interviews",
                     "serviceDescription" => "Get 1 to 1 interview on India's top TV channels",
-                    "serviceImage" => asset('asset/images/stats-1.png')
+                    "serviceImage" => asset('asset/images/tv_interview_services.webp')
                 ],
             ],
         ];
