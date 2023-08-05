@@ -41,4 +41,6 @@ Route::get('/admin/contact', [AdminController::class, "getContactData"])->middle
 
 Route::post('/update-contact', [AdminController::class,"updateContact"]);
 
-Route::get('/404', [UserController::class,"notfound"]);
+Route::fallback(function () {
+    return view('404');
+});

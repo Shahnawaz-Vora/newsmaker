@@ -183,15 +183,21 @@
          </defs>
       </svg>
       <div id="page" class="hfeed site">
-         @if (!request()->is('404'))
-         <x-header></x-header>
+         @php
+            $pages = ['about', 'contact', '/', 'pr-services', 'digital-marketing-services', 'tv-interview-services'];
+         @endphp
+
+         @if (request()->is($pages))
+            <x-header></x-header>
          @endif
+
          <div data-elementor-type="wp-page" data-elementor-id="61" class="elementor elementor-61">
             {{$slot}}
-        </div>
-        @if (!request()->is('404'))
-        <x-footer></x-footer>
-        @endif
+         </div>
+
+         @if (request()->is($pages))
+            <x-footer></x-footer>
+         @endif
      </div>
   <!-- #page -->
       <link rel='stylesheet' id='tiny-slider-css' href='/asset/socialseven/wp-content/plugins/jeg-elementor-kit/assets/js/tiny-slider/tiny-slider.css' media='all' />
