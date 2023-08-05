@@ -82,7 +82,7 @@
              
              <section class="elementor-section elementor-inner-section elementor-element elementor-element-e1230af elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="e1230af" data-element_type="section">
                 <div class="elementor-container elementor-column-gap-default">
-                   <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-8ee49d5" data-id="8ee49d5" data-element_type="column">
+                   <div class="elementor-inner-column elementor-element" data-id="8ee49d5" data-element_type="column">
                       <div class="elementor-widget-wrap elementor-element-populated">
                          <div class="elementor-element elementor-element-0977bf1 elementor-widget elementor-widget-text-editor" data-id="0977bf1" data-element_type="widget" data-widget_type="text-editor.default">
                             <div class="elementor-widget-container">
