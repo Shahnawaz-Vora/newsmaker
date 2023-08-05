@@ -21,12 +21,9 @@ ogCountryCode="india">
 
     <x-strategy-driven-agency :overview="$overview"></x-strategy-driven-agency>
 
-    <div style="margin-top:-150px">
     <x-clients :clients="$clients"></x-clients>
-    </div>
 
-    <x-why_choose_us :whyChooseUs="$whyChooseUs"></x-why_choose_us>  
- 
+    <x-why_choose_us :whyChooseUs="$whyChooseUs"></x-why_choose_us>   
 
     <x-partners :partners="$partners"></x-partners>
     
@@ -36,6 +33,6 @@ ogCountryCode="india">
     
     <x-contact_form :contactUs="$contactUs"></x-contact_form>
 
-    <x-faq></x-faq>
+    <x-faq :faqs="$faqs"></x-faq>
 
 </x-layout>
