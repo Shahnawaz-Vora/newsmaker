@@ -30,7 +30,7 @@
                      <div class="elementor-widget-wrap elementor-element-populated">
                         <div class="elementor-element elementor-element-b4f246d elementor-widget elementor-widget-image" data-id="b4f246d" data-element_type="widget" data-widget_type="image.default">
                            <div class="elementor-widget-container">
-                              <img width="800" height="191" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-4.png" class="attachment-large size-large wp-image-1402" alt="" decoding="async" loading="lazy" srcset="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-4.png 934w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-4-300x72.png 300w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-4-768x183.png 768w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-4-800x191.png 800w" sizes="(max-width: 800px) 100vw, 800px" />															
+                              <img width="800" height="191" src="asset/images/clients/abbott.webp" class="attachment-large size-large wp-image-1402" alt="" decoding="async" loading="lazy" sizes="(max-width: 800px) 100vw, 800px" />															
                            </div>
                         </div>
                      </div>
@@ -39,7 +39,7 @@
                      <div class="elementor-widget-wrap elementor-element-populated">
                         <div class="elementor-element elementor-element-da07d9a elementor-widget elementor-widget-image" data-id="da07d9a" data-element_type="widget" data-widget_type="image.default">
                            <div class="elementor-widget-container">
-                              <img width="781" height="222" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo.png" class="attachment-large size-large wp-image-1398" alt="" decoding="async" loading="lazy" srcset="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo.png 781w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png 300w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-768x218.png 768w" sizes="(max-width: 781px) 100vw, 781px" />															
+                              <img width="781" height="222" src="asset/images/clients/marching_sheep.webp" class="attachment-large size-large wp-image-1398" alt="" decoding="async" loading="lazy" sizes="(max-width: 781px) 100vw, 781px" />															
                            </div>
                         </div>
                      </div>
