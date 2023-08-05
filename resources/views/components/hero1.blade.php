@@ -49,9 +49,9 @@
             <div class="elementor-element elementor-element-bef2dde elementor-align-right elementor-widget elementor-widget-button" data-id="bef2dde" data-element_type="widget" data-widget_type="button.default">
                <div class="elementor-widget-container">
                   <div class="elementor-button-wrapper">
-                     <a class="elementor-button elementor-button-link elementor-size-sm" href="https://advanture.icu/#">
+                     <a class="elementor-button elementor-button-link elementor-size-sm" href="/contact-us">
                      <span class="elementor-button-content-wrapper">
-                     <span class="elementor-button-text">Read Reviews</span>
+                     <span class="elementor-button-text">Contact Us</span>
                      </span>
                      </a>
                   </div>
@@ -63,7 +63,7 @@
          <div class="elementor-widget-wrap elementor-element-populated">
             <div class="elementor-element elementor-element-d1d6fd5 elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="d1d6fd5" data-element_type="widget" data-settings="{&quot;}" data-widget_type="image.default">
                <div class="elementor-widget-container">
-                  <img width="800" height="1016" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/BG02-806x1024.png" class="attachment-large size-large wp-image-1308" alt="" decoding="async" loading="lazy" srcset="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/BG02-806x1024.png 806w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/BG02-236x300.png 236w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/BG02-768x976.png 768w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/BG02-800x1017.png 800w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/BG02.png 1000w" sizes="(max-width: 800px) 100vw, 800px" />															
+                  <img width="800" height="1016" src="asset/images/girl_with_laptop.webp" class="attachment-large size-large wp-image-1308" alt="" decoding="async" loading="lazy" sizes="(max-width: 800px) 100vw, 800px" />															
                </div>
             </div>
          </div>
