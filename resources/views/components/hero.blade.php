@@ -45,7 +45,7 @@
              
              <div class="elementor-element elementor-element-a2f01ca elementor-widget__width-initial  elementor-widget-tablet__width-initial  elementor-widget elementor-widget-image" data-id="a2f01ca" data-element_type="widget" data-settings="{&quot;}" data-widget_type="image.default">
                 <div class="elementor-widget-container">
-                   <img width="695" height="1024" src="asset/images/dm_hero.svg" class="attachment-large size-large wp-image-1307" alt="" decoding="async" loading="lazy" sizes="(max-width: 695px) 100vw, 695px" />															
+                   <img width="695" height="1024" src="asset/images/pr_hero.svg" class="attachment-large size-large wp-image-1307" alt="" decoding="async" loading="lazy" sizes="(max-width: 695px) 100vw, 695px" />															
                 </div>
              </div>
           </div>
