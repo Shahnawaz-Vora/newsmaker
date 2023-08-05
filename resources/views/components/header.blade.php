@@ -1,5 +1,5 @@
-<header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
-    <p class="main-title bhf-hidden" itemprop="headline"><a href="https://advanture.icu/socialseven" title="Social Seven" rel="home">Social Seven</a></p>
+<header id="masthead" itemscope="itemscope">
+    <p class="main-title bhf-hidden" itemprop="headline"><a href="{{asset('asset/images/Newsmaker_Logo.png')}}" title="Newsmaker media and communication" rel="home">Newsmaker media and communication</a></p>
     <div data-elementor-type="wp-post" data-elementor-id="566" class="elementor elementor-566">
        <section class="elementor-section elementor-top-section elementor-element elementor-element-17a5edd elementor-section-full_width jkit-sticky-element--enabled jkit-sticky-position--fixed elementor-section-height-default elementor-section-height-default jkit-sticky-element-on--down" data-id="17a5edd" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;jkit_sticky_device&quot;:[&quot;desktop&quot;,&quot;tablet&quot;],&quot;jkit_sticky_top_position&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0,&quot;sizes&quot;:[]}}">
           <div class="elementor-container elementor-column-gap-default">
@@ -34,21 +34,21 @@
                                         <div class="jkit-menu-wrapper">
                                            <div class="jkit-menu-container">
                                               <ul id="menu-mainmenu" class="jkit-menu jkit-menu-direction-flex jkit-submenu-position-top">
-                                                 <li id="menu-item-1264" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-61 current_page_item menu-item-1264"><a href="/" aria-current="page">Home</a></li>
-                                                 <li id="menu-item-1263" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1263"><a href="/about">About</a></li>
-                                                 <li id="menu-item-1265" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1265">
+                                                 <li id="menu-item-1264" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home page_item page-item-61 current_page_item menu-item-1264 {{request()->is('/') ? 'current-menu-item' : ''}}"><a href="/" aria-current="page">Home</a></li>
+                                                 <li id="menu-item-1263" class="menu-item menu-item-type-post_type menu-item-object-page page_item page-item-1262 current_page_item menu-item-1263 {{request()->is('about') ? 'current-menu-item' : ''}}"><a href="/about" aria-current="page">About</a></li>
+                                                 <li id="menu-item-1265" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-parent menu-item-has-children menu-item-1265 {{request()->is('pr-services') || request()->is('digital-marketing-services') || request()->is('tv-interview-services') ? 'current-menu-ancestor' : ''}}">
                                                     <a href="#">Services</a>
                                                     <ul class="sub-menu">
-                                                       <li id="menu-item-1273" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1273"><a href="/pr-services">Public Relation</a></li>
-                                                       <li id="menu-item-1272" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1272"><a href="/digital-marketing-services">Digital Marketing</a></li>
-                                                       <li id="menu-item-1274" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1274"><a href="/tv-interview-services">TV Interviews</a></li>
+                                                       <li id="menu-item-1273" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1273 {{request()->is('pr-services') ? 'current-menu-item' : ''}}"><a href="/pr-services">Public Relation</a></li>
+                                                       <li id="menu-item-1272" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1272 {{request()->is('digital-marketing-services') ? 'current-menu-item' : ''}}""><a href="/digital-marketing-services">Digital Marketing</a></li>
+                                                       <li id="menu-item-1274" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1274 {{request()->is('tv-interview-services') ? 'current-menu-item' : ''}}""><a href="/tv-interview-services">TV Interviews</a></li>
                                                     </ul>
                                                  </li>
-                                                 <li id="menu-item-1275" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1275"><a href="/contact">Contact</a></li>
+                                                 <li id="menu-item-1275" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1275 {{request()->is('contact') ? 'current-menu-item' : ''}}"><a href="/contact">Contact</a></li>
                                               </ul>
                                            </div>
                                            <div class="jkit-nav-identity-panel">
-                                              <div class="jkit-nav-site-title"><a href="https://advanture.icu/socialseven" class="jkit-nav-logo"><img src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/Frame-9.png" ></a></div>
+                                              <div class="jkit-nav-site-title"><a href="/" class="jkit-nav-logo"><img src="{{asset('asset/images/Newsmaker_Logo.png')}}" ></a></div>
                                               <button class="jkit-close-menu"><i aria-hidden="true" class="icon icon-cross"></i></button>
                                            </div>
                                         </div>

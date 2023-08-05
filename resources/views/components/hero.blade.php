@@ -5,7 +5,6 @@
           <div class="elementor-widget-wrap elementor-element-populated">
              <div class="elementor-element elementor-element-2e849f4 elementor-widget__width-auto elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="2e849f4" data-element_type="widget" data-widget_type="icon-list.default">
                 <div class="elementor-widget-container">
-                   <link rel="stylesheet" href="asset/socialseven/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css">
                    <ul class="elementor-icon-list-items">
                       <li class="elementor-icon-list-item">
                          <span class="elementor-icon-list-icon">
@@ -45,7 +44,7 @@
              
              <div class="elementor-element elementor-element-a2f01ca elementor-widget__width-initial  elementor-widget-tablet__width-initial  elementor-widget elementor-widget-image" data-id="a2f01ca" data-element_type="widget" data-settings="{&quot;}" data-widget_type="image.default">
                 <div class="elementor-widget-container">
-                   <img width="695" height="1024" src="asset/images/pr_hero.svg" class="attachment-large size-large wp-image-1307" alt="" decoding="async" loading="lazy" sizes="(max-width: 695px) 100vw, 695px" />															
+                   <img width="695" height="1024" src="{{$hero['heroImage']}}" class="attachment-large size-large wp-image-1307" alt="" decoding="async" loading="lazy" sizes="(max-width: 695px) 100vw, 695px" />															
                 </div>
              </div>
           </div>

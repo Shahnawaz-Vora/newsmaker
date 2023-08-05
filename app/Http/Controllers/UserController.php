@@ -45,6 +45,7 @@ class UserController extends Controller
             "card3Description" => "Leading PR Agency that served 500+ clients",
             "card4Heading" => "Marketing Expert",
             "card4Description" => "Team of experts with decades of experience",
+            "heroImage" => asset('asset/images/pr_hero.svg')
         ];
         $this->clients = [
             "heading" => "Overall Rating",
@@ -107,7 +108,7 @@ class UserController extends Controller
         ];
         $this->overview = [
             "title" => "A strategy driven Agency",
-            "heading" => "Driving brand success with strategic storytelling and media expertise",
+            "heading" => "Driving Brand Success with Strategic Storytelling & Media Expertise",
             "description" => "Newsmaker Media and Communications, a leading PR agency, has successfully served 1000+ clients across industries. With 300+ media partners, we secure extensive coverage for brands. Our 1000+ published articles showcase our expertise in strategic storytelling and media relations, cementing our position as a top PR agency for brand visibility and reputation.<br><br>
             At Newsmaker Media and Communications, our data-driven approach tailors PR strategies to unique client needs. Our team of experts crafts engaging narratives, driving brand loyalty. Achieving remarkable ROI, we cultivate relationships with key journalists and influencers, positioning clients as thought leaders and enhancing market presence.",
             "cardCount" => "200M+",
@@ -116,8 +117,8 @@ class UserController extends Controller
         ];
         $this->whyChooseUs = [
             "title" => "Why choose Us",
-            "heading" => "Pioneering PR strategies that redefine brand success, unleashing boundless potential",
-            "description" => "Unlike any other agency, we boast pioneering AI-powered data analytics, enabling real-time campaign optimizations for unmatched precision. Our exclusive media amplification network guarantees your brand reaches niche audiences worldwide. With bespoke creative content and 24/7 crisis management support, we redefine PR, setting your brand on a trajectory of unrivaled success.",
+            "heading" => "Pioneering PR Strategies that Redefine Success",
+            "description" => "Unlike any other agency, we harness power of AI for data analytics and real-time campaign optimizations. Our exclusive media amplification network guarantees your brand reaches niche audiences worldwide. ",
             "point1" => "300+ Media Partners",
             "point2" => "1000+ Published articles",
             "point3" => "Leveraging Digital PR with Traditional PR",
@@ -144,14 +145,14 @@ class UserController extends Controller
             "growthHeading" => "Organic Growth",
             "engagementCount" => "38%",
             "engagementHeading" => "Engagement Rate",
-            "heading" => "Newsmaker Media and Communications, is the result-oriented PR agency that propels your brand to new heights. ",
+            "heading" => "Newsmaker Media and Communications is result-oriented PR agency that can empower your brand.",
             "description" => "Our passion lies in delivering tangible outcomes that leave a lasting impact. With a strategic approach, we curate captivating narratives, securing media coverage across diverse platforms. Our data-driven strategies ensure increased brand awareness, a sterling reputation, and impressive ROI.<br><br>
             By fostering relationships with key journalists and influencers, we position your brand as an industry leader. At Newsmaker, success is measured by your success, and we're committed to making headlines that truly matter. Let's collaborate and create a PR journey that drives remarkable results together!"
         ];
         $this->team = [
-            "title" => "Newsmaker media and Communication",
-            "heading" => "Team",
-            "description" => "The team behind the success of every client's stories, in execution, operation, content curation, till results.",
+            "title" => "Our Team",
+            "heading" => "The Awesome team behind our success",
+            "description" => "Our team thrives in an agile environment, embracing change as an opportunity for growth and innovation.",
             "team1" => [
                 "name" => "Ms. Ekta Paliwal",
                 "designation" => "Founder",
@@ -178,7 +179,7 @@ class UserController extends Controller
             ],
             "testimonials2" => [
                 "clientCompanyName" => "KUNWAR PUBLIC SCHOOL",
-                "clientName" => "MR.RAJESH SINGH",
+                "clientName" => "MR. RAJESH SINGH",
                 "clientDesignation" => "MD",
                 "message" => "I don't have to worry about PR at all. NMC is our strategic counsel - not a supplier. I think we get more than our share of voice and NMC is responsible for that"
             ],
@@ -196,13 +197,13 @@ class UserController extends Controller
             ],
             "testimonials5" => [
                 "clientCompanyName" => "BU ABDULLAH GROUP OF COMPANIES",
-                "clientName" => "DR.BU ABDULLAH",
+                "clientName" => "DR. BU ABDULLAH",
                 "clientDesignation" => "CHAIRMAN",
                 "message" => "After dealing with two other PR firms in as many years we appointed NMC. Newsmaker Media and Communications is a trusted advisor in the inner sanctum of our business. The guidance and direction I receive from NMC is world class. They understand our business and their ability to manage difficult situations effectively and efficiently is second to none."
             ],
             "testimonials6" => [
                 "clientCompanyName" => "STAR TV NETWORK",
-                "clientName" => "MR.NAVNEET PRABHU",
+                "clientName" => "MR. NAVNEET PRABHU",
                 "clientDesignation" => "EXECUTIVE PRODUCER",
                 "message" => "Newsmaker Media and Communications provides us with an external view that is always backed by professionalism and sound judgement. We see no reason to look elsewhere for external PR assistance."
             ],
@@ -478,18 +479,20 @@ class UserController extends Controller
 
     public function getDigitalMarketingView(){
         $this->hero["heading"] = "Top Digital Marketing Agency in India.";
-        $this->overview["heading"] = "Empower Your Brand: Harnessing the Power of Digital Marketing";
+        $this->overview["heading"] = "Empower Your Brand: Harness the Power of Digital Marketing";
         $this->overview["description"] = "Newsmaker Media and Communication, the ultimate destination for transformative digital marketing services. With a remarkable portfolio of 1000+ clients and a robust network of 300+ media partners, we excel in propelling brands to online success. Our data-driven approach and cutting-edge strategies ensure optimized digital campaigns that drive exceptional ROI, making us a leading digital marketing agency.<br><br>
         Newsmaker Media and Communication, we pride ourselves on delivering unmatched digital marketing solutions tailored to your unique needs. Our expert team harnesses the power of innovative tools and techniques to amplify your brand's reach, engagement, and visibility. With a passion for excellence and a commitment to measurable results, we elevate your brand to new digital heights.";
         $this->overview["cardCount"] = "20M+";
         $this->overview["cardHeading"] = "Overall Digital Reach";
         $this->overview["cardDescription"] = "Discover digital marketing mastery that propels brands to unprecedented success. Your brand, our global reach expertise, driving unrivaled growth.";
 
-        $this->whyChooseUs["heading"] = "Accelerating brands with digital-first data-driven strategies to dominate the digital landscape.";
+        $this->whyChooseUs["heading"] = "Accelerating brands with digital-first data-driven strategies.";
         $this->whyChooseUs["description"] = "Revolutionize Your Success: Embrace AI-fueled, personalized strategies tailored exclusively to your brand included for SEO, PPC, Social Media, and Performance Marketing. With 24/7 dedicated support and unmatched ROI, dominate the digital realm like never before!";
         $this->whyChooseUs["point1"] = "300+ Media Partners";
         $this->whyChooseUs["point2"] = "20M+ Generated Reach";
         $this->whyChooseUs["point3"] = "Leveraging Multi-channel Approach";
+
+        $this->hero["heroImage"] = asset('asset/images/dm_hero.webp');
         return view('dm',["hero"=>$this->hero,"clients"=>$this->clients,"partners"=>$this->partners,"statestics"=>$this->statestics,"contactUs"=>$this->contactUs,"overview"=>$this->overview,"whyChooseUs"=>$this->whyChooseUs,'testimonials'=>$this->testimonials,'faqs'=>$this->dmFaqs]);
     }
 
@@ -508,11 +511,13 @@ class UserController extends Controller
         $this->overview["cardHeading"] = "TV Interviews";
         $this->overview["cardDescription"] = "Unlock the art of TV interview mastery, propelling brands to unparalleled success. Your brand, our expertise in global reach, igniting unmatched visibility.";
 
-        $this->whyChooseUs["heading"] = "Pioneering PR strategies that redefine brand success, unleashing boundless potential";
+        $this->whyChooseUs["heading"] = "Pioneered PR Strategiest to Boost Brand Trust.";
         $this->whyChooseUs["description"] = "Igniting Your Brand's Spotlight: Unleash unparalleled TV interview mastery with our exclusive access to influential networks, captivating storytelling, and strategic media placement. Elevate your brand's influence like never before!";
         $this->whyChooseUs["point1"] = "300+ Media Partners";
         $this->whyChooseUs["point2"] = "20M+ Generated Reach";
         $this->whyChooseUs["point3"] = "Leveraging Multi-channel Approach";
+
+        $this->hero["heroImage"] = asset('asset/images/tv_hero.webp');
         return view('dm',["hero"=>$this->hero,"clients"=>$this->clients,"partners"=>$this->partners,"statestics"=>$this->statestics,"contactUs"=>$this->contactUs,"overview"=>$this->overview,"whyChooseUs"=>$this->whyChooseUs,'testimonials'=>$this->testimonials,'faqs'=>$this->tvFaqs]);
     }
     
