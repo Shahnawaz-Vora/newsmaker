@@ -9,7 +9,6 @@
                       <div class="elementor-widget-wrap elementor-element-populated">
                          <div class="elementor-element elementor-element-37eb07e elementor-view-stacked elementor-position-top elementor-vertical-align-middle elementor-shape-circle elementor-mobile-position-top elementor-widget elementor-widget-icon-box" data-id="37eb07e" data-element_type="widget" data-widget_type="icon-box.default">
                             <div class="elementor-widget-container">
-                               <link rel="stylesheet" href="asset/socialseven/wp-content/plugins/elementor/assets/css/widget-icon-box.min.css">
                                <div class="elementor-icon-box-wrapper">
                                   <div class="elementor-icon-box-icon">
                                      <span class="elementor-icon elementor-animation-" >

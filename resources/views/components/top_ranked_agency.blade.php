@@ -9,7 +9,7 @@
                       <div class="elementor-widget-wrap elementor-element-populated">
                          <div class="elementor-element elementor-element-8ab95fc elementor-widget elementor-widget-image" data-id="8ab95fc" data-element_type="widget" data-widget_type="image.default">
                             <div class="elementor-widget-container">
-                               <img width="700" height="773" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/stats-2.png" class="attachment-large size-large wp-image-1300" alt="" decoding="async" loading="lazy" srcset="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/stats-2.png 700w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/stats-2-272x300.png 272w" sizes="(max-width: 700px) 100vw, 700px" />															
+                               <img width="700" height="773" src="{{asset('asset/images/stats-2.png')}}" class="attachment-large size-large wp-image-1300" alt="" decoding="async" loading="lazy" srcset="{{asset('asset/images/stats-2.png')}} 700w, {{asset('asset/images/stats-2-272x300.png')}} 272w" sizes="(max-width: 700px) 100vw, 700px" />															
                             </div>
                          </div>
                       </div>
@@ -99,7 +99,7 @@
           <div class="elementor-widget-wrap elementor-element-populated">
              <div class="elementor-element elementor-element-cdf40c3 elementor-widget elementor-widget-image" data-id="cdf40c3" data-element_type="widget" data-settings="{}" data-widget_type="image.default">
                 <div class="elementor-widget-container">
-                   <img width="1601" height="1418" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/BG03.png" class="attachment-full size-full wp-image-1309" alt="" decoding="async" loading="lazy" srcset="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/BG03.png 1601w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/BG03-300x266.png 300w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/BG03-1024x907.png 1024w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/BG03-768x680.png 768w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/BG03-1536x1360.png 1536w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/BG03-800x709.png 800w" sizes="(max-width: 1601px) 100vw, 1601px" />															
+                   <img width="1601" height="1418" src="{{asset('asset/images/BG03.png')}}" class="attachment-full size-full wp-image-1309" alt="" decoding="async" loading="lazy" srcset="{{asset('asset/images/BG03.png')}} 1601w, {{asset('asset/images/BG03-300x266.png')}} 300w, {{asset('asset/images/BG03-1024x907.png')}} 1024w, {{asset('asset/images/BG03-768x680.png')}} 768w, {{asset('asset/images/BG03-1536x1360.png')}} 1536w, {{asset('asset/images/BG03-800x709.png')}} 800w" sizes="(max-width: 1601px) 100vw, 1601px" />															
                 </div>
              </div>
              <section class="elementor-section elementor-inner-section elementor-element elementor-element-735fbf0 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="735fbf0" data-element_type="section">
@@ -129,12 +129,12 @@
              </section>
              <div class="elementor-element elementor-element-b448243 elementor-hidden-tablet elementor-hidden-mobile elementor-widget elementor-widget-image" data-id="b448243" data-element_type="widget" data-settings="{}" data-widget_type="image.default">
                 <div class="elementor-widget-container">
-                   <img width="553" height="438" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/stats-7.png" class="attachment-large size-large wp-image-1305" alt="" decoding="async" loading="lazy" srcset="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/stats-7.png 553w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/stats-7-300x238.png 300w" sizes="(max-width: 553px) 100vw, 553px" />															
+                   <img width="553" height="438" src="{{asset('asset/images/stats-7.png')}}" class="attachment-large size-large wp-image-1305" alt="" decoding="async" loading="lazy" srcset="{{asset('asset/images/stats-7.png')}} 553w, {{asset('asset/images/stats-7-300x238.png')}} 300w" sizes="(max-width: 553px) 100vw, 553px" />															
                 </div>
              </div>
              <div class="elementor-element elementor-element-415e91b elementor-hidden-tablet elementor-hidden-mobile elementor-widget elementor-widget-image" data-id="415e91b" data-element_type="widget" data-settings="{}" data-widget_type="image.default">
                 <div class="elementor-widget-container">
-                   <img width="697" height="263" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/stats-6.png" class="attachment-large size-large wp-image-1304" alt="" decoding="async" loading="lazy" srcset="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/stats-6.png 697w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/stats-6-300x113.png 300w" sizes="(max-width: 697px) 100vw, 697px" />															
+                   <img width="697" height="263" src="{{asset('asset/images/stats-6.png')}}" class="attachment-large size-large wp-image-1304" alt="" decoding="async" loading="lazy" srcset="{{asset('asset/images/stats-6.png')}} 697w, {{asset('asset/images/stats-6-300x113.png')}} 300w" sizes="(max-width: 697px) 100vw, 697px" />															
                 </div>
              </div>
           </div>

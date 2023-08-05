@@ -45,6 +45,7 @@ class UserController extends Controller
             "card3Description" => "Leading PR Agency that served 500+ clients",
             "card4Heading" => "Marketing Expert",
             "card4Description" => "Team of experts with decades of experience",
+            "heroImage" => asset('asset/images/pr_hero.svg')
         ];
         $this->clients = [
             "heading" => "Overall Rating",
@@ -149,9 +150,9 @@ class UserController extends Controller
             By fostering relationships with key journalists and influencers, we position your brand as an industry leader. At Newsmaker, success is measured by your success, and we're committed to making headlines that truly matter. Let's collaborate and create a PR journey that drives remarkable results together!"
         ];
         $this->team = [
-            "title" => "Newsmaker media and Communication",
-            "heading" => "Team",
-            "description" => "The team behind the success of every client's stories, in execution, operation, content curation, till results.",
+            "title" => "Our Team",
+            "heading" => "The Awesome team behind our success",
+            "description" => "Our team thrives in an agile environment, embracing change as an opportunity for growth and innovation.",
             "team1" => [
                 "name" => "Ms. Ekta Paliwal",
                 "designation" => "Founder",
@@ -178,7 +179,7 @@ class UserController extends Controller
             ],
             "testimonials2" => [
                 "clientCompanyName" => "KUNWAR PUBLIC SCHOOL",
-                "clientName" => "MR.RAJESH SINGH",
+                "clientName" => "MR. RAJESH SINGH",
                 "clientDesignation" => "MD",
                 "message" => "I don't have to worry about PR at all. NMC is our strategic counsel - not a supplier. I think we get more than our share of voice and NMC is responsible for that"
             ],
@@ -196,13 +197,13 @@ class UserController extends Controller
             ],
             "testimonials5" => [
                 "clientCompanyName" => "BU ABDULLAH GROUP OF COMPANIES",
-                "clientName" => "DR.BU ABDULLAH",
+                "clientName" => "DR. BU ABDULLAH",
                 "clientDesignation" => "CHAIRMAN",
                 "message" => "After dealing with two other PR firms in as many years we appointed NMC. Newsmaker Media and Communications is a trusted advisor in the inner sanctum of our business. The guidance and direction I receive from NMC is world class. They understand our business and their ability to manage difficult situations effectively and efficiently is second to none."
             ],
             "testimonials6" => [
                 "clientCompanyName" => "STAR TV NETWORK",
-                "clientName" => "MR.NAVNEET PRABHU",
+                "clientName" => "MR. NAVNEET PRABHU",
                 "clientDesignation" => "EXECUTIVE PRODUCER",
                 "message" => "Newsmaker Media and Communications provides us with an external view that is always backed by professionalism and sound judgement. We see no reason to look elsewhere for external PR assistance."
             ],
@@ -490,6 +491,8 @@ class UserController extends Controller
         $this->whyChooseUs["point1"] = "300+ Media Partners";
         $this->whyChooseUs["point2"] = "20M+ Generated Reach";
         $this->whyChooseUs["point3"] = "Leveraging Multi-channel Approach";
+
+        $this->hero["heroImage"] = asset('asset/images/dm_hero.webp');
         return view('dm',["hero"=>$this->hero,"clients"=>$this->clients,"partners"=>$this->partners,"statestics"=>$this->statestics,"contactUs"=>$this->contactUs,"overview"=>$this->overview,"whyChooseUs"=>$this->whyChooseUs,'testimonials'=>$this->testimonials,'faqs'=>$this->dmFaqs]);
     }
 
@@ -513,6 +516,8 @@ class UserController extends Controller
         $this->whyChooseUs["point1"] = "300+ Media Partners";
         $this->whyChooseUs["point2"] = "20M+ Generated Reach";
         $this->whyChooseUs["point3"] = "Leveraging Multi-channel Approach";
+
+        $this->hero["heroImage"] = asset('asset/images/tv_hero.webp');
         return view('dm',["hero"=>$this->hero,"clients"=>$this->clients,"partners"=>$this->partners,"statestics"=>$this->statestics,"contactUs"=>$this->contactUs,"overview"=>$this->overview,"whyChooseUs"=>$this->whyChooseUs,'testimonials'=>$this->testimonials,'faqs'=>$this->tvFaqs]);
     }
     
