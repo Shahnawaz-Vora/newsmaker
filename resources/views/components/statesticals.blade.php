@@ -9,7 +9,6 @@
                       <div class="elementor-widget-wrap elementor-element-populated">
                          <div class="elementor-element elementor-element-37eb07e elementor-view-stacked elementor-position-top elementor-vertical-align-middle elementor-shape-circle elementor-mobile-position-top elementor-widget elementor-widget-icon-box" data-id="37eb07e" data-element_type="widget" data-widget_type="icon-box.default">
                             <div class="elementor-widget-container">
-                               <link rel="stylesheet" href="asset/socialseven/wp-content/plugins/elementor/assets/css/widget-icon-box.min.css">
                                <div class="elementor-icon-box-wrapper">
                                   <div class="elementor-icon-box-icon">
                                      <span class="elementor-icon elementor-animation-" >
@@ -129,7 +128,7 @@
              </div>
              <div class="elementor-element elementor-element-965bec7 elementor-hidden-tablet elementor-hidden-mobile elementor-widget elementor-widget-image" data-id="965bec7" data-element_type="widget" data-widget_type="image.default">
                 <div class="elementor-widget-container">
-                   <img width="1000" height="1271" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/BG02.png" class="attachment-full size-full wp-image-1308" alt="" decoding="async" loading="lazy" srcset="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/BG02.png 1000w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/BG02-236x300.png 236w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/BG02-806x1024.png 806w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/BG02-768x976.png 768w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/BG02-800x1017.png 800w" sizes="(max-width: 1000px) 100vw, 1000px" />															
+                   <img width="1000" height="1271" src="asset/images/girl_with_laptop.webp" class="attachment-full size-full wp-image-1308" alt="" decoding="async" loading="lazy" sizes="(max-width: 1000px) 100vw, 1000px" />															
                 </div>
              </div>
           </div>

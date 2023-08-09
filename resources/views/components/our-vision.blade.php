@@ -57,7 +57,7 @@
                          <div class="elementor-element elementor-element-84bec88 elementor-widget elementor-widget-button" data-id="84bec88" data-element_type="widget" data-widget_type="button.default">
                             <div class="elementor-widget-container">
                                <div class="elementor-button-wrapper">
-                                  <a class="elementor-button elementor-button-link elementor-size-sm" href="https://advanture.icu/#">
+                                  <a class="elementor-button elementor-button-link elementor-size-sm" href="/contact">
                                   <span class="elementor-button-content-wrapper">
                                   <span class="elementor-button-text">Discover More</span>
                                   </span>
@@ -79,7 +79,7 @@
           <div class="elementor-widget-wrap elementor-element-populated">
              <div class="elementor-element elementor-element-33fedd0 animated-fast elementor-widget elementor-widget-image" data-id="33fedd0" data-element_type="widget" data-settings="{}" data-widget_type="image.default">
                 <div class="elementor-widget-container">
-                   <img width="1920" height="1280" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/unsplash_K_VeavYEfdA.jpg" class="attachment-full size-full wp-image-1318" alt="" decoding="async" loading="lazy" srcset="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/unsplash_K_VeavYEfdA.jpg 1920w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/unsplash_K_VeavYEfdA-300x200.jpg 300w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/unsplash_K_VeavYEfdA-1024x683.jpg 1024w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/unsplash_K_VeavYEfdA-768x512.jpg 768w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/unsplash_K_VeavYEfdA-1536x1024.jpg 1536w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/unsplash_K_VeavYEfdA-800x533.jpg 800w" sizes="(max-width: 1920px) 100vw, 1920px" />															
+                   <img width="1920" height="1280" src="{{asset('asset/images/unsplash_K_VeavYEfdA.jpg')}}" class="attachment-full size-full wp-image-1318" alt="" decoding="async" loading="lazy" srcset="{{asset('asset/images/unsplash_K_VeavYEfdA.jpg')}} 1920w, {{asset('asset/images/unsplash_K_VeavYEfdA-300x200.jpg')}} 300w, {{asset('asset/images/unsplash_K_VeavYEfdA-1024x683.jpg')}} 1024w, {{asset('asset/images/unsplash_K_VeavYEfdA-768x512.jpg')}} 768w, {{asset('asset/images/unsplash_K_VeavYEfdA-1536x1024.jpg')}} 1536w, {{asset('asset/images/unsplash_K_VeavYEfdA-800x533.jpg')}} 800w" sizes="(max-width: 1920px) 100vw, 1920px" />															
                 </div>
              </div>
           </div>
@@ -88,7 +88,7 @@
           <div class="elementor-widget-wrap  elementor-element-populated">
              <div class="elementor-element elementor-element-7db3441 elementor-widget elementor-widget-image" data-id="7db3441" data-element_type="widget" data-widget_type="image.default">
                 <div class="elementor-widget-container">
-                   <img width="800" height="534" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/unsplash_2JDDn7iSGH8-1024x684.jpg" class="attachment-large size-large wp-image-1315" alt="" decoding="async" loading="lazy" srcset="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/unsplash_2JDDn7iSGH8-1024x684.jpg 1024w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/unsplash_2JDDn7iSGH8-300x200.jpg 300w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/unsplash_2JDDn7iSGH8-768x513.jpg 768w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/unsplash_2JDDn7iSGH8-1536x1026.jpg 1536w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/unsplash_2JDDn7iSGH8-800x534.jpg 800w, https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/unsplash_2JDDn7iSGH8.jpg 1920w" sizes="(max-width: 800px) 100vw, 800px" />															
+                   <img width="800" height="534" src="{{asset('asset/images/unsplash_2JDDn7iSGH8-1024x684.jpg')}}" class="attachment-large size-large wp-image-1315" alt="" decoding="async" loading="lazy" srcset="{{asset('asset/images/unsplash_2JDDn7iSGH8-1024x684.jpg')}} 1024w, {{asset('asset/images/unsplash_2JDDn7iSGH8-300x200.jpg')}} 300w, {{asset('asset/images/unsplash_2JDDn7iSGH8-768x513.jpg')}} 768w, {{asset('asset/images/unsplash_2JDDn7iSGH8-1536x1026.jpg')}} 1536w, {{asset('asset/images/unsplash_2JDDn7iSGH8-800x534.jpg')}} 800w, {{asset('asset/images/unsplash_2JDDn7iSGH8.jpg')}} 1920w" sizes="(max-width: 800px) 100vw, 800px" />															
                 </div>
              </div>
              <section class="elementor-section elementor-inner-section elementor-element elementor-element-9faaf74 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="9faaf74" data-element_type="section">

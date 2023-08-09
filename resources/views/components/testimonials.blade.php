@@ -1,5 +1,5 @@
 <style>
-             .owl-stage-outer {
+        .owl-stage-outer {
             padding: 30px 0;
          }
 
@@ -32,11 +32,12 @@
 
          #testimonial-section .card {
             background: #fff;
-            box-shadow: 0 8px 30px -7px #c9dff0;
+            /* box-shadow: 0 8px 30px -7px #c9dff0; */
             margin: 0 20px;
             padding: 0 10px;
             border-radius: 20px;
             border: 0;
+            height:480px;
 
             .card-img-top {
             max-width: 100px;
@@ -92,7 +93,6 @@
             }
          }
          }
-
          @media (max-width: 767px) {
          .gtco-testimonials {
             margin-top: 20px;
@@ -110,6 +110,27 @@
             outline: 0;
          }
          }
+
+         @media (max-width: 1399px) {
+            #testimonial-section .card {
+            height: 550px;
+            }
+        }
+        
+        @media (max-width: 900px) {
+            #testimonial-section .card {
+            height: 580px;
+            }
+        }
+
+        #designation{
+            font-size:18px;
+            font-weight: normal;
+        }
+        #clientName{
+            font-size:25px;
+            line-height: 1.2;
+        }
 
 </style>
 <section id="testimonial-section" class="elementor-section elementor-top-section elementor-element elementor-element-5f47435 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="5f47435" data-element_type="section">
@@ -133,10 +154,10 @@
                 <div class="owl-carousel owl-carousel1 owl-theme" style="margin-top:-5%;margin-bottom:-5%">
                     @foreach ($testimonials as $testimonial)
                     <div>
-                        <div class="card text-center" style="height:480px"><img class="card-img-top" src="{{asset('asset/images/user.png')}}" alt="">
+                        <div class="card text-center"><img class="card-img-top" src="{{asset('asset/images/user.png')}}" alt="">
                             <div class="card-body">
-                            <h5>{{$testimonial["clientName"]}}<br />
-                                <span> {{$testimonial["clientDesignation"] . "," . $testimonial["clientCompanyName"]}} </span>
+                            <h5 id="clientName">{{ucwords(strtolower(trim($testimonial["clientName"])))}}<br />
+                                <span id="designation"> {{ucwords(strtolower(trim($testimonial["clientDesignation"] . ", " . $testimonial["clientCompanyName"])))}} </span>
                             </h5>
                             <p class="card-text">{{$testimonial["message"]}}</p>
                             </div>
@@ -148,4 +169,37 @@
         </div>
     </div>
  </section>
+ <script>
+    (function () {
+       "use strict";
 
+       var carousels = function () {
+          $(".owl-carousel1").owlCarousel({
+             loop: true,
+             center: true,
+             margin: 0,
+             responsiveClass: true,
+             nav: false,
+             responsive: {
+             0: {
+                items: 1,
+                nav: false
+             },
+             680: {
+                items: 2,
+                nav: false,
+                loop: false
+             },
+             1400: {
+                items: 3,
+                nav: true
+             }
+             }
+          });
+       };
+
+       (function ($) {
+          carousels();
+       })(jQuery);
+    })();
+ </script>

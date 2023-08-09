@@ -35,7 +35,6 @@ ogCountryCode="india">
 
     <x-contact_form :contactUs="$contactUs"></x-contact_form>
 
-    <x-faq></x-faq>
-
+    <x-faq :faqs="$faqs"></x-faq>
 
 </x-layout>

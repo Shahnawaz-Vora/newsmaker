@@ -56,6 +56,7 @@
       <link rel='stylesheet' id='elementor-post-1262-css' href='asset/socialseven/wp-content/uploads/sites/35/elementor/css/post-1262.css' media='all' /> <!-- for about layout -->
       <link rel='stylesheet' id='elementor-post-566-css' href='/asset/socialseven/wp-content/uploads/sites/35/elementor/css/post-566.css' media='all' /> <!-- for all layout -->
       <link rel='stylesheet' id='elementor-post-598-css' href='/asset/socialseven/wp-content/uploads/sites/35/elementor/css/post-598.css' media='all' /> <!-- for all layout -->
+      <link rel='stylesheet' id='elementor-post-879-css' href='asset/socialseven/wp-content/uploads/sites/35/elementor/css/post-879.css' media='all' />
       <link rel='stylesheet' id='elementor-icons-ekiticons-css' href='/asset/socialseven/wp-content/plugins/elementskit-lite/modules/elementskit-icon-pack/assets/css/ekiticons.css' media='all' /> <!-- statestics icons -->
       <link rel='stylesheet' id='ekit-widget-styles-css' href='/asset/socialseven/wp-content/plugins/elementskit-lite/widgets/init/assets/css/widget-styles.css' media='all' /> <!-- faq style -->
       <link rel='stylesheet' id='google-fonts-1-css' href='https://fonts.googleapis.com/css?family=Poppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=6.2.2' media='all' /> <!-- fonts for website -->
@@ -63,6 +64,7 @@
       <link rel='stylesheet' id='elementor-icons-fa-solid-css' href='/asset/socialseven/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css' media='all' /> <!-- arrow for bullet points in section -->
       <link rel='stylesheet' id='elementor-icons-jkiticon-css' href='/asset/socialseven/wp-content/plugins/jeg-elementor-kit/assets/fonts/jkiticon/jkiticon.css' media='all' /> <!-- 1 icon of statestics coming from this -->
       <link rel='stylesheet' id='elementor-icons-fa-brands-css' href='/asset/socialseven/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css' media='all' /> <!-- social icons coming from this -->
+      <link rel="stylesheet" href="asset/socialseven/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css">
       <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
       <script src="/asset/socialseven/wp-includes/js/dist/jquery/jquery-3.7.0.js"></script>
       <script src="/asset/socialseven/wp-includes/js/dist/owl-carousel/owl.carousel.js"></script>
@@ -181,15 +183,21 @@
          </defs>
       </svg>
       <div id="page" class="hfeed site">
-         @if (!request()->is('404'))
-         <x-header></x-header>
+         @php
+            $pages = ['about', 'contact', '/', 'pr-services', 'digital-marketing-services', 'tv-interview-services'];
+         @endphp
+
+         @if (request()->is($pages))
+            <x-header></x-header>
          @endif
+
          <div data-elementor-type="wp-page" data-elementor-id="61" class="elementor elementor-61">
             {{$slot}}
-        </div>
-        @if (!request()->is('404'))
-        <x-footer></x-footer>
-        @endif
+         </div>
+
+         @if (request()->is($pages))
+            <x-footer></x-footer>
+         @endif
      </div>
   <!-- #page -->
       <link rel='stylesheet' id='tiny-slider-css' href='/asset/socialseven/wp-content/plugins/jeg-elementor-kit/assets/js/tiny-slider/tiny-slider.css' media='all' />
@@ -206,39 +214,5 @@
      <script src='/asset/socialseven/wp-content/plugins/jeg-elementor-kit/assets/js/tiny-slider/tiny-slider.js' id='tiny-slider-js'></script>
      <script src='/asset/socialseven/wp-includes/js/dist/vendor/react.min.js' id='react-js'></script>
      <script src='/asset/socialseven/wp-includes/js/dist/vendor/react-dom.min.js' id='react-dom-js'></script>
-     <script>
-         (function () {
-            "use strict";
-
-            var carousels = function () {
-               $(".owl-carousel1").owlCarousel({
-                  loop: true,
-                  center: true,
-                  margin: 0,
-                  responsiveClass: true,
-                  nav: false,
-                  responsive: {
-                  0: {
-                     items: 1,
-                     nav: false
-                  },
-                  680: {
-                     items: 2,
-                     nav: false,
-                     loop: false
-                  },
-                  1000: {
-                     items: 3,
-                     nav: true
-                  }
-                  }
-               });
-            };
-
-            (function ($) {
-               carousels();
-            })(jQuery);
-         })();
-      </script>
   </body>
 </html>

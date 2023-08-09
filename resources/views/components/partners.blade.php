@@ -45,40 +45,46 @@
             <div class="owl-carousel owl-theme mobile-slider" style="margin-top:-40px;">
                 <!-- Add images here, for example -->
                 <div class="item p-3">
-                    <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
+                    <img decoding="async" src="asset/images/partners/aaj_tak.webp" class="main-image img-fluid" alt="Title">
                 </div>
                 <div class="item p-3">
-                    <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
+                    <img decoding="async" src="asset/images/partners/abp_news.webp" class="main-image img-fluid" alt="Title">
                 </div>
                 <div class="item p-3">
-                    <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
+                    <img decoding="async" src="asset/images/partners/cnbc_aawaj.webp" class="main-image img-fluid" alt="Title">
                 </div>
                 <div class="item p-3">
-                    <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
+                    <img decoding="async" src="asset/images/partners/cnn_news18.webp" class="main-image img-fluid" alt="Title">
                 </div>
                 <div class="item p-3">
-                    <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
+                    <img decoding="async" src="asset/images/partners/hindustan_times.webp" class="main-image img-fluid" alt="Title">
                 </div>
                 <div class="item p-3">
-                    <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
+                    <img decoding="async" src="asset/images/partners/india_today.webp" class="main-image img-fluid" alt="Title">
                 </div>
                 <div class="item p-3">
-                    <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
+                    <img decoding="async" src="asset/images/partners/news_india_18.webp" class="main-image img-fluid" alt="Title">
                 </div>
                 <div class="item p-3">
-                    <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
+                    <img decoding="async" src="asset/images/partners/outlook.webp" class="main-image img-fluid" alt="Title">
                 </div>
                 <div class="item p-3">
-                    <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
+                    <img decoding="async" src="asset/images/partners/r_bharat.webp" class="main-image img-fluid" alt="Title">
                 </div>
                 <div class="item p-3">
-                    <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
+                    <img decoding="async" src="asset/images/partners/the_economic_times.webp" class="main-image img-fluid" alt="Title">
                 </div>
                 <div class="item p-3">
-                    <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
+                    <img decoding="async" src="asset/images/partners/the_hindu.webp" class="main-image img-fluid" alt="Title">
                 </div>
                 <div class="item p-3">
-                    <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
+                    <img decoding="async" src="asset/images/partners/the_indian_expess.webp" class="main-image img-fluid" alt="Title">
+                </div>
+                <div class="item p-3">
+                    <img decoding="async" src="asset/images/partners/times_of_india.webp" class="main-image img-fluid" alt="Title">
+                </div>
+                <div class="item p-3">
+                    <img decoding="async" src="asset/images/partners/zee_news.webp" class="main-image img-fluid" alt="Title">
                 </div>
             </div>
             <div class="desktop-slider w-100">
@@ -87,42 +93,42 @@
                     <div class="col-2">
                         <div class="image-list">
                             <div class="content-image">
-                                <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
+                                <img decoding="async" src="asset/images/partners/aaj_tak.webp" class="main-image img-fluid" alt="Title">
                             </div>
                         </div>
                     </div>
                     <div class="col-2">
                         <div class="image-list">
                             <div class="content-image">
-                                <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
+                                <img decoding="async" src="asset/images/partners/abp_news.webp" class="main-image img-fluid" alt="Title">
                             </div>
                         </div>
                     </div>
                     <div class="col-2">
                         <div class="image-list">
                             <div class="content-image">
-                                <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
+                                <img decoding="async" src="asset/images/partners/cnbc_aawaj.webp" class="main-image img-fluid" alt="Title">
                             </div>
                         </div>
                     </div>
                     <div class="col-2">
                         <div class="image-list">
                             <div class="content-image">
-                                <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
+                                <img decoding="async" src="asset/images/partners/cnn_news18.webp" class="main-image img-fluid" alt="Title">
                             </div>
                         </div>
                     </div>
                     <div class="col-2">
                         <div class="image-list">
                             <div class="content-image">
-                                <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
+                                <img decoding="async" src="asset/images/partners/hindustan_times.webp" class="main-image img-fluid" alt="Title">
                             </div>
                         </div>
                     </div>
                     <div class="col-2">
                         <div class="image-list">
                             <div class="content-image">
-                                <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
+                                <img decoding="async" src="asset/images/partners/india_today.webp" class="main-image img-fluid" alt="Title">
                             </div>
                         </div>
                     </div>
@@ -133,42 +139,42 @@
                     <div class="col-2">
                         <div class="image-list">
                             <div class="content-image">
-                                <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
+                                <img decoding="async" src="asset/images/partners/news_india_18.webp" class="main-image img-fluid" alt="Title">
                             </div>
                         </div>
                     </div>
                     <div class="col-2">
                         <div class="image-list">
                             <div class="content-image">
-                                <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
+                                <img decoding="async" src="asset/images/partners/outlook.webp" class="main-image img-fluid" alt="Title">
                             </div>
                         </div>
                     </div>
                     <div class="col-2">
                         <div class="image-list">
                             <div class="content-image">
-                                <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
+                                <img decoding="async" src="asset/images/partners/r_bharat.webp" class="main-image img-fluid" alt="Title">
                             </div>
                         </div>
                     </div>
                     <div class="col-2">
                         <div class="image-list">
                             <div class="content-image">
-                                <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
+                                <img decoding="async" src="asset/images/partners/the_economic_times.webp" class="main-image img-fluid" alt="Title">
                             </div>
                         </div>
                     </div>
                     <div class="col-2">
                         <div class="image-list">
                             <div class="content-image">
-                                <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
+                                <img decoding="async" src="asset/images/partners/the_hindu.webp" class="main-image img-fluid" alt="Title">
                             </div>
                         </div>
                     </div>
                     <div class="col-2">
                         <div class="image-list">
                             <div class="content-image">
-                                <img decoding="async" src="https://advanture.icu/socialseven/wp-content/uploads/sites/35/2023/07/companyLogo-300x85.png" class="main-image img-fluid" alt="Title">
+                                <img decoding="async" src="asset/images/partners/zee_news.webp" class="main-image img-fluid" alt="Title">
                             </div>
                         </div>
                     </div>

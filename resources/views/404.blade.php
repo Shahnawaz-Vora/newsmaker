@@ -1,4 +1,21 @@
-<x-layout>
+<x-layout title=""
+description=""
+keywords=""
+ogImage=""
+ogLocale=""
+ogType=""
+ogTitle=""
+ogDescription=""
+ogUrl=""
+ogSiteName=""
+author=""
+robots=""
+canonical=""
+distribution=""
+revisitAfter=""
+googlebot=""
+geo=""
+ogCountryCode="">
       <div data-elementor-type="wp-page" data-elementor-id="30" class="elementor elementor-30">
          <section class="elementor-section elementor-top-section elementor-element elementor-element-fe2f00e elementor-section-height-min-height elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="fe2f00e" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
             <div class="elementor-background-overlay"></div>
