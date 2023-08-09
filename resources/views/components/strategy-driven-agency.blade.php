@@ -1,7 +1,7 @@
 <section class="elementor-section elementor-top-section elementor-element elementor-element-ab64fa3 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="ab64fa3" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-    <div class="elementor-container elementor-column-gap-default">
+    <div class="elementor-container elementor-column-gap-default ">
         <div  class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6f2a9ad" data-id="6f2a9ad" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-            <div style="margin-top:-20px;" class="elementor-widget-wrap elementor-element-populated">
+            <div style="padding-top:20px;margin-top:0px;padding-bottom:0" class="elementor-widget-wrap elementor-element-populated">
             <section class="elementor-section elementor-inner-section elementor-element elementor-element-f1a0d06 animated-fast elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="f1a0d06" data-element_type="section" data-settings="{}">
                 <div class="elementor-container elementor-column-gap-default">
                     <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-173e743" data-id="173e743" data-element_type="column">

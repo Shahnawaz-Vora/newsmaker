@@ -1,9 +1,9 @@
 
 <div data-elementor-type="wp-page" data-elementor-id="32" class="elementor elementor-32">
-    <section class="elementor-section elementor-top-section elementor-element elementor-element-385ca13d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="385ca13d" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+    <section style="padding-top:0px;" class="elementor-section elementor-top-section elementor-element elementor-element-385ca13d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="385ca13d" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
         <div class="elementor-background-overlay"></div>
         <div class="elementor-container elementor-column-gap-default">
-            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-217ea5d9 elementor-invisible" data-id="217ea5d9" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;}">
+            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-217ea5d9" data-id="217ea5d9" data-element_type="column" data-settings="{}">
                 <div class="elementor-widget-wrap elementor-element-populated">
                 <div class="elementor-element elementor-element-34e9afd elementor-widget elementor-widget-jkit_heading" data-id="34e9afd" data-element_type="widget" data-widget_type="jkit_heading.default">
                     <div class="elementor-widget-container">

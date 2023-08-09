@@ -1,10 +1,10 @@
 <section class="elementor-section elementor-top-section elementor-element elementor-element-4c072f5 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="4c072f5" data-element_type="section">
-    <div class="elementor-background-overlay"></div>
+    {{-- <div class="elementor-background-overlay"></div> --}}
     <div class="elementor-container elementor-column-gap-default">
         <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-79c6d7f " data-id="79c6d7f" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
             <div class="elementor-widget-wrap elementor-element-populated">
             <div class="elementor-background-overlay"></div>
-            <section class="elementor-section elementor-inner-section elementor-element elementor-element-106ebe4 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="106ebe4" data-element_type="section">
+            <section style="padding-bottom:5px;margin-bottom:0" class="elementor-section elementor-inner-section elementor-element elementor-element-106ebe4 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="106ebe4" data-element_type="section">
                 <div class="elementor-container elementor-column-gap-default">
                     <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-17ba58f elementor-hidden-tablet elementor-hidden-mobile" data-id="17ba58f" data-element_type="column">
                         <div class="elementor-widget-wrap">
@@ -77,7 +77,7 @@
 <section class="elementor-section elementor-top-section elementor-element elementor-element-4ffa3cf elementor-hidden-tablet elementor-hidden-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4ffa3cf" data-element_type="section">
     <div class="elementor-container elementor-column-gap-default">
         <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-9d3a6ba elementor-hidden-tablet elementor-hidden-mobile" data-id="9d3a6ba" data-element_type="column">
-            <div class="elementor-widget-wrap elementor-element-populated">
+            <div style="margin-bottom:0;padding-bottom:0px;padding-top:50px;" class="elementor-widget-wrap elementor-element-populated">
             <div class="elementor-element elementor-element-66ee817 animated-fast  elementor-widget elementor-widget-image" data-id="66ee817" data-element_type="widget" data-settings="{}" data-widget_type="image.default">
                 <div class="elementor-widget-container">
                     <img width="1600" height="1601" src="{{asset('asset/images/BG04.png')}}" class="attachment-full size-full wp-image-1310" alt="" decoding="async" loading="lazy" srcset="{{asset('asset/images/BG04.png')}} 1600w, {{asset('asset/images/BG04-300x300.png')}} 300w, {{asset('asset/images/BG04-1024x1024.png')}} 1024w, {{asset('asset/images/BG04-150x150.png')}} 150w, {{asset('asset/images/BG04-768x768.png')}} 768w, {{asset('asset/images/BG04-1536x1536.png')}} 1536w, {{asset('asset/images/BG04-800x801.png')}} 800w" sizes="(max-width: 1600px) 100vw, 1600px" />															
@@ -86,7 +86,7 @@
             </div>
         </div>
         <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-e3183b3 elementor-hidden-tablet elementor-hidden-mobile" data-id="e3183b3" data-element_type="column">
-            <div class="elementor-widget-wrap elementor-element-populated">
+            <div style="margin-bottom:0;padding-bottom:0px;padding-top:130px;" class="elementor-widget-wrap elementor-element-populated">
             <div class="elementor-element elementor-element-687c02a elementor-widget elementor-widget-image" data-id="687c02a" data-element_type="widget" data-widget_type="image.default">
                 <div class="elementor-widget-container">
                     <img width="800" height="534" src="{{asset('asset/images/unsplash_2JDDn7iSGH8-1024x684.jpg')}}" class="attachment-large size-large wp-image-1315" alt="" decoding="async" loading="lazy" srcset="{{asset('asset/images/unsplash_2JDDn7iSGH8-1024x684.jpg')}} 1024w, {asset('asset/images/unsplash_2JDDn7iSGH8-300x200.jpg')}}, {asset('asset/images/unsplash_2JDDn7iSGH8-768x513.jpg')}} 768w, {asset('asset/images/unsplash_2JDDn7iSGH8-1536x1026.jpg')}} 1536w, {asset('asset/images/unsplash_2JDDn7iSGH8-800x534.jpg')}} 800w, {asset('asset/images/unsplash_2JDDn7iSGH8.jpg')}} 1920w" sizes="(max-width: 800px) 100vw, 800px" />															

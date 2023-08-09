@@ -1,5 +1,5 @@
 <div data-elementor-type="wp-page" data-elementor-id="879" class="elementor elementor-879">
-   <section class="elementor-section elementor-top-section elementor-element elementor-element-52296b28 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="52296b28" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+   <section style="margin-top:0;padding-top:20px;padding-bottom:30px;" class="elementor-section elementor-top-section elementor-element elementor-element-52296b28 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="52296b28" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" >
       <div class="elementor-background-overlay"></div>
       <div class="elementor-container elementor-column-gap-default">
          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3eed6518" data-id="3eed6518" data-element_type="column">
@@ -27,10 +27,10 @@
                      </div>
                   </div>
                </div>
-               <section class="elementor-section elementor-inner-section elementor-element elementor-element-2d318883 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible" data-id="2d318883" data-element_type="section" data-settings="{&quot;animation&quot;:&quot;fadeIn&quot;,&quot;animation_delay&quot;:600}">
+               <section class="elementor-section elementor-inner-section elementor-element elementor-element-2d318883 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2d318883" data-element_type="section" data-settings="{}">
                   <div class="elementor-container elementor-column-gap-default">
                      @foreach(['team1', 'team2', 'team3'] as $teamKey)
-                     <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-4a7b50e5 animated-fast elementor-invisible" data-id="4a7b50e5" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;}">
+                     <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-4a7b50e5 animated-fast" data-id="4a7b50e5" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                         <div class="elementor-widget-wrap elementor-element-populated">
                            <div class="elementor-element elementor-element-6fb594a8 elementor-widget elementor-widget-image" data-id="6fb594a8" data-element_type="widget" data-widget_type="image.default">
                               <div class="elementor-widget-container">

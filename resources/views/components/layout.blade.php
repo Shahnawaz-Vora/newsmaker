@@ -50,10 +50,8 @@
       <link rel='stylesheet' id='hfe-style-css' href='/asset/socialseven/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.css' media='all' />
       <link rel='stylesheet' id='elementor-frontend-css' href='/asset/socialseven/wp-content/plugins/elementor/assets/css/frontend-lite.min.css' media='all' />
       <link rel='stylesheet' id='elementor-post-6-css' href='/asset/socialseven/wp-content/uploads/sites/35/elementor/css/post-6.css' media='all' />  <!-- for all layout -->
-      <link rel='stylesheet' id='elementor-post-30-css' href='asset/socialseven/wp-content/uploads/sites/35/elementor/css/post-30.css' media='all' /> <!-- for not found layout -->
       <link rel='stylesheet' id='elementor-post-32-css' href='asset/socialseven/wp-content/uploads/sites/35/elementor/css/post-32.css' media='all' /> <!-- for faq layout -->
       <link rel='stylesheet' id='elementor-post-61-css' href='/asset/socialseven/wp-content/uploads/sites/35/elementor/css/post-61.css' media='all' /> <!-- for home layout -->
-      <link rel='stylesheet' id='elementor-post-1262-css' href='asset/socialseven/wp-content/uploads/sites/35/elementor/css/post-1262.css' media='all' /> <!-- for about layout -->
       <link rel='stylesheet' id='elementor-post-566-css' href='/asset/socialseven/wp-content/uploads/sites/35/elementor/css/post-566.css' media='all' /> <!-- for all layout -->
       <link rel='stylesheet' id='elementor-post-598-css' href='/asset/socialseven/wp-content/uploads/sites/35/elementor/css/post-598.css' media='all' /> <!-- for all layout -->
       <link rel='stylesheet' id='elementor-post-879-css' href='asset/socialseven/wp-content/uploads/sites/35/elementor/css/post-879.css' media='all' />

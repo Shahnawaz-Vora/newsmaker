@@ -1,10 +1,10 @@
 <section class="elementor-section elementor-top-section elementor-element elementor-element-0f903f7 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="0f903f7" data-element_type="section">
-    <div class="elementor-background-overlay"></div>
-    <div class="elementor-container elementor-column-gap-default">
+    {{-- <div class="elementor-background-overlay"></div> --}}
+    <div  class="elementor-container elementor-column-gap-default">
        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1b88871" data-id="1b88871" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
           <div class="elementor-widget-wrap elementor-element-populated">
-             <div class="elementor-background-overlay"></div>
-             <section class="elementor-section elementor-inner-section elementor-element elementor-element-f70b2fc elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="f70b2fc" data-element_type="section">
+             {{-- <div class="elementor-background-overlay"></div> --}}
+             <section style="padding-bottom:0;margin-bottom:0" class="elementor-section elementor-inner-section elementor-element elementor-element-f70b2fc elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="f70b2fc" data-element_type="section">
                 <div class="elementor-container elementor-column-gap-default">
                    <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-b0243ab elementor-hidden-tablet elementor-hidden-mobile" data-id="b0243ab" data-element_type="column">
                       <div class="elementor-widget-wrap">
@@ -72,20 +72,21 @@
           </div>
        </div>
     </div>
+    
  </section>
- <section style="margin-bottom:-130px;" class="elementor-section elementor-top-section elementor-element elementor-element-8bb153e elementor-hidden-tablet elementor-hidden-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8bb153e" data-element_type="section">
+ <section  class="elementor-section elementor-top-section elementor-element  elementor-hidden-tablet elementor-hidden-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8bb153e" data-element_type="section">
     <div class="elementor-container elementor-column-gap-default">
        <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-3bea6f7 elementor-hidden-tablet elementor-hidden-mobile" data-id="3bea6f7" data-element_type="column">
-          <div class="elementor-widget-wrap elementor-element-populated">
+          <div style="margin-bottom:0;padding-bottom:0px;padding-top:150px;" class="elementor-widget-wrap elementor-element-populated">
              <div class="elementor-element elementor-element-33fedd0 animated-fast elementor-widget elementor-widget-image" data-id="33fedd0" data-element_type="widget" data-settings="{}" data-widget_type="image.default">
                 <div class="elementor-widget-container">
-                   <img width="1920" height="1280" src="{{asset('asset/images/unsplash_K_VeavYEfdA.jpg')}}" class="attachment-full size-full wp-image-1318" alt="" decoding="async" loading="lazy" srcset="{{asset('asset/images/unsplash_K_VeavYEfdA.jpg')}} 1920w, {{asset('asset/images/unsplash_K_VeavYEfdA-300x200.jpg')}} 300w, {{asset('asset/images/unsplash_K_VeavYEfdA-1024x683.jpg')}} 1024w, {{asset('asset/images/unsplash_K_VeavYEfdA-768x512.jpg')}} 768w, {{asset('asset/images/unsplash_K_VeavYEfdA-1536x1024.jpg')}} 1536w, {{asset('asset/images/unsplash_K_VeavYEfdA-800x533.jpg')}} 800w" sizes="(max-width: 1920px) 100vw, 1920px" />															
+                   <img width="1920" height="500" src="{{asset('asset/images/unsplash_K_VeavYEfdA.jpg')}}" class="attachment-full size-full wp-image-1318" alt="" decoding="async" loading="lazy" srcset="{{asset('asset/images/unsplash_K_VeavYEfdA.jpg')}} 1920w, {{asset('asset/images/unsplash_K_VeavYEfdA-300x200.jpg')}} 300w, {{asset('asset/images/unsplash_K_VeavYEfdA-1024x683.jpg')}} 1024w, {{asset('asset/images/unsplash_K_VeavYEfdA-768x512.jpg')}} 768w, {{asset('asset/images/unsplash_K_VeavYEfdA-1536x1024.jpg')}} 1536w, {{asset('asset/images/unsplash_K_VeavYEfdA-800x533.jpg')}} 800w" sizes="(max-width: 1920px) 100vw, 1920px" />															
                 </div>
              </div>
           </div>
        </div>
        <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-432ca49 elementor-hidden-tablet elementor-hidden-mobile" data-id="432ca49" data-element_type="column">
-          <div class="elementor-widget-wrap  elementor-element-populated">
+          <div style="margin-bottom:0;padding-bottom:0px;padding-top:150px;" class="elementor-widget-wrap  elementor-element-populated">
              <div class="elementor-element elementor-element-7db3441 elementor-widget elementor-widget-image" data-id="7db3441" data-element_type="widget" data-widget_type="image.default">
                 <div class="elementor-widget-container">
                    <img width="800" height="534" src="{{asset('asset/images/unsplash_2JDDn7iSGH8-1024x684.jpg')}}" class="attachment-large size-large wp-image-1315" alt="" decoding="async" loading="lazy" srcset="{{asset('asset/images/unsplash_2JDDn7iSGH8-1024x684.jpg')}} 1024w, {{asset('asset/images/unsplash_2JDDn7iSGH8-300x200.jpg')}} 300w, {{asset('asset/images/unsplash_2JDDn7iSGH8-768x513.jpg')}} 768w, {{asset('asset/images/unsplash_2JDDn7iSGH8-1536x1026.jpg')}} 1536w, {{asset('asset/images/unsplash_2JDDn7iSGH8-800x534.jpg')}} 800w, {{asset('asset/images/unsplash_2JDDn7iSGH8.jpg')}} 1920w" sizes="(max-width: 800px) 100vw, 800px" />															

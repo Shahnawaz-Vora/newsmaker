@@ -1,5 +1,5 @@
-<section class="elementor-section elementor-top-section elementor-element elementor-element-a831afa elementor-reverse-tablet elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a831afa" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-    <div class="elementor-background-overlay"></div>
+<section style="margin-top:0px;padding-top:20px;padding-bottom:20px;" class="elementor-section elementor-top-section elementor-element elementor-element-a831afa elementor-reverse-tablet elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a831afa" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+    {{-- <div class="elementor-background-overlay"></div> --}}
     <div class="elementor-container elementor-column-gap-default">
        <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-b616e8c" data-id="b616e8c" data-element_type="column">
           <div class="elementor-widget-wrap elementor-element-populated">
